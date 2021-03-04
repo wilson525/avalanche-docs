@@ -15,7 +15,8 @@
 +----------+-------------------+------------------------+
 | 链       : 交易类型            | 交易费用(AVAX)     		|
 +----------+-------------------+------------------------+
-| P        : 创建区块链		   |                   0.01 |
+| P        : 创建区块链		   |         0.01
+|
 +----------+-------------------+------------------------+
 | P        : 添加验证程序        |                      0 |
 +----------+-------------------+------------------------+
@@ -42,6 +43,7 @@
 The [C-Chain](./#contract-chain-c-chain) gas price is 4.7e-7 AVAX/gas. The C-Chain gas limit is 10e8.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTIzODk3NCwtMTY5NjAzMDQ5MiwtMT
-gyNzE2MTE1NCwxODI4OTc0MDQsOTY4ODM3NjUzXX0=
+eyJoaXN0b3J5IjpbMzY5MTQ0ODkwLDEyMDUyMzg5NzQsLTE2OT
+YwMzA0OTIsLTE4MjcxNjExNTQsMTgyODk3NDA0LDk2ODgzNzY1
+M119
 -->

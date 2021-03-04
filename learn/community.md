@@ -65,11 +65,10 @@
 
 [**Avalanche 钱包**](https://wallet.avax.network): 用于存储Avalanche资产的简单、安全、非托管钱包。
 
-[**Ledger Nano S**](https://shop.ledger.com/products/ledger-nano-s)**:** the original hardware wallet made by Ledger. Easily start your crypto journey: buy crypto, secure your assets, and manage them in one single app.
+[**Ledger Nano S 硬件钱包**](https://shop.ledger.com/products/ledger-nano-s)**:** Ledger 制作的原始硬件钱包。轻轻松松开始您的加密货币之旅：购买加密货币，保管您的资产，并在同一个app应用程序里管理资产。
+## 开发者工具
 
-## Developer Tools
-
-### Blockchain Infrastructure and Node Services
+### 区块链基础设施和节点服务
 
 [**Allnodes**](https://www.allnodes.com)**:** a non-custodial platform for hosting masternodes and full nodes, as well as full staking services.
 
@@ -114,6 +113,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjM2NTQ5MCwtNjg5NjU3MzM2LDQxND
-Y2OTYyMSwxMzU2MDkxOTMxXX0=
+eyJoaXN0b3J5IjpbNzM5OTQyODk0LC02ODk2NTczMzYsNDE0Nj
+Y5NjIxLDEzNTYwOTE5MzFdfQ==
 -->

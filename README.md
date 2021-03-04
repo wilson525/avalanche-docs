@@ -3,9 +3,9 @@
 在Avalanche上创建。创建无限制。在Avalanche上创建的开发人员能够轻松地创建功能强大、可靠且安全的应用程序。
 ---
 
-# Developer Documentation
+# 开发人员文档
 
-## Getting Started
+## 准备开始
 
 {% tabs %}
 {% tab title="Coming From Ethereum?" %}
@@ -43,7 +43,7 @@
 
 ## Avalanche
 
-[Avalanche](https://avax.network) is an open-source platform for launching [decentralized applications](https://support.avalabs.org/en/articles/4587146-what-is-a-decentralized-application-dapp) and enterprise [blockchain](http://support.avalabs.org/en/articles/4064677-what-is-a-blockchain) deployments in one interoperable, highly scalable ecosystem. Avalanche gives you complete control on both the network and application layers–helping you build anything you can imagine.
+[Avalanche](https://avax.network) 是一个用于启动[decentralized applications](https://support.avalabs.org/en/articles/4587146-what-is-a-decentralized-application-dapp) and enterprise [blockchain](http://support.avalabs.org/en/articles/4064677-what-is-a-blockchain) deployments in one interoperable, highly scalable ecosystem. Avalanche gives you complete control on both the network and application layers–helping you build anything you can imagine.
 
 A key difference between Avalanche and other decentralized networks is the consensus protocol. Over time, people have come to a false understanding that blockchains have to be slow and not scalable. The Avalanche protocol employs a novel approach to consensus to achieve its strong safety guarantees, quick finality, and high-throughput, without compromising decentralization.
 
@@ -108,5 +108,5 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDEyOTA5Ml19
+eyJoaXN0b3J5IjpbLTE5ODAxNjY4NjZdfQ==
 -->

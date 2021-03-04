@@ -49,11 +49,11 @@ Avalanche有3个内置区块链：[**交换链 \(X 链\)**](./#exchange-chain-x-
 
 首先，区块链网络都有一个虚拟机（VM），附有预定义的功能静态集合。这种僵化的一体式设计限制了人们可以在此类网络中运行哪些基于区块链的应用程序。
 
-People who wanted custom decentralized applications had to create their own, entirely new blockchain network from scratch. Doing so required a great deal of time and effort, offered limited security, and generally resulted in a bespoke, fragile blockchain that never got off the ground.
+如果想要定制去中心化应用程序，则必须从零开始创建其全新区块链网络。这需要大量时间和精力，而安全性有限，且通常会导致脆弱的定制区块链永久无法启动。
 
-Ethereum made a step toward solving this problem with smart contracts. Developers didn’t need to worry about networking and consensus, but creating decentralized applications was still hard. The Ethereum VM has low performance and imposes restrictions on smart contract developers. Solidity and the other few languages for writing Ethereum smart contracts are unfamiliar to most programmers.
+为了解决这一问题，以太坊（Ethereum）通过智能合约迈出了一步。开发人员不需要担心网络和共识问题，但是创建去中心化应用程序仍然十分困难。以太坊虚拟机性能不佳，并限制了智能合约的开发人员。大多数程序员都对Solidity语言和其他几种以太坊智能合约编写语言感到陌生。
 
-Avalanche VMs \(AVMs\) make it easy to define a blockchain-based decentralized application. Rather than new, limited languages like Solidity, developers can write VMs in Go \(other languages will be supported in the future\).
+通过Avalanche虚拟机\(AVMs\)，要定义基于区块链的去中心化应用程序就十分简单。开发人员可以在Go里编写VM，而不是像Solidity语言这样有限制的新语言\(other languages will be supported in the future\).
 
 ### Creating Your Blockchain and Virtual Machine
 
@@ -88,5 +88,5 @@ The **C-Chain** allows for the creation smart contracts using the [C-Chain’s A
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODg0NTM3OSwxODMzOTMyNjE0XX0=
+eyJoaXN0b3J5IjpbLTk0NDkyMTA2OSwxODMzOTMyNjE0XX0=
 -->

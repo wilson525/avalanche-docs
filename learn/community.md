@@ -81,13 +81,12 @@
 
 ### Oracles
 
-[**Chainlink**](https://chain.link/): market-leading price and data oracles for decentralized applications and the migration of real-world assets onto Avalanche.
+[**Chainlink**](https://chain.link/): 用于去中心化应用程序和将现实世界资产转移到Avalanche的市场主导价格和数据库。
 
-### Software Development Kits \(SDKs\)
+### 软件开发工具包\(SDK\)
 
-[**Magic \(formerly Fortmatic\)**](https://magic.link/): passwordless logins and more user-friendly key management in crypto securing over 20 million user authentications per month. Used by over 6,500 developers since launch, including established DeFi organizations like Uniswap, Aave, Augur, Bancor, and Zerion.
-
-[**Torus**](https://tor.us/): DirectAuth SDK simplifies onboarding by enabling users to create an Avalanche Wallet with their existing Google accounts, and enables one-click logins to Avalanche applications. Users can customize their wallets to take ownership of private keys as they feel more comfortable with the technology.
+[**Magic \(formerly Fortmatic\)**](https://magic.link/): 针对每月2000多万名用户身份验证的加密保护中的无密码登录和更易操作的密钥管理。自发布以来，已有超过6500名开发人员使用，包括Uniswap、Aave、Augur、Bancor和Zerion等发展成熟的DeFi组织。
+[**Torus**](https://tor.us/): 通过DirectAuth SDK，用户能够使用其当前Google账户创建一个Avalanche钱包并一键登录到Avalanche应用程序，从而简化了登录过程。用户对该技术十份信赖，可以定制钱包，以获取其私人密钥。
 
 ### Staking Services
 
@@ -112,6 +111,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjAyODQ5MywtNjg5NjU3MzM2LDQxND
+eyJoaXN0b3J5IjpbMTA5MjkzMzU0OSwtNjg5NjU3MzM2LDQxND
 Y2OTYyMSwxMzU2MDkxOTMxXX0=
 -->

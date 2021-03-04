@@ -56,15 +56,14 @@
 ### 稳定币
 
 [**BiLira**](https://www.bilira.co): 土耳其里拉支持的一种稳定加密货币。
-
 \*\*\*\*[**TrueUSD**](https://www.trusttoken.com): 首个实力雄厚且经证实为独立存续的链上稳定币。
-### Trading Bots
+### 交易机器人
 
-[**Hummingbot**](https://hummingbot.io/)**:** a community-driven, open-source project that aims to democratize algorithmic trading by making sophisticated high-frequency trading strategies freely available to everyone in the world.
+[**Hummingbot 软件**](https://hummingbot.io/)**:** 一个社区驱动的开源项目，旨在通过向世界上每一个人免费提供复杂的高频交易策略来使算法交易民主化。
 
-### Wallets
+### 钱包
 
-[**Avalanche Wallet**](https://wallet.avax.network): a simple, secure, non-custodial wallet for storing Avalanche assets.
+[**Avalanche 钱包**](https://wallet.avax.network): 用于存储Avalanche资产的简单、安全、非托管钱包。
 
 [**Ledger Nano S**](https://shop.ledger.com/products/ledger-nano-s)**:** the original hardware wallet made by Ledger. Easily start your crypto journey: buy crypto, secure your assets, and manage them in one single app.
 
@@ -115,6 +114,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTMxMjYxOCwtNjg5NjU3MzM2LDQxND
+eyJoaXN0b3J5IjpbLTUwNjM2NTQ5MCwtNjg5NjU3MzM2LDQxND
 Y2OTYyMSwxMzU2MDkxOTMxXX0=
 -->

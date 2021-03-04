@@ -45,6 +45,7 @@
 ### 非同质化代币\(NFT\)
 
 [**Polyient Games**](https://www.polyient.games): 专注于非同质化代币和区块链游戏行业的投资公司。该公司对正在建设扩展非同质化代币资产类别的基础设施和应用程序的初创公司进行投资。
+
 ### **预测市场**
 
 \*\*\*\*[**Prosper**](https://prosper.so/)**:** 一个非托管、跨链预测市场和对冲平台。Prosper正在开发一种独一无二的链上流动性聚合技术，以解决预测市场的问题。
@@ -57,6 +58,7 @@
 
 [**BiLira**](https://www.bilira.co): 土耳其里拉支持的一种稳定加密货币。
 \*\*\*\*[**TrueUSD**](https://www.trusttoken.com): 首个实力雄厚且经证实为独立存续的链上稳定币。
+
 ### 交易机器人
 
 [**Hummingbot 软件**](https://hummingbot.io/)**:** 一个社区驱动的开源项目，旨在通过向世界上每一个人免费提供复杂的高频交易策略来使算法交易民主化。
@@ -64,19 +66,16 @@
 ### 钱包
 
 [**Avalanche 钱包**](https://wallet.avax.network): 用于存储Avalanche资产的简单、安全、非托管钱包。
-
 [**Ledger Nano S 硬件钱包**](https://shop.ledger.com/products/ledger-nano-s)**:** Ledger 制作的原始硬件钱包。轻轻松松开始您的加密货币之旅：购买加密货币，保管您的资产，并在同一个app应用程序里管理资产。
+
 ## 开发者工具
 
 ### 区块链基础设施和节点服务
 
 [**Allnodes**](https://www.allnodes.com)**:** 用于托管主节点、全节点和全方位质押服务的非托管平台。
-
 \*\*\*\*[**Ankr**](https://www.ankr.com): 面向所有人的Web3基础设施。
 [**AVADO**](https://ava.do/)**:** 个人和开发人员可以借助即插即用硬件区块链节点，以私密的形式顺利访问Web3应用程序，参与质押并运行激励型去中心化应用获得加密。
-
 [**Bloq**](https://www.bloq.com): 在区块链网络基础上构建的管理型基础设施。您可以进入一个单一界面，有权访问一系列企业级基础设施服务，以便在多个区块链网络上进行构建。
-
 [**Figment 的 DataHub**](https://figment.io/datahub/avalanche/): 通过DataHub，由于我们通过高可用全节点基础设施直接访问Avalanche API，因此Avalanche开发人员无需再担心托管基础设施。
 
 ### Oracles
@@ -108,6 +107,6 @@
 
 [**Whiteblock**](https://whiteblock.io/)**:** “Genesis 平台”帮助开发人员对Web3系统的实际性能和安全测试进行自动化。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyNDMzNDUsLTY4OTY1NzMzNiw0MTQ2Nj
-k2MjEsMTM1NjA5MTkzMV19
+eyJoaXN0b3J5IjpbOTA1NDIzNzE1LDc0MjQzMzQ1LC02ODk2NT
+czMzYsNDE0NjY5NjIxLDEzNTYwOTE5MzFdfQ==
 -->

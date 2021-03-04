@@ -1,8 +1,8 @@
-# Community
+# C
 
 ## Resources
 
-[**Avalanche Press Kit and Brand Guidelines**](https://support.avalabs.org/en/articles/4132288-ava-labs-and-avalanche-press-kit-and-brand-assets): the official press kit and brand guidelines with logos and fonts
+[**Avalanche Press Kit and Brand Guidelines**](https://support.avalabs.org/en/articles/4132288-ava-labs-and-avalanche-press-kit-and-brand-assets): the official press kit and brand guidelines with logos and fon
 
 ### Websites and Socials
 
@@ -132,3 +132,6 @@
 
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIwODI1NjEyNzZdfQ==
+-->

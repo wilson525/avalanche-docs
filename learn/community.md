@@ -30,7 +30,7 @@
 \*\*\*\*[**币安**](https://www.binance.com): 全球交易量最大的加密交易所。
 \*\*\*\*[**Bitfinex交易平台**](https://www.bitfinex.com): 为数字货币交易员和全球流动供应商提供最先进服务的数字资产交易平台。
 \*\*\*\*[**FTX**](https://ftx.com): 加密货币衍生品交易所。
-\*\*\*\*[**JellySwap 交换项目**](https://jelly.market/): 允许不同网络间价值转移的跨链交换去中心化应用程序。
+[**JellySwap 交换项目**](https://jelly.market/): 允许不同网络间价值转移的跨链交换去中心化应用程序。
 \*\*\*\*[**Voyager**](https://www.investvoyager.com): 美国排名第一的免佣金加密资产经纪商。
 
 ### 浏览器
@@ -55,10 +55,9 @@
 
 ### 稳定币
 
-[**BiLira**](https://www.bilira.co): a stable cryptocurrency that is backed by the Turkish Lira.
+[**BiLira**](https://www.bilira.co): 土耳其里拉支持的一种稳定加密货币。
 
-\*\*\*\*[**TrueUSD**](https://www.trusttoken.com): the first and only fully-backed stablecoin attested independently live and on-chain
-
+\*\*\*\*[**TrueUSD**](https://www.trusttoken.com): 首个实力雄厚且经证实为独立存续的链上稳定币。
 ### Trading Bots
 
 [**Hummingbot**](https://hummingbot.io/)**:** a community-driven, open-source project that aims to democratize algorithmic trading by making sophisticated high-frequency trading strategies freely available to everyone in the world.
@@ -116,6 +115,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjU3OTQ0MSwtNjg5NjU3MzM2LDQxND
+eyJoaXN0b3J5IjpbMTI1MTMxMjYxOCwtNjg5NjU3MzM2LDQxND
 Y2OTYyMSwxMzU2MDkxOTMxXX0=
 -->

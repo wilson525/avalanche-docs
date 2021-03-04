@@ -92,22 +92,17 @@
 
 [**ablock**](https://ablock.io/avalanche): 委托质押服务。
 [**Avascan**](https://blog.avascan.info/2020-10-14-avascan-validators-october-2020.html): 独立区块链探索者提供的委托质押服务。
-
 [**Figment**](https://figment.io/): 作为一项服务的简单且安全的质押。
-
 [**P2P**](https://p2p.org/avalanche): 委托质押服务。
 [**Staking Rewards**](https://www.stakingrewards.com/earn/avalanche): Avalanche 的质押计算器。
 
 ### 测试工具和框架
 
 [**Halborn**](https://halborn.com/): 在与区块链项目合作抵御网络攻击方面屡获殊荣且极具道德感的黑客团队。Halborn团队强化了Avalanche钱包的安全性并提供了智能合约审计。
-
 [**Kurtosis**](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/learn/www.kurtosistech.com): 致力于帮助开发人员在Avalanche上构建反脆弱技术的完整端到端测试平台。
-
 [**Quantstamp**](https://quantstamp.com/): 为智能合约、链外应用程序、网络和前端界面提供审计和咨询的区块链安全公司，以强化去中心化应用程序的安全性。
-
 [**Whiteblock**](https://whiteblock.io/)**:** “Genesis 平台”帮助开发人员对Web3系统的实际性能和安全测试进行自动化。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzUwMjEyNyw3NDI0MzM0NSwtNjg5Nj
-U3MzM2LDQxNDY2OTYyMSwxMzU2MDkxOTMxXX0=
+eyJoaXN0b3J5IjpbOTg1NDM2ODM1LDc0MjQzMzQ1LC02ODk2NT
+czMzYsNDE0NjY5NjIxLDEzNTYwOTE5MzFdfQ==
 -->

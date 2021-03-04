@@ -16,21 +16,20 @@ Avalanche有3个内置区块链：[**交换链 \(X 链\)**](./#exchange-chain-x-
 
 子网管理其各自成员资格，并可能要求其验证程序具有特定属性。这是非常有用的，我们将在下文中更深入地探讨其影响：
 
-### Compliance
+### 合规性
 
-Avalanche’s subnet architecture makes regulatory compliance manageable. As mentioned above, a subnet may require validators to meet a set of requirements.
+通过Avalanche的子网结构，监管合规性易于管理。如上所述，子网可能需要验证程序来满足一系列要求。
 
-Some examples include:
+部分实例如下：
+* 验证程序必须位于特定国家
+* 验证程序必须通过KYC/AML核验
+* 验证程序必须持有特定执照
 
-* Validators must be located in a given country
-* Validators must pass a KYC/AML checks
-* Validators must hold a certain license
+### 对私有区块链的支持
 
-### Support for Private Blockchains
+您可以创建一个子网，其中只能加入部分预定义的验证程序，以及一个私有子网，其中区块链内容仅对上述验证程序可见。对于希望信息保密的组织来说，这一方式非常理想。
 
-You can create a subnet where only certain pre-defined validators may join and create a private subnet where the contents of the blockchains would be visible only to those validators. This is ideal for organizations interested in keeping their information private.
-
-### Separation of Concerns
+### 关注点分离
 
 In a heterogeneous network of blockchains, some validators will not want to validate certain blockchains because they simply have no interest in those blockchains. The subnet model allows validators to only concern themselves with blockchains that they care about. This reduces the burden on validators.
 
@@ -89,5 +88,5 @@ The **C-Chain** allows for the creation smart contracts using the [C-Chain’s A
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjcyNTEzOCwxODMzOTMyNjE0XX0=
+eyJoaXN0b3J5IjpbLTM5NTcwOTg1LDE4MzM5MzI2MTRdfQ==
 -->

@@ -14,7 +14,7 @@
 ```cpp
 +----------+-------------------+------------------------+
 
-| 链 : 交易类型 | 交易费用(AVAX) |
+| 链 : 交易类型 | 交易费用(AVAX) 							|
 
 +----------+-------------------+------------------------+
 
@@ -66,5 +66,5 @@
 The [C-Chain](./#contract-chain-c-chain) gas price is 4.7e-7 AVAX/gas. The C-Chain gas limit is 10e8.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODU3NzAsOTY4ODM3NjUzXX0=
+eyJoaXN0b3J5IjpbMTkxNjc0MDQ0Niw5Njg4Mzc2NTNdfQ==
 -->

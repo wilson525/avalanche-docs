@@ -57,28 +57,28 @@ Avalanche \(AVAX\)代币是Avalanche平台的原始代币，其作用是通过�
 Avalanche系列中的协议通过反复子抽样投票来运行。当确定是否应接受或拒绝一项[交易](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction)时，[验证程序](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator)会询问一小个随机子集的验证程序应该接受或拒绝该交易。如果面临询问的验证程序认为该交易无效并表示拒绝，或偏好另一项冲突交易，则该验证程序会回复其认为应拒绝该交易。否则会回复其认为应接受该交易。
 
 如果足够多\(_alpha_ $$α$$\) 的抽样验证程序回复其认为应接受该交易，则验证程序更愿意接受该交易。换言之，当将来该验证程序再次面临有关该交易的询问时，它会回复其认为应接受该交易。与之类似，如果足够多的验证程序回复其认为应拒绝该交易，则验证程序会倾向于拒绝该交易。
-验证程序一直重复该抽样过程，直至面临询问的验证程序中的_alpha_ 以相同方式向_beta_连续回复$$β$$轮。
+验证程序一直重复该抽样过程，直至面临询问的验证程序中的 _alpha_ 以相同方式向 _beta_ 连续回复$$β$$轮。
 
 通常情况下，当一项交易不存在冲突时，很快就能做出最终决定。当存在冲突时，诚实的验证程序会迅速集结到冲突交易周围，进入一个正反馈循环，直至所有正确的验证程序都对该交易表示偏好。因此最终会接受非冲突交易，而非拒绝。
 
-![Avalanche共识的工作方式](.gitbook/assets/howavalancheconsensusworks.png)
+![Avalanche 共识的工作方式](.gitbook/assets/howavalancheconsensusworks.png)
 
 据保证\(基于系统参数的高可能性\)，如果任一诚实的验证程序接受或拒绝一项交易，则所有诚实的验证程序都会接受或拒绝该交易。
 
-请阅读[whitepaper](https://arxiv.org/pdf/1906.08936.pdf)，了解更多Avalanche共识协议的技术信息。
+请阅读 [whitepaper](https://arxiv.org/pdf/1906.08936.pdf)，了解更多 Avalanche 共识协议的技术信息。
 
 ## Snowman 共识协议
 
-Snowman是一项链优化的共识协议——高吞吐量、高度有序化、十分适配智能合约。Snowman由[Avalanche共识协议](./#avalanche-consensus-protocol). [P-链](learn/platform-overview/#platform-chain-p-chain) 和 [C-链](learn/platform-overview/#contract-chain-c-chain) 都实施Snowman共识协议
+Snowman 是一项链优化的共识协议——高吞吐量、高度有序化、十分适配智能合约。Snowman 由[Avalanche 共识协议](./#avalanche-consensus-protocol). [P-链](learn/platform-overview/#platform-chain-p-chain) 和 [C-链](learn/platform-overview/#contract-chain-c-chain) 都实施 Snowman 共识协议
 ## 关键特征
 
 ### 速度
 
-使用康奈尔大学计算机科学家团队开发的新型共识协议能够在不到1秒的时间内永久确认交易。
+使用康奈尔大学计算机科学家团队开发的新型共识协议能够在不到 1 秒的时间内永久确认交易。
 
 ### 可扩展性
 
-每秒可支持4500项交易——比现有区块链大一个数量级。
+每秒可支持 4500 项交易——比现有区块链大一个数量级。
 
 ### 安全性
 
@@ -94,7 +94,7 @@ Snowman是一项链优化的共识协议——高吞吐量、高度有序化、�
 
 ### 智能合约支持
 
-支持Solidity智能合约和你最喜欢的以太坊工具（例如Remix、Metamask、 Truffle等）的创建。
+支持 Solidity 智能合约和你最喜欢的以太坊工具（例如 Remix、Metamask、 Truffle 等）的创建。
 
 ### 私有和公共区块链
 
@@ -105,6 +105,6 @@ Snowman是一项链优化的共识协议——高吞吐量、高度有序化、�
 本机支持使用复杂的自定义规则集来轻松创建和交易数字智能资产。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg0MjMzNDksLTEwNTU1NTUxNDMsMj
-EzNDg2NDQyNl19
+eyJoaXN0b3J5IjpbLTE0NzcwOTQ1NjcsLTEyOTg0MjMzNDksLT
+EwNTU1NTUxNDMsMjEzNDg2NDQyNl19
 -->

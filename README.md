@@ -55,9 +55,8 @@ Avalanche \(AVAX\)代币是Avalanche平台的原始代币，其作用是通过�
 
 Avalanche系列中的协议通过反复子抽样投票来运行。当确定是否应接受或拒绝一项[交易](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction)时，[验证程序](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator)会询问一小个随机子集的验证程序应该接受或拒绝该交易。如果面临询问的验证程序认为该交易无效并表示拒绝，或偏好另一项冲突交易，则该验证程序会回复其认为应拒绝该交易。否则会回复其认为应接受该交易。
 
-If a sufficiently large portion \(_alpha_ $$α$$\) of the validators sampled reply that they think the transaction should be accepted, the validator prefers to accept the transaction. That is, when it is queried about the transaction in the future, it will reply that it thinks the transaction should be accepted. Similarly, the validator will prefer to reject the transaction if a sufficiently large portion of the validators replies that they think the transaction should be rejected.
-
-The validator repeats this sampling process until _alpha_ of the validators queried reply the same way \(accept or reject\) for _beta_ $$β$$ consecutive rounds.
+如果足够多\(_alpha_ $$α$$\) 的抽样验证程序回复其认为应接受该交易，则验证程序更愿意接受该交易。换言之，当将来该验证程序再次面临有关该交易的询问时，它会回复其认为应接受该交易。与之类似，如果足够多的验证程序回复其认为应拒绝该交易，则验证程序会倾向于拒绝该交易。
+验证程序一直重复该抽样过程，直至面临询问的验证程序中的_alpha_ 以相同方式向_beta_ $$β$$ consecutive rounds.
 
 In the common case when a transaction has no conflicts, finalization happens very quickly. When conflicts exist, honest validators quickly cluster around conflicting transactions, entering a positive feedback loop until all correct validators prefer that transaction. This leads to the acceptance of non-conflicting transactions and the rejection of conflicting transactions.
 
@@ -106,5 +105,5 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODQ2MDYyMl19
+eyJoaXN0b3J5IjpbMTY4NzEzNzQ0MV19
 -->

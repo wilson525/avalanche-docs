@@ -53,40 +53,40 @@ Avalanche有3个内置区块链：[**交换链 \(X 链\)**](./#exchange-chain-x-
 
 为了解决这一问题，以太坊（Ethereum）通过智能合约迈出了一步。开发人员不需要担心网络和共识问题，但是创建去中心化应用程序仍然十分困难。以太坊虚拟机性能不佳，并限制了智能合约的开发人员。大多数程序员都对Solidity语言和其他几种以太坊智能合约编写语言感到陌生。
 
-通过Avalanche虚拟机\(AVMs\)，要定义基于区块链的去中心化应用程序就十分简单。开发人员可以在Go里编写VM，而不是像Solidity语言这样有限制的新语言\(以后将支持其他语言\)。
+通过 Avalanche 虚拟机\(AVMs\)，要定义基于区块链的去中心化应用程序就十分简单。开发人员可以在 Go里编写 VM，而不是像 Solidity 语言这样有限制的新语言\(以后将支持其他语言\)。
 
 ### 创建您的区块链和虚拟机
 
-Avalanche目前不支持创建新虚拟机\(VMs\)。目前Avalanche仅支持创建Avalanche虚拟机的新实例。
+Avalanche 目前不支持创建新虚拟机\(VMs\)。目前 Avalanche 仅支持创建 Avalanche 虚拟机的新实例。
 
 {% page-ref page="../../build/tutorials/platform/create-a-new-blockchain.md" %}
 
-将来，通过Avalanche，您还可以定义并发行定制区块链，我们也会发行SDK来进行协助。
+将来，通过 Avalanche，您还可以定义并发行定制区块链，我们也会发行 SDK 来进行协助。
 
 {% page-ref page="../../build/tutorials/platform/create-a-virtual-machine-vm.md" %}
 
 ## 交换链\(X 链\)
 
-**X链** 是创建和建议数字智能资产的去中心化平台、现实世界资源的代表\(例如股票、债券\)，其中包含一系列管理其行为的规则，例如“明天才能开始交易”或“只能向美国公民发行。”
-在X链上交易的一项资产就是AVAX。当您在Avalanche上向区块链发布一项交易时，您需要支付AVAX规定的费用。
+**X 链** 是创建和建议数字智能资产的去中心化平台、现实世界资源的代表\(例如股票、债券\)，其中包含一系列管理其行为的规则，例如“明天才能开始交易”或“只能向美国公民发行。”
+在X链上交易的一项资产就是 AVAX。当您在 Avalanche 上向区块链发布一项交易时，您需要支付 AVAX 规定的费用。
 
-X链是Avalanche虚拟机\(AVM\)的一个实例。通过 [X链 API](../../build/avalanchego-apis/exchange-chain-x-chain-api.md)，客户能够在X链和其他AVM实例上创建并交易资产。
+X 链是 Avalanche 虚拟机\(AVM\)的一个实例。通过 [X 链 API](../../build/avalanchego-apis/exchange-chain-x-chain-api.md)，客户能够在X 链和其他 AVM 实例上创建并交易资产。
 
 {% page-ref page="../../build/tutorials/smart-digital-assets/create-a-fix-cap-asset.md" %}
 
 ## 平台链\(P 链\)
 
-**P 链**是Avalanche上的元数据区块链，它协调验证程序、追踪活跃子网并支持创建新子网。P链实施 [Snowman共识协议](../../#snowman-consensus-protocol)。
+**P 链**是Avalanche上的元数据区块链，它协调验证程序、追踪活跃子网并支持创建新子网。P 链实施 [Snowman共识协议](../../#snowman-consensus-protocol)。
 
-通过 [P链 API](../../build/avalanchego-apis/platform-chain-p-chain-api.md)，客户能够创建子网、将验证程序添加进子网并创建区块链。
+通过 [P 链 API](../../build/avalanchego-apis/platform-chain-p-chain-api.md)，客户能够创建子网、将验证程序添加进子网并创建区块链。
 
 ## 合约链\(C 链\)
 
-通过 **C 链** ，使用 [C链 API](../../build/avalanchego-apis/contract-chain-c-chain-api.md) 即可创建智能合约。
+通过 **C 链** ，使用 [C 链 API](../../build/avalanchego-apis/contract-chain-c-chain-api.md) 即可创建智能合约。
 
-C链是 [Avalanche](../../) 驱动下以太坊虚拟机的一个实例。
+C 链是 [Avalanche](../../) 驱动下以太坊虚拟机的一个实例。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjkwNDQ3MSwyNjUzMDE5OTAsMTgzMz
+eyJoaXN0b3J5IjpbMTYxMjg4ODQyNywyNjUzMDE5OTAsMTgzMz
 kzMjYxNF19
 -->

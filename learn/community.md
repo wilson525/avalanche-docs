@@ -2,14 +2,13 @@
 
 ## 资源
 
-[**Avalanche 新闻资料和品牌指南**](https://support.avalabs.org/en/articles/4132288-ava-labs-and-avalanche-press-kit-and-brand-assets): the official press kit and brand guidelines with logos and fon
+[**Avalanche 新闻资料和品牌指南**](https://support.avalabs.org/en/articles/4132288-ava-labs-and-avalanche-press-kit-and-brand-assets): 官方新闻资料和品牌指南，附logo和字体
 
-### Websites and Socials
+### 网站和社交网站
 
-[**Website**](https://avax.network): the official Ava Labs and Avalanche website.
+[**网站**](https://avax.network): 官方Ava Labs和Avalanche官网。
 
-[**GitHub**](https://github.com/ava-labs): the official Ava Labs GitHub hosting all Avalanche public repos.
-
+[**GitHub**](https://github.com/ava-labs): 主持所有Avalanche公开回购的Ava Labs GitHub
 [**Discord**](https://chat.avax.network): the official Avalanche Discord for developers and enthusiasts to engage in focused discussions.
 
 [**Twitter**](https://twitter.com/avalancheavax): the official Avalanche Twitter for all major news and updates regarding Avalanche and its ecosystem.
@@ -133,5 +132,5 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU0ODY5NjFdfQ==
+eyJoaXN0b3J5IjpbLTE2NjY2Mzk4OTldfQ==
 -->

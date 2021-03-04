@@ -74,11 +74,11 @@ X链是Avalanche虚拟机\(AVM\)的一个实例。通过[X链 API](../../build/a
 
 {% page-ref page="../../build/tutorials/smart-digital-assets/create-a-fix-cap-asset.md" %}
 
-## Platform Chain \(P-Chain\)
+## 平台链\(P 链\)
 
-The **P-Chain** is the metadata blockchain on Avalanche and coordinates validators, keeps track of active subnets, and enables the creation of new subnets. The P-Chain implements the [Snowman consensus protocol](../../#snowman-consensus-protocol).
+**P 链**是Avalanche上的元数据区块链，它协调验证程序、追踪活跃子网并支持创建新子网。P链实施[Snowman共识协议](../../#snowman-consensus-protocol).
 
-The [P-Chain API](../../build/avalanchego-apis/platform-chain-p-chain-api.md) allows clients to create subnets, add validators to subnets, and create blockchains.
+通过[P-Chain API](../../build/avalanchego-apis/platform-chain-p-chain-api.md) allows clients to create subnets, add validators to subnets, and create blockchains.
 
 ## Contract Chain \(C-Chain\)
 
@@ -87,5 +87,5 @@ The **C-Chain** allows for the creation smart contracts using the [C-Chain’s A
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1OTgxNTEsMTgzMzkzMjYxNF19
+eyJoaXN0b3J5IjpbLTExMzI2NDc5NjUsMTgzMzkzMjYxNF19
 -->

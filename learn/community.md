@@ -22,7 +22,7 @@
 [**区块链研究院 \(BRI\)**](https://www.blockchainresearchinstitute.org/): 专注于区块链技术对商业、政府和社会的战略意义的全球智囊团。成员包括60多家全球领先的企业、政府和学术机构。
 [**LAC链联盟**](https://www.lacchain.net/home#/alliance): 推动拉丁美洲和加勒比（LAC）地区区块链生态系统发展的全球组织。该组织目前有25个成员，包括Consensys、MIT媒体实验室、企业以太坊联盟和区块链研究所。
 
-### Education
+### 教程
 
 [**FireStorm**](https://www.youtube.com/channel/UC96iC-a7Ekk6GdaYhQ_mI-w): a community member producing "[How to Run Avalanche at Home](https://www.youtube.com/watch?v=kyHiLcw4Qg0&list=PLRjGGVtaMdsvR3OChEp4862V6fQyPYJ7T)" video tutorials.
 
@@ -125,5 +125,5 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjA5MTkzMV19
+eyJoaXN0b3J5IjpbNDE0NjY5NjIxLDEzNTYwOTE5MzFdfQ==
 -->

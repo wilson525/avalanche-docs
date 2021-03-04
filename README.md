@@ -45,9 +45,9 @@
 
 [Avalanche](https://avax.network) 是一个用于启动[去中心化应用程序](https://support.avalabs.org/en/articles/4587146-what-is-a-decentralized-application-dapp) 的开放源代码平台和企业[区块链](http://support.avalabs.org/en/articles/4064677-what-is-a-blockchain) 部署于一个互操作、高度可扩展的生态系统中。通过Avalanche，您可以完全控制网络和应用程序层 - 帮助您构建任何您想创建的东西。
 Avalanche和其他去中心化网络的一个关键差异在于共识协议。随着时间推移，人们误以为区块链必须是缓慢且不可扩展的。Avalanche协议采用了一种新方法来达成共识，从而实现其强大的安全保证、快速的最终性和高吞吐量，且不影响去中心化。
-## Avalanche \(AVAX\)代币
+## Avalanche \(AVAX\) 代币
 
-The Avalanche \(AVAX\) token is the native token of the Avalanche platform and is used to secure the network through staking, transact peer-to-peer, pay for fees, and provide a basic unit of account between the multiple subnetworks created on the Avalanche platform. `1 nAVAX` is equal to `0.000000001 AVAX`.
+Avalanche \(AVAX\)代币是Avalanche平台的原始代币，其作用是通过质押、点对点交易和付费来确保网络安全，它还是Avalanche平台上创建的多个子网之间的基本记账单位。`1 nAVAX` 等于`0.000000001 AVAX`.
 
 ## Avalanche Consensus Protocol
 
@@ -106,5 +106,5 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjEyODcxM119
+eyJoaXN0b3J5IjpbNjIyOTQwMTVdfQ==
 -->

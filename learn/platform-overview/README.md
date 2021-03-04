@@ -31,15 +31,15 @@ Avalanche有3个内置区块链：[**交换链 \(X 链\)**](./#exchange-chain-x-
 
 ### 关注点分离
 
-In a heterogeneous network of blockchains, some validators will not want to validate certain blockchains because they simply have no interest in those blockchains. The subnet model allows validators to only concern themselves with blockchains that they care about. This reduces the burden on validators.
+异构区块链网络中，由于部分验证程序对此类区块链毫无兴趣，因此它们并不想对此类区块链进行验证。通过子网模型，验证程序能够只关注其关注的区块链。从而减少了验证程序的负担。
 
 ### Application-Specific Requirements
 
-Different blockchain-based applications may require validators to have certain properties. Suppose there is an application that requires large amounts of RAM or CPU power. A Subnet could require that validators meet certain [hardware requirements](http://support.avalabs.org/en/articles/4064879-technical-requirements-for-running-a-validator-node-on-avalanche) so that the application doesn’t suffer from low performance due to slow validators.
+基于区块链的不同应用程序可能需要验证程序具备特定属性。假设有一个应用程序需要大量RAM或CPU电源。子网可能要求验证程序满足特定[硬件要求](http://support.avalabs.org/en/articles/4064879-technical-requirements-for-running-a-validator-node-on-avalanche)，进而应用程序不会因验证程序速度慢而导致性能不佳。
 
-## Virtual Machines
+## 虚拟机
 
-A **Virtual Machine** \(VM\) defines the application-level logic of a blockchain. In technical terms, it specifies the blockchain’s state, state transition function, transactions, and the API through which users can interact with the blockchain. Every blockchain on Avalanche is an instance of a VM.
+**虚拟机** \(VM\) defines the application-level logic of a blockchain. In technical terms, it specifies the blockchain’s state, state transition function, transactions, and the API through which users can interact with the blockchain. Every blockchain on Avalanche is an instance of a VM.
 
 When you write a VM, you don't need to concern yourself with lower-level logic like networking, consensus, and the structure of the blockchain. Avalanche does this behind the scenes so you can focus on the thing you would like to build.
 
@@ -88,5 +88,5 @@ The **C-Chain** allows for the creation smart contracts using the [C-Chain’s A
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTcwOTg1LDE4MzM5MzI2MTRdfQ==
+eyJoaXN0b3J5IjpbLTE5ODI0MTE2OTUsMTgzMzkzMjYxNF19
 -->

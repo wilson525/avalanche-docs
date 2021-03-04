@@ -24,7 +24,7 @@
 
 ### 教程
 
-[**FireStorm**](https://www.youtube.com/channel/UC96iC-a7Ekk6GdaYhQ_mI-w): a community member producing "[How to Run Avalanche at Home](https://www.youtube.com/watch?v=kyHiLcw4Qg0&list=PLRjGGVtaMdsvR3OChEp4862V6fQyPYJ7T)" video tutorials.
+[**FireStorm**](https://www.youtube.com/channel/UC96iC-a7Ekk6GdaYhQ_mI-w): 制作“[[怎样在家运行Avalanche]](https://www.youtube.com/watch?v=kyHiLcw4Qg0&list=PLRjGGVtaMdsvR3OChEp4862V6fQyPYJ7T)”视频教程的社区成员。
 
 ### Exchanges
 
@@ -125,5 +125,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE0NjY5NjIxLDEzNTYwOTE5MzFdfQ==
+eyJoaXN0b3J5IjpbMTI2Mzc2ODk3MSw0MTQ2Njk2MjEsMTM1Nj
+A5MTkzMV19
 -->

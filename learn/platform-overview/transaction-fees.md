@@ -1,17 +1,16 @@
 ---
-description: Learn more about Avalanche's transaction fees
+说明：Avalanche交易费用详情
 ---
 
-# Transaction Fees
+# 交易费用
 
-In order to prevent spam, transactions on Avalanche require the payment of a transaction fee. The fee is paid in [AVAX](../../#avalanche-avax-token). **The transaction fee is burned \(destroyed forever\).**
+为了拦截垃圾信息，Avalanche上的交易需要支付交易费用。费用通过[AVAX](../../#avalanche-avax-token). **交易费用会销毁\(永久销毁\)。**
 
-When you issue a transaction through Avalanche’s API, the transaction fee is automatically deducted from one of the addresses you control.
+当您通过Avalanche API发起一项交易时，交易费用将从您名下的其中一个地址中自动扣除。
 
-## Fee Schedule
+## 费用方案
 
-Different types of transactions require payment of a different transaction fee. This table shows the transaction fee schedule:
-
+不同类型的交易需要支付不同的交易费用。交易费用安排如下表所示：
 ```cpp
 +----------+-------------------+------------------------+
 | Chain    : Transaction Type  | Transaction Fee (AVAX) |
@@ -42,3 +41,6 @@ Different types of transactions require payment of a different transaction fee. 
 
 The [C-Chain](./#contract-chain-c-chain) gas price is 4.7e-7 AVAX/gas. The C-Chain gas limit is 10e8.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbOTY4ODM3NjUzXX0=
+-->

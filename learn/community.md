@@ -53,7 +53,7 @@
 
 [**Securitize**](https://www.securitize.io/): 业界领先的主要数字证券\（证券型代币\）发行和合规平台，美国证券交易委员会（SEC）的注册转让代理。
 
-### Stablecoins
+### 稳定币
 
 [**BiLira**](https://www.bilira.co): a stable cryptocurrency that is backed by the Turkish Lira.
 
@@ -116,6 +116,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDIzNjYwNiwtNjg5NjU3MzM2LDQxND
+eyJoaXN0b3J5IjpbLTk2MjU3OTQ0MSwtNjg5NjU3MzM2LDQxND
 Y2OTYyMSwxMzU2MDkxOTMxXX0=
 -->

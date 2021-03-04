@@ -43,11 +43,9 @@
 
 ## Avalanche
 
-[Avalanche](https://avax.network) 是一个用于启动[decentralized applications](https://support.avalabs.org/en/articles/4587146-what-is-a-decentralized-application-dapp) and enterprise [blockchain](http://support.avalabs.org/en/articles/4064677-what-is-a-blockchain) deployments in one interoperable, highly scalable ecosystem. Avalanche gives you complete control on both the network and application layers–helping you build anything you can imagine.
-
-A key difference between Avalanche and other decentralized networks is the consensus protocol. Over time, people have come to a false understanding that blockchains have to be slow and not scalable. The Avalanche protocol employs a novel approach to consensus to achieve its strong safety guarantees, quick finality, and high-throughput, without compromising decentralization.
-
-## Avalanche \(AVAX\) Token
+[Avalanche](https://avax.network) 是一个用于启动[去中心化应用程序](https://support.avalabs.org/en/articles/4587146-what-is-a-decentralized-application-dapp) 的开放源代码平台和企业[区块链](http://support.avalabs.org/en/articles/4064677-what-is-a-blockchain) 部署于一个互操作、高度可扩展的生态系统中。通过Avalanche，您可以完全控制网络和应用程序层 - 帮助您构建任何您想创建的东西。
+Avalanche和其他去中心化网络的一个关键差异在于共识协议。随着时间推移，人们误以为区块链必须是缓慢且不可扩展的。Avalanche协议采用了一种新方法来达成共识，从而实现其强大的安全保证、快速的最终性和高吞吐量，且不影响去中心化。
+## Avalanche \(AVAX\)代币
 
 The Avalanche \(AVAX\) token is the native token of the Avalanche platform and is used to secure the network through staking, transact peer-to-peer, pay for fees, and provide a basic unit of account between the multiple subnetworks created on the Avalanche platform. `1 nAVAX` is equal to `0.000000001 AVAX`.
 
@@ -108,5 +106,5 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODAxNjY4NjZdfQ==
+eyJoaXN0b3J5IjpbLTI4MjEyODcxM119
 -->

@@ -70,15 +70,14 @@
 
 ### 区块链基础设施和节点服务
 
-[**Allnodes**](https://www.allnodes.com)**:** a non-custodial platform for hosting masternodes and full nodes, as well as full staking services.
+[**Allnodes**](https://www.allnodes.com)**:** 用于托管主节点、全节点和全方位质押服务的非托管平台。
 
-\*\*\*\*[**Ankr**](https://www.ankr.com): Web3 insfrastructure for all
+\*\*\*\*[**Ankr**](https://www.ankr.com): 面向所有人的Web3基础设施。
+[**AVADO**](https://ava.do/)**:** 个人和开发人员可以借助即插即用硬件区块链节点，以私密的形式顺利访问Web3应用程序，参与质押并运行激励型去中心化应用获得加密。
 
-[**AVADO**](https://ava.do/)**:** plug and play hardware blockchain nodes that enable individuals and developers to easily and privately access Web3 applications, participate in staking, and run incentivized Dapps to earn crypto.
+[**Bloq**](https://www.bloq.com): 在区块链网络基础上构建的管理型基础设施。您可以进入一个单一界面，有权访问一系列企业级基础设施服务，以便在多个区块链网络上进行构建。
 
-[**Bloq**](https://www.bloq.com): managed infrastructure for building on blockchain networks. You get a single interface to an expanding set of enterprise-grade infrastructure services for building on multiple blockchain networks.
-
-[**DataHub by Figment**](https://figment.io/datahub/avalanche/): with DataHub, Avalanche developers no longer have to worry about managing infrastructure as we offer direct access to Avalanche’s APIs via our highly available full node infrastructure.
+[**Figment 的 DataHub**](https://figment.io/datahub/avalanche/): 通过DataHub，由于我们通过高可用全节点基础设施直接访问Avalanche API，因此Avalanche开发人员无需再担心托管基础设施。
 
 ### Oracles
 
@@ -113,6 +112,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM5OTQyODk0LC02ODk2NTczMzYsNDE0Nj
-Y5NjIxLDEzNTYwOTE5MzFdfQ==
+eyJoaXN0b3J5IjpbMTU2NjAyODQ5MywtNjg5NjU3MzM2LDQxND
+Y2OTYyMSwxMzU2MDkxOTMxXX0=
 -->

@@ -97,12 +97,12 @@ Snowman是一项链优化的共识协议——高吞吐量、高度有序化、�
 
 ### 私有和公共区块链
 
-Create your own public or private blockchains.
+创建您的公共或私有区块链
 
-### Designed for Finance
+### 为金融而设计
 
-Native support for easily creating and trading digital smart assets with complex, custom rulesets.
+本机支持使用复杂的自定义规则集来轻松创建和交易数字智能资产。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE2ODAwMjQsMjEzNDg2NDQyNl19
+eyJoaXN0b3J5IjpbLTEwNTU1NTUxNDMsMjEzNDg2NDQyNl19
 -->

@@ -29,7 +29,7 @@
 +----------+-------------------+------------------------+
 | X        : 发送              |                  0.001 |
 +----------+-------------------+------------------------+
-| X        : Create Asset      |                   0.01 |
+| X        : 创建资产      |                   0.01 |
 +----------+-------------------+------------------------+
 | X        : Mint Asset        |                  0.001 |
 +----------+-------------------+------------------------+
@@ -42,6 +42,6 @@
 The [C-Chain](./#contract-chain-c-chain) gas price is 4.7e-7 AVAX/gas. The C-Chain gas limit is 10e8.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjcxNjExNTQsMTgyODk3NDA0LDk2OD
-gzNzY1M119
+eyJoaXN0b3J5IjpbNjc2NTAxMiwtMTgyNzE2MTE1NCwxODI4OT
+c0MDQsOTY4ODM3NjUzXX0=
 -->

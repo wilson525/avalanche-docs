@@ -51,16 +51,16 @@ Avalanche \(AVAX\)代币是Avalanche平台的原始代币，其作用是通过�
 
 ## Avalanche 共识协议
 
-![Consensus Comparison](.gitbook/assets/consensus-comparison.png)
+![共识对比](.gitbook/assets/consensus-comparison.png)
 
 Avalanche系列中的协议通过反复子抽样投票来运行。当确定是否应接受或拒绝一项[交易](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction)时，[验证程序](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator)会询问一小个随机子集的验证程序应该接受或拒绝该交易。如果面临询问的验证程序认为该交易无效并表示拒绝，或偏好另一项冲突交易，则该验证程序会回复其认为应拒绝该交易。否则会回复其认为应接受该交易。
 
 如果足够多\(_alpha_ $$α$$\) 的抽样验证程序回复其认为应接受该交易，则验证程序更愿意接受该交易。换言之，当将来该验证程序再次面临有关该交易的询问时，它会回复其认为应接受该交易。与之类似，如果足够多的验证程序回复其认为应拒绝该交易，则验证程序会倾向于拒绝该交易。
-验证程序一直重复该抽样过程，直至面临询问的验证程序中的_alpha_ 以相同方式向_beta_ $$β$$ consecutive rounds.
+验证程序一直重复该抽样过程，直至面临询问的验证程序中的_alpha_ 以相同方式向_beta_连续回复$$β$$轮。
 
-In the common case when a transaction has no conflicts, finalization happens very quickly. When conflicts exist, honest validators quickly cluster around conflicting transactions, entering a positive feedback loop until all correct validators prefer that transaction. This leads to the acceptance of non-conflicting transactions and the rejection of conflicting transactions.
+通常情况下，当一项交易不存在冲突时，很快就能做出最终决定。当存在冲突时，诚实的验证程序会迅速集结到冲突交易周围，进入一个正反馈循环，直至所有正确的验证程序都对该交易表示偏好。因此最终会接受非冲突交易，而非拒绝。
 
-![How Avalanche Consensus Works](.gitbook/assets/howavalancheconsensusworks.png)
+![Avalanche共识的工作方式](.gitbook/assets/howavalancheconsensusworks.png)
 
 It is guaranteed \(with high probability based on system parameters\) that if any honest validator accepts or rejects a transaction, all honest validators will accept or reject that transaction.
 
@@ -105,5 +105,5 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzEzNzQ0MV19
+eyJoaXN0b3J5IjpbMTk2ODg0NDU1MV19
 -->

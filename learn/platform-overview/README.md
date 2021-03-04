@@ -39,15 +39,15 @@ Avalanche有3个内置区块链：[**交换链 \(X 链\)**](./#exchange-chain-x-
 
 ## 虚拟机
 
-**虚拟机** \(VM\) defines the application-level logic of a blockchain. In technical terms, it specifies the blockchain’s state, state transition function, transactions, and the API through which users can interact with the blockchain. Every blockchain on Avalanche is an instance of a VM.
+**虚拟机** \(VM\) 定义了区块链的应用程序级逻辑。从技术角度而言，虚拟机明确了区块链的状态、状态转换函数、交易和API，借此用户能够与区块链进行交互。Avalanche上的每个区块链都是VM的示例。
 
-When you write a VM, you don't need to concern yourself with lower-level logic like networking, consensus, and the structure of the blockchain. Avalanche does this behind the scenes so you can focus on the thing you would like to build.
+当您编写虚拟机时，您不需要考虑低水平逻辑，例如网络、共识和区块链结构。Avalanche是在后台进行这一进程的，因此您可以集中注意力创建您想要创建的。
 
-Think of a VM as a blueprint for a blockchain; you can use the same VM to create many blockchains, each of which follows the same ruleset but is logically independent of other blockchains.
+将虚拟机想象成区块链的蓝图；您可以使用同一个虚拟机来创建多个区块链，每个区块链都遵循同一规则集合，但在逻辑上独立于其他区块链。
 
 ### Why Virtual Machines?
 
-At first, blockchain networks had one Virtual Machine \(VM\) with a pre-defined, static set of functionality. This rigid, monolithic design limited what blockchain-based applications one could run on such networks.
+首先，区块链网络都有一个虚拟机（VM），附有预定义的功能静态集合。这种僵化的一体式设计限制了人们可以在此类网络中运行哪些基于区块链的应用程序。
 
 People who wanted custom decentralized applications had to create their own, entirely new blockchain network from scratch. Doing so required a great deal of time and effort, offered limited security, and generally resulted in a bespoke, fragile blockchain that never got off the ground.
 
@@ -88,5 +88,5 @@ The **C-Chain** allows for the creation smart contracts using the [C-Chain’s A
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODI0MTE2OTUsMTgzMzkzMjYxNF19
+eyJoaXN0b3J5IjpbMTMwODg0NTM3OSwxODMzOTMyNjE0XX0=
 -->

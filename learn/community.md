@@ -18,11 +18,9 @@
 
 [**智利区块链学会**](https://www.blockchainacademy.cl/): 为技术开发人员和商业企业家学习区块链技术提供的培训和教育平台。
 
-[**B区块链游戏联盟（BGA）**](https://blockchaingamealliance.org/): is an organization committed to promoting blockchain within the game industry. The BGA also provides an open forum for individuals and companies to share knowledge and collaborate, create common standards, establish best practices, and network.
-
-[**Blockchain Research Institute \(BRI\)**](https://www.blockchainresearchinstitute.org/): global think tank focusing on the strategic implications of blockchain technology on business, government, and society. Membership includes more than 60 of the world’s leading enterprises, governments, and academic institutions.
-
-[**LACChain Alliance**](https://www.lacchain.net/home#/alliance): a global organization accelerating the development of the blockchain ecosystem in Latin America and the Caribbean \(LAC\) region. It now has 25 members, including Consensys, MIT Media Lab, Enterprise Ethereum Alliance, and the Blockchain Research Institute.
+[**区块链游戏联盟（BGA）**](https://blockchaingamealliance.org/): 致力于在游戏行业内推广区块链的组织。BGA还为个人和公司提供了一个开放性论坛，以分享知识和合作、建立共同标准并确立最佳范例和网络。
+[**区块链研究院 \(BRI\)**](https://www.blockchainresearchinstitute.org/): 专注于区块链技术对商业、政府和社会的战略意义的全球智囊团。成员包括60多家全球领先的企业、政府和学术机构。
+[**LAC链联盟**](https://www.lacchain.net/home#/alliance): 推动拉丁美洲和加勒比（LAC）地区区块链生态系统发展的全球组织。该组织目前有25个成员，包括Consensys、MIT媒体实验室、企业以太坊联盟和区块链研究所。
 
 ### Education
 
@@ -127,5 +125,5 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3MTU3MTVdfQ==
+eyJoaXN0b3J5IjpbMTM1NjA5MTkzMV19
 -->

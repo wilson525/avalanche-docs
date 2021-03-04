@@ -75,27 +75,27 @@ Snowman是一项链优化的共识协议——高吞吐量、高度有序化、�
 
 使用康奈尔大学计算机科学家团队开发的新型共识协议能够在不到1秒的时间内永久确认交易。
 
-### Scalability
+### 可扩展性
 
-Capable of 4,500 transactions per second–an order of magnitude greater than existing blockchains.
+每秒可支持4500项交易——比现有区块链大一个数量级。
 
-### Security
+### 安全性
 
-Ensures stronger security guarantees well-above the 51% standard of other networks.
+确保更高的安全性——高于其他网络51%的标准。
 
-### Flexibility
+### 灵活性
 
-Easily create custom blockchains and decentralized apps that contain almost any arbitrary logic.
+轻松地创建自定义区块链和去中心化应用程序，其中包含几乎任何的任意逻辑。
 
-### Sustainability
+### 可持续性
 
-Uses energy-efficient proof-of-stake consensus algorithm rather than proof-of-work.
+使用高能效的质押证明共识算法， 而非工作证明共识算法。
 
-### Smart Contract Support
+### 智能合约支持
 
-Supports the creation of Solidity smart contracts and your favorite Ethereum tools like Remix, Metamask, Truffle, and more.
+支持Solidity智能合约和你最喜欢的以太坊工具（例如Remix、Metamask、 Truffle等）的创建。
 
-### Private and Public Blockchains
+### 私有和公共区块链
 
 Create your own public or private blockchains.
 
@@ -104,5 +104,5 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzIyOTYxNiwyMTM0ODY0NDI2XX0=
+eyJoaXN0b3J5IjpbLTIwNTE2ODAwMjQsMjEzNDg2NDQyNl19
 -->

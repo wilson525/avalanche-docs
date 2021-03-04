@@ -62,13 +62,13 @@ Avalanche系列中的协议通过反复子抽样投票来运行。当确定是�
 
 ![Avalanche共识的工作方式](.gitbook/assets/howavalancheconsensusworks.png)
 
-It is guaranteed \(with high probability based on system parameters\) that if any honest validator accepts or rejects a transaction, all honest validators will accept or reject that transaction.
+据保证\(基于系统参数的高可能性\)，如果任一诚实的验证程序接受或拒绝一项交易，则所有诚实的验证程序都会接受或拒绝该交易。
 
-Learn more technical components of the Avalanche consensus protocol by reading the [whitepaper](https://arxiv.org/pdf/1906.08936.pdf).
+请阅读[whitepaper](https://arxiv.org/pdf/1906.08936.pdf)，了解更多Avalanche共识协议的技术信息。
 
-## Snowman Consensus Protocol
+## Snowman 共识协议
 
-Snowman is a chain-optimized consensus protocol–high-throughput, totally-ordered, and great for smart contracts. Snowman is powered by the [Avalanche consensus protocol](./#avalanche-consensus-protocol). Both [P-Chain](learn/platform-overview/#platform-chain-p-chain) and [C-Chain](learn/platform-overview/#contract-chain-c-chain) implement the Snowman consensus protocol.
+Snowman是一项链优化的共识协议——高吞吐量、高度有序化、十分适配智能合约。Snowman由[Avalanche consensus protocol](./#avalanche-consensus-protocol). Both [P-Chain](learn/platform-overview/#platform-chain-p-chain) and [C-Chain](learn/platform-overview/#contract-chain-c-chain) implement the Snowman consensus protocol.
 
 ## Key Features
 
@@ -105,5 +105,5 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODg0NDU1MV19
+eyJoaXN0b3J5IjpbNTI0NjE5NTEyXX0=
 -->

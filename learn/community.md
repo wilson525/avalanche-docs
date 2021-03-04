@@ -49,9 +49,9 @@
 
 \*\*\*\*[**Prosper**](https://prosper.so/)**:** 一个非托管、跨链预测市场和对冲平台。Prosper正在开发一种独一无二的链上流动性聚合技术，以解决预测市场的问题。
 
-### Security Tokens
+### 证券型代币
 
-[**Securitize**](https://www.securitize.io/): the industry-leading primary issuance and compliance platform for digital securities \(security tokens\) and a SEC-registered transfer agent.
+[**Securitize**](https://www.securitize.io/): 业界领先的主要数字证券\（证券型代币\）发行和合规平台，美国证券交易委员会（SEC）的注册转让代理。
 
 ### Stablecoins
 
@@ -116,6 +116,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTY1NzMzNiw0MTQ2Njk2MjEsMTM1Nj
-A5MTkzMV19
+eyJoaXN0b3J5IjpbLTMxMDIzNjYwNiwtNjg5NjU3MzM2LDQxND
+Y2OTYyMSwxMzU2MDkxOTMxXX0=
 -->

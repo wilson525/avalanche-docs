@@ -70,7 +70,7 @@ Avalanche目前不支持创建新虚拟机\(VMs\)。目前Avalanche仅支持创�
 **X链** 是创建和建议数字智能资产的去中心化平台、现实世界资源的代表\(例如股票、债券\)，其中包含一系列管理其行为的规则，例如“明天才能开始交易”或“只能向美国公民发行。”
 在X链上交易的一项资产就是AVAX。当您在Avalanche上向区块链发布一项交易时，您需要支付AVAX规定的费用。
 
-X链是Avalanche虚拟机\(AVM\)的一个实例。通过[X链 API](../../build/avalanchego-apis/exchange-chain-x-chain-api.md)，客户能够在X链和其他AVM实例上创建并交易资产。
+X链是Avalanche虚拟机\(AVM\)的一个实例。通过 [X链 API](../../build/avalanchego-apis/exchange-chain-x-chain-api.md)，客户能够在X链和其他AVM实例上创建并交易资产。
 
 {% page-ref page="../../build/tutorials/smart-digital-assets/create-a-fix-cap-asset.md" %}
 
@@ -87,5 +87,5 @@ X链是Avalanche虚拟机\(AVM\)的一个实例。通过[X链 API](../../build/a
 C链是 [Avalanche](../../) 驱动下以太坊虚拟机的一个实例。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTcyMTI3NCwxODMzOTMyNjE0XX0=
+eyJoaXN0b3J5IjpbMjY1MzAxOTkwLDE4MzM5MzI2MTRdfQ==
 -->

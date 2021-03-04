@@ -13,11 +13,11 @@
 不同类型的交易需要支付不同的交易费用。交易费用安排如下表所示：
 ```cpp
 +----------+-------------------+------------------------+
-| 链       : Transaction Type  | Transaction Fee (AVAX) |
+| 链       : 交易类型            | 交易费用(AVAX)     		|
 +----------+-------------------+------------------------+
-| P        : Create Blockchain |                   0.01 |
+| P        : 创建区块链 |                   0.01 |
 +----------+-------------------+------------------------+
-| P        : Add Validator     |                      0 |
+| P        : 添加验证程序     |                      0 |
 +----------+-------------------+------------------------+
 | P        : Add Delegator     |                      0 |
 +----------+-------------------+------------------------+
@@ -42,5 +42,5 @@
 The [C-Chain](./#contract-chain-c-chain) gas price is 4.7e-7 AVAX/gas. The C-Chain gas limit is 10e8.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTUyOTY4OCw5Njg4Mzc2NTNdfQ==
+eyJoaXN0b3J5IjpbLTcwNjAxMjY1Miw5Njg4Mzc2NTNdfQ==
 -->

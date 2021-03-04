@@ -53,7 +53,7 @@ Avalanche \(AVAX\)代币是Avalanche平台的原始代币，其作用是通过�
 
 ![Consensus Comparison](.gitbook/assets/consensus-comparison.png)
 
-Protocols in the Avalanche family operate through repeated sub-sampled voting. When a [validator](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) is determining whether a [transaction](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction) should be accepted or rejected, it asks a small, random subset of validators whether they think the transaction should be accepted or rejected. If the queried validator thinks the transaction is invalid, has already rejected the transaction, or prefers a conflicting transaction, it replies that it thinks the transaction should be rejected. Otherwise, it replies that it thinks the transaction should be accepted.
+Avalanche系列中的协议通过反复子抽样投票来运行。When a [验证程序](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator)[交易](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction)
 
 If a sufficiently large portion \(_alpha_ $$α$$\) of the validators sampled reply that they think the transaction should be accepted, the validator prefers to accept the transaction. That is, when it is queried about the transaction in the future, it will reply that it thinks the transaction should be accepted. Similarly, the validator will prefer to reject the transaction if a sufficiently large portion of the validators replies that they think the transaction should be rejected.
 
@@ -106,5 +106,5 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5MTczMjkwXX0=
+eyJoaXN0b3J5IjpbLTExNzgwNTkyMDJdfQ==
 -->

@@ -8,10 +8,10 @@
 
 [**网站**](https://avax.network): 官方Ava Labs和Avalanche官网。
 
-[**GitHub**](https://github.com/ava-labs): 主持所有Avalanche公开回购的Ava Labs GitHub
-[**Discord**](https://chat.avax.network): the official Avalanche Discord for developers and enthusiasts to engage in focused discussions.
+[**GitHub**](https://github.com/ava-labs): 主持所有Avalanche公开回购的Ava Labs GitHub。
+[**Discord**](https://chat.avax.network): 开发者和爱好者进行集中讨论的官方Avalanche Discord。
 
-[**Twitter**](https://twitter.com/avalancheavax): the official Avalanche Twitter for all major news and updates regarding Avalanche and its ecosystem.
+[**推特**](https://twitter.com/avalancheavax): the official Avalanche Twitter for all major news and updates regarding Avalanche and its ecosystem.
 
 [**Forum**](https://forum.avax.network): the official Avalanche Forum for technical discussions related to Avalanche and its community
 
@@ -132,5 +132,5 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjY2Mzk4OTldfQ==
+eyJoaXN0b3J5IjpbMTk4ODg5MDAzMl19
 -->

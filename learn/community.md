@@ -30,13 +30,12 @@
 \*\*\*\*[**币安**](https://www.binance.com): 全球交易量最大的加密交易所。
 \*\*\*\*[**Bitfinex交易平台**](https://www.bitfinex.com): 为数字货币交易员和全球流动供应商提供最先进服务的数字资产交易平台。
 \*\*\*\*[**FTX**](https://ftx.com): 加密货币衍生品交易所。
-[**JellySwap 交换项目**](https://jelly.market/): 允许不同网络间价值转移的跨链交换去中心化应用程序。
-\*\*\*\*[**Voyager**](https://www.investvoyager.com): the United States' \#1 commission-free crypto broker.
+\*\*\*\*[**JellySwap 交换项目**](https://jelly.market/): 允许不同网络间价值转移的跨链交换去中心化应用程序。
+\*\*\*\*[**Voyager**](https://www.investvoyager.com): 美国排名第一的免佣金加密资产经纪商。
 
-### Explorers
+### 浏览器
 
-[**Avalanche Explorer**](https://explorer.avax.network): an analytics tool that enables people to search the Avalanche platform for transactions, addresses, and other platform activities.
-
+[**Avalanche 浏览器**](https://explorer.avax.network): 让人们能够在Avalanche平台上搜索交易、地址和其他平台活动的分析工具。
 [**Avascan**](https://github.com/ava-labs/avalanche-docs/tree/94d2e4aeddbf91f89b830f9b44b4aa60089ac755/learn/www.avascan.info): an independent blockchain explorer that enables users to browse blockchains, transactions, validators, delegators, assets, and smart contracts on Avalanche. Also features an Asset Detail Validation Program to add rich data to assets on Avascan.
 
 [**Vscout**](https://vscout.io): an analytics tool for exploring Avalanche subnets, staking, and validators.
@@ -120,6 +119,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTI3NzQ1MTYsNDE0NjY5NjIxLDEzNT
-YwOTE5MzFdfQ==
+eyJoaXN0b3J5IjpbMTAzMzk4OTQyMiw0MTQ2Njk2MjEsMTM1Nj
+A5MTkzMV19
 -->

@@ -25,9 +25,9 @@
 +----------+-------------------+------------------------+
 | P        : 导入AVAX       |                  0.001 |
 +----------+-------------------+------------------------+
-| P        : Export AVAX       |                  0.001 |
+| P        : 导出AVAX       |                  0.001 |
 +----------+-------------------+------------------------+
-| X        : Send              |                  0.001 |
+| X        : 发送              |                  0.001 |
 +----------+-------------------+------------------------+
 | X        : Create Asset      |                   0.01 |
 +----------+-------------------+------------------------+
@@ -42,5 +42,6 @@
 The [C-Chain](./#contract-chain-c-chain) gas price is 4.7e-7 AVAX/gas. The C-Chain gas limit is 10e8.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODk3NDA0LDk2ODgzNzY1M119
+eyJoaXN0b3J5IjpbLTE4MjcxNjExNTQsMTgyODk3NDA0LDk2OD
+gzNzY1M119
 -->

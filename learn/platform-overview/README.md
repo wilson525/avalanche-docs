@@ -6,15 +6,15 @@
 
 Avalanche有3个内置区块链：[**交换链 \(X 链\)**](./#exchange-chain-x-chain), [**平台链 \(P 链\)**](./#platform-chain-p-chain), 和 [**合约链 \(C 链**\)](./#contract-chain-c-chain). 这3个区块链均[已验证](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) 并受[**主网**](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network)保护。主网是一个特殊的[子网](http://support.avalabs.org/en/articles/4064861-what-is-a-subnetwork-subnet)，通过质押至少2000个 AVAX，所有自定义子网的所有成员也必须是主网的成员
 
-[创建子网](../../build/tutorials/platform/create-a-subnet.md)的教程和给子网[添加验证程序](../../build/tutorials/nodes-and-staking/add-a-validator.md)的教程
+这里是[创建子网](../../build/tutorials/platform/create-a-subnet.md)的教程和给子网[添加验证程序](../../build/tutorials/nodes-and-staking/add-a-validator.md)的教程
 
 ![Primary network](../../.gitbook/assets/primary-network.png)
 
-## Subnets
+## 子网
 
-A **subnet**, or subnetwork, is a dynamic set of validators working together to achieve consensus on the state of a set of blockchains. Each blockchain is validated by exactly one subnet. A subnet can validate many blockchains. A node may be a member of many subnets.
+**子网**，又名子网络，是一组动态的验证程序，该验证程序协同工作，从而就区块链集合的状态达成共识。每个区块链都仅通过一个子网进行验证。一个子网能够验证多个区块链。一个节点可能是多个子网的成员。
 
-A subnet manages its own membership, and it may require that its constituent validators have certain properties. This is very useful, and we explore its ramifications in more depth below:
+子网管理其各自成员资格，并可能要求其验证程序具有特定属性。这是非常有用的，我们将在下文中更深入地探讨其影响：
 
 ### Compliance
 
@@ -89,5 +89,5 @@ The **C-Chain** allows for the creation smart contracts using the [C-Chain’s A
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTgwNzMxODEsMTgzMzkzMjYxNF19
+eyJoaXN0b3J5IjpbMTcwMjcyNTEzOCwxODMzOTMyNjE0XX0=
 -->

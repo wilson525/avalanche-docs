@@ -68,13 +68,12 @@ Avalanche系列中的协议通过反复子抽样投票来运行。当确定是�
 
 ## Snowman 共识协议
 
-Snowman是一项链优化的共识协议——高吞吐量、高度有序化、十分适配智能合约。Snowman由[Avalanche共识协议](./#avalanche-consensus-protocol). [P-链](learn/platform-overview/#platform-chain-p-chain) and [C-链](learn/platform-overview/#contract-chain-c-chain) implement the Snowman consensus protocol.
+Snowman是一项链优化的共识协议——高吞吐量、高度有序化、十分适配智能合约。Snowman由[Avalanche共识协议](./#avalanche-consensus-protocol). [P-链](learn/platform-overview/#platform-chain-p-chain) 和 [C-链](learn/platform-overview/#contract-chain-c-chain) 都实施Snowman共识协议
+## 关键特征
 
-## Key Features
+### 速度
 
-### Speed
-
-Uses a novel consensus protocol, developed by a team of Cornell computer scientists, and is able to permanently confirm transactions in under 1 second.
+使用康奈尔大学计算机科学家团队开发的新型共识协议能够在不到1秒的时间内永久确认交易。
 
 ### Scalability
 
@@ -105,5 +104,5 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDg2NDQyNl19
+eyJoaXN0b3J5IjpbMTI2NzIyOTYxNiwyMTM0ODY0NDI2XX0=
 -->

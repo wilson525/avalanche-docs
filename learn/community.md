@@ -40,15 +40,14 @@
 [**Vscout**](https://vscout.io): 浏览Avalanche子网、质押和验证程序的分析工具。
 ### 其他
 
-[**AVAXAlert**](https://avaxalert.com): Receive notifications directly into your email address when transactions occur on your AVAX wallet.
+[**AVAXAlert**](https://avaxalert.com): 当您的AVAX钱包上发生交易时，通知会直接发送到您的电子邮箱。
 
-### Non-Fungible Tokens \(NFTs\)
+### 非同质化代币\(NFT\)
 
-[**Polyient Games**](https://www.polyient.games): an investment firm focused on the non-fungible token \(NFT\) and blockchain gaming industries. They invest in startups that are building the infrastructure and applications that will scale the NFT asset class.
+[**Polyient Games**](https://www.polyient.games): 专注于非同质化代币和区块链游戏行业的投资公司。该公司对正在建设扩展非同质化代币资产类别的基础设施和应用程序的初创公司进行投资。
+### **预测市场**
 
-### **Prediction Markets**
-
-\*\*\*\*[**Prosper**](https://prosper.so/)**:** a non-custodial, cross-chain prediction market and hedging platform. Prosper is developing a unique technology of on-chain liquidity aggregation to solve problems of prediction markets.
+\*\*\*\*[**Prosper**](https://prosper.so/)**:** 一个非托管、跨链预测市场和对冲平台。Prosper正在开发一种独一无二的链上流动性聚合技术，以解决预测市场的问题。
 
 ### Security Tokens
 
@@ -117,6 +116,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk1MTU3NzAsNDE0NjY5NjIxLDEzNT
-YwOTE5MzFdfQ==
+eyJoaXN0b3J5IjpbLTY4OTY1NzMzNiw0MTQ2Njk2MjEsMTM1Nj
+A5MTkzMV19
 -->

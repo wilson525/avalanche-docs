@@ -1,7 +1,6 @@
 ---
-description: >-
-  Build on Avalanche. Build without limits. Developers who build on Avalanche
-  can easily create powerful, reliable, and secure applications.
+说明：>-
+在Avalanche上创建。创建无限制。在Avalanche上创建的开发人员能够轻松地创建功能强大、可靠且安全的应用程序。
 ---
 
 # Developer Documentation
@@ -108,3 +107,6 @@ Create your own public or private blockchains.
 
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTcwMDEyOTA5Ml19
+-->

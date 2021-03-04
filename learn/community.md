@@ -88,17 +88,15 @@
 [**Magic \(formerly Fortmatic\)**](https://magic.link/): 针对每月2000多万名用户身份验证的加密保护中的无密码登录和更易操作的密钥管理。自发布以来，已有超过6500名开发人员使用，包括Uniswap、Aave、Augur、Bancor和Zerion等发展成熟的DeFi组织。
 [**Torus**](https://tor.us/): 通过DirectAuth SDK，用户能够使用其当前Google账户创建一个Avalanche钱包并一键登录到Avalanche应用程序，从而简化了登录过程。用户对该技术十份信赖，可以定制钱包，以获取其私人密钥。
 
-### Staking Services
+### 质押服务
 
-[**ablock**](https://ablock.io/avalanche): delegated staking services.
+[**ablock**](https://ablock.io/avalanche): 委托质押服务。
+[**Avascan**](https://blog.avascan.info/2020-10-14-avascan-validators-october-2020.html): 独立区块链探索者提供的委托质押服务。
 
-[**Avascan**](https://blog.avascan.info/2020-10-14-avascan-validators-october-2020.html): delegated staking services offered by independent blockchain explorer.
+[**Figment**](https://figment.io/): 作为一项服务的简单且安全的质押。
 
-[**Figment**](https://figment.io/): simple and secure staking as a service.
-
-[**P2P**](https://p2p.org/avalanche): delegated staking services.
-
-[**Staking Rewards**](https://www.stakingrewards.com/earn/avalanche): staking calculator for Avalanche.
+[**P2P**](https://p2p.org/avalanche): 委托质押服务。
+[**Staking Rewards**](https://www.stakingrewards.com/earn/avalanche): Avalanche.
 
 ### Testing Tools and Frameworks
 
@@ -111,6 +109,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjkzMzU0OSwtNjg5NjU3MzM2LDQxND
+eyJoaXN0b3J5IjpbMTE3MjgyNzI0MSwtNjg5NjU3MzM2LDQxND
 Y2OTYyMSwxMzU2MDkxOTMxXX0=
 -->

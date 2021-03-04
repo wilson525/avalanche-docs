@@ -8,7 +8,7 @@ Avalanche有3个内置区块链：[**交换链 \(X 链\)**](./#exchange-chain-x-
 
 这里是[创建子网](../../build/tutorials/platform/create-a-subnet.md)的教程和给子网[添加验证程序](../../build/tutorials/nodes-and-staking/add-a-validator.md)的教程
 
-![Primary network](../../.gitbook/assets/primary-network.png)
+![主网](../../.gitbook/assets/primary-network.png)
 
 ## 子网
 
@@ -87,5 +87,6 @@ X链是Avalanche虚拟机\(AVM\)的一个实例。通过 [X链 API](../../build/
 C链是 [Avalanche](../../) 驱动下以太坊虚拟机的一个实例。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1MzAxOTkwLDE4MzM5MzI2MTRdfQ==
+eyJoaXN0b3J5IjpbMzg1OTQ2ODI0LDI2NTMwMTk5MCwxODMzOT
+MyNjE0XX0=
 -->

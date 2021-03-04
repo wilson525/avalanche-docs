@@ -106,8 +106,8 @@
 
 [**Quantstamp**](https://quantstamp.com/): 为智能合约、链外应用程序、网络和前端界面提供审计和咨询的区块链安全公司，以强化去中心化应用程序的安全性。
 
-[**Whiteblock**](https://whiteblock.io/)**:**帮助开发人员对Web3系统的实际性能和安全测试进行自动化。
+[**Whiteblock**](https://whiteblock.io/)**:** “Genesis 平台”帮助开发人员对Web3系统的实际性能和安全测试进行自动化。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTAzNDMwMjcsLTY4OTY1NzMzNiw0MT
-Q2Njk2MjEsMTM1NjA5MTkzMV19
+eyJoaXN0b3J5IjpbNzQyNDMzNDUsLTY4OTY1NzMzNiw0MTQ2Nj
+k2MjEsMTM1NjA5MTkzMV19
 -->

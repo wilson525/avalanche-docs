@@ -17,7 +17,6 @@
 ### 生态系统合作伙伴
 
 [**智利区块链学会**](https://www.blockchainacademy.cl/): 为技术开发人员和商业企业家学习区块链技术提供的培训和教育平台。
-
 [**区块链游戏联盟（BGA）**](https://blockchaingamealliance.org/): 致力于在游戏行业内推广区块链的组织。BGA还为个人和公司提供了一个开放性论坛，以分享知识和合作、建立共同标准并确立最佳范例和网络。
 [**区块链研究院 \(BRI\)**](https://www.blockchainresearchinstitute.org/): 专注于区块链技术对商业、政府和社会的战略意义的全球智囊团。成员包括60多家全球领先的企业、政府和学术机构。
 [**LAC链联盟**](https://www.lacchain.net/home#/alliance): 推动拉丁美洲和加勒比（LAC）地区区块链生态系统发展的全球组织。该组织目前有25个成员，包括Consensys、MIT媒体实验室、企业以太坊联盟和区块链研究所。
@@ -26,12 +25,10 @@
 
 [**FireStorm**](https://www.youtube.com/channel/UC96iC-a7Ekk6GdaYhQ_mI-w): 制作“[[怎样在家运行Avalanche]](https://www.youtube.com/watch?v=kyHiLcw4Qg0&list=PLRjGGVtaMdsvR3OChEp4862V6fQyPYJ7T)”视频教程的社区成员。
 
-### Exchanges
+### 交易所
 
-\*\*\*\*[**Binance**](https://www.binance.com): the world's \#1 crypto exchange by trading volume.
-
-\*\*\*\*[**Bitfinex**](https://www.bitfinex.com): a digital asset trading platform offering state-of-the-art services for digital currency traders and global liquidity providers.
-
+\*\*\*\*[**币安**](https://www.binance.com): 全球交易量最大的加密交易所。
+\*\*\*\*[**Bitfinex交易平台**](https://www.bitfinex.com): 为数字货币交易员和全球流动供应商提供最先进服务的数字资产交易平台。
 \*\*\*\*[**FTX**](https://ftx.com): a cryptocurrency derivatives exchange.
 
 [**JellySwap**](https://jelly.market/): a decentralized application for cross-chain swaps allowing value transfer between different networks.
@@ -125,6 +122,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Mzc2ODk3MSw0MTQ2Njk2MjEsMTM1Nj
+eyJoaXN0b3J5IjpbMTI2NzI3NjQzMiw0MTQ2Njk2MjEsMTM1Nj
 A5MTkzMV19
 -->

@@ -33,7 +33,7 @@ Avalanche有3个内置区块链：[**交换链 \(X 链\)**](./#exchange-chain-x-
 
 异构区块链网络中，由于部分验证程序对此类区块链毫无兴趣，因此它们并不想对此类区块链进行验证。通过子网模型，验证程序能够只关注其关注的区块链。从而减少了验证程序的负担。
 
-### Application-Specific Requirements
+### 应用程序特定要求
 
 基于区块链的不同应用程序可能需要验证程序具备特定属性。假设有一个应用程序需要大量RAM或CPU电源。子网可能要求验证程序满足特定[硬件要求](http://support.avalabs.org/en/articles/4064879-technical-requirements-for-running-a-validator-node-on-avalanche)，进而应用程序不会因验证程序速度慢而导致性能不佳。
 
@@ -45,7 +45,7 @@ Avalanche有3个内置区块链：[**交换链 \(X 链\)**](./#exchange-chain-x-
 
 将虚拟机想象成区块链的蓝图；您可以使用同一个虚拟机来创建多个区块链，每个区块链都遵循同一规则集合，但在逻辑上独立于其他区块链。
 
-### Why Virtual Machines?
+### 为什么选择虚拟机？
 
 首先，区块链网络都有一个虚拟机（VM），附有预定义的功能静态集合。这种僵化的一体式设计限制了人们可以在此类网络中运行哪些基于区块链的应用程序。
 
@@ -87,6 +87,6 @@ X链是Avalanche虚拟机\(AVM\)的一个实例。通过 [X链 API](../../build/
 C链是 [Avalanche](../../) 驱动下以太坊虚拟机的一个实例。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1OTQ2ODI0LDI2NTMwMTk5MCwxODMzOT
-MyNjE0XX0=
+eyJoaXN0b3J5IjpbLTE3MjkwNDQ3MSwyNjUzMDE5OTAsMTgzMz
+kzMjYxNF19
 -->

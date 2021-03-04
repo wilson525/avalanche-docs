@@ -4,11 +4,11 @@
 
 # 平台概况
 
-Avalanche有3个内置区块链：[**交换链 \(X 链\)**](./#exchange-chain-x-chain), [**平台链 \(P 链\)**](./#platform-chain-p-chain), 和 [**合约链 \(C 链**\)](./#contract-chain-c-chain). 这3个区块链均[已验证](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) 并受[**主网**](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network)保护。主网是一个特殊的[子网](http://support.avalabs.org/en/articles/4064861-what-is-a-subnetwork-subnet)，通过质押至少2000个AVAX，所有自定义子网的所有成员也必须是主网的成员
+Avalanche有3个内置区块链：[**交换链 \(X 链\)**](./#exchange-chain-x-chain), [**平台链 \(P 链\)**](./#platform-chain-p-chain), 和 [**合约链 \(C 链**\)](./#contract-chain-c-chain). 这3个区块链均[已验证](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator) 并受[**主网**](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network)保护。主网是一个特殊的[子网](http://support.avalabs.org/en/articles/4064861-what-is-a-subnetwork-subnet)，通过质押至少2000个 AVAX，所有自定义子网的所有成员也必须是主网的成员
 
-[创建子网](../../build/tutorials/platform/create-a-subnet.md) 的教程和给子网[添加验证程序](../../build/tutorials/nodes-and-staking/add-a-validator.md)的教程
+Here are tutorials on [creating a subnet](../../build/tutorials/platform/create-a-subnet.md) and [adding validators](../../build/tutorials/nodes-and-staking/add-a-validator.md) to a subnet.
 
-![主网](../../.gitbook/assets/primary-network.png)
+![Primary network](../../.gitbook/assets/primary-network.png)
 
 ## Subnets
 
@@ -89,5 +89,5 @@ The **C-Chain** allows for the creation smart contracts using the [C-Chain’s A
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk0MzEzNTc1LDE4MzM5MzI2MTRdfQ==
+eyJoaXN0b3J5IjpbMTQzOTA4ODI2MiwxODMzOTMyNjE0XX0=
 -->

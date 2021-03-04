@@ -53,21 +53,21 @@ Avalanche有3个内置区块链：[**交换链 \(X 链\)**](./#exchange-chain-x-
 
 为了解决这一问题，以太坊（Ethereum）通过智能合约迈出了一步。开发人员不需要担心网络和共识问题，但是创建去中心化应用程序仍然十分困难。以太坊虚拟机性能不佳，并限制了智能合约的开发人员。大多数程序员都对Solidity语言和其他几种以太坊智能合约编写语言感到陌生。
 
-通过Avalanche虚拟机\(AVMs\)，要定义基于区块链的去中心化应用程序就十分简单。开发人员可以在Go里编写VM，而不是像Solidity语言这样有限制的新语言\(other languages will be supported in the future\).
+通过Avalanche虚拟机\(AVMs\)，要定义基于区块链的去中心化应用程序就十分简单。开发人员可以在Go里编写VM，而不是像Solidity语言这样有限制的新语言\(以后将支持其他语言\)。
 
-### Creating Your Blockchain and Virtual Machine
+### 创建您的区块链和虚拟机
 
-Avalanche does not yet support the creation of new Virtual Machines \(VMs\). Presently, Avalanche only supports the creation of new instances of the Avalanche VM.
+Avalanche目前不支持创建新虚拟机\(VMs\)。目前Avalanche仅支持创建Avalanche虚拟机的新实例。
 
 {% page-ref page="../../build/tutorials/platform/create-a-new-blockchain.md" %}
 
-In the future, Avalanche will allow you to define and launch custom blockchains, and we’ll release SDKs to help you do so.
+将来，通过Avalanche，您还可以定义并发行定制区块链，我们也会发行SDK来进行协助。
 
 {% page-ref page="../../build/tutorials/platform/create-a-virtual-machine-vm.md" %}
 
-## Exchange Chain \(X-Chain\)
+## 交换链\(X 链\)
 
-The **X-Chain** acts as a decentralized platform for creating and trading digital smart assets, a representation of a real-world resource \(e.g., equity, bonds\) with a set of rules that govern its behavior, like “can’t be traded until tomorrow” or “can only be sent to US citizens.”
+**X链** acts as a decentralized platform for creating and trading digital smart assets, a representation of a real-world resource \(e.g., equity, bonds\) with a set of rules that govern its behavior, like “can’t be traded until tomorrow” or “can only be sent to US citizens.”
 
 One asset traded on the X-Chain is AVAX. When you issue a transaction to a blockchain on Avalanche, you pay a fee denominated in AVAX.
 
@@ -88,5 +88,5 @@ The **C-Chain** allows for the creation smart contracts using the [C-Chain’s A
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDkyMTA2OSwxODMzOTMyNjE0XX0=
+eyJoaXN0b3J5IjpbMTY5MzM3MTM3MCwxODMzOTMyNjE0XX0=
 -->

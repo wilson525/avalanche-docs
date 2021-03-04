@@ -53,7 +53,7 @@ Avalanche \(AVAX\)代币是Avalanche平台的原始代币，其作用是通过�
 
 ![Consensus Comparison](.gitbook/assets/consensus-comparison.png)
 
-Avalanche系列中的协议通过反复子抽样投票来运行。When a [验证程序](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator)[交易](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction)
+Avalanche系列中的协议通过反复子抽样投票来运行。当确定是否应接受或拒绝一项[交易](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction)时，[验证程序](http://support.avalabs.org/en/articles/4064704-what-is-a-blockchain-validator)会询问一小个随机子集的验证程序应该接受或拒绝该交易。如果面临询问的验证程序认为该交易无效并表示拒绝，或偏好另一项冲突交易，则该验证程序会回复其认为应拒绝该交易。否则会回复其认为应接受该交易。
 
 If a sufficiently large portion \(_alpha_ $$α$$\) of the validators sampled reply that they think the transaction should be accepted, the validator prefers to accept the transaction. That is, when it is queried about the transaction in the future, it will reply that it thinks the transaction should be accepted. Similarly, the validator will prefer to reject the transaction if a sufficiently large portion of the validators replies that they think the transaction should be rejected.
 
@@ -106,5 +106,5 @@ Create your own public or private blockchains.
 Native support for easily creating and trading digital smart assets with complex, custom rulesets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzgwNTkyMDJdfQ==
+eyJoaXN0b3J5IjpbMTc2ODQ2MDYyMl19
 -->

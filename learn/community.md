@@ -29,10 +29,8 @@
 
 \*\*\*\*[**币安**](https://www.binance.com): 全球交易量最大的加密交易所。
 \*\*\*\*[**Bitfinex交易平台**](https://www.bitfinex.com): 为数字货币交易员和全球流动供应商提供最先进服务的数字资产交易平台。
-\*\*\*\*[**FTX**](https://ftx.com): a cryptocurrency derivatives exchange.
-
-[**JellySwap**](https://jelly.market/): a decentralized application for cross-chain swaps allowing value transfer between different networks.
-
+\*\*\*\*[**FTX**](https://ftx.com): 加密货币衍生品交易所。
+[**JellySwap 交换项目**](https://jelly.market/): 允许不同网络间价值转移的跨链交换去中心化应用程序。
 \*\*\*\*[**Voyager**](https://www.investvoyager.com): the United States' \#1 commission-free crypto broker.
 
 ### Explorers
@@ -122,6 +120,6 @@
 [**Whiteblock**](https://whiteblock.io/)**:** "Genesis Platform" helps developers automate practical performance and security testing for Web3 systems.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NzI3NjQzMiw0MTQ2Njk2MjEsMTM1Nj
-A5MTkzMV19
+eyJoaXN0b3J5IjpbLTEyOTI3NzQ1MTYsNDE0NjY5NjIxLDEzNT
+YwOTE5MzFdfQ==
 -->

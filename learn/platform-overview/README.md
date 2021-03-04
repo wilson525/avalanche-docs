@@ -78,14 +78,14 @@ X链是Avalanche虚拟机\(AVM\)的一个实例。通过[X链 API](../../build/a
 
 **P 链**是Avalanche上的元数据区块链，它协调验证程序、追踪活跃子网并支持创建新子网。P链实施[Snowman共识协议](../../#snowman-consensus-protocol).
 
-通过[P-Chain API](../../build/avalanchego-apis/platform-chain-p-chain-api.md) allows clients to create subnets, add validators to subnets, and create blockchains.
+通过[P链 API](../../build/avalanchego-apis/platform-chain-p-chain-api.md)，客户能够创建子网、将验证程序添加进子网并创建区块链。
 
-## Contract Chain \(C-Chain\)
+## 合约链\(C链\)
 
-The **C-Chain** allows for the creation smart contracts using the [C-Chain’s API](../../build/avalanchego-apis/contract-chain-c-chain-api.md).
+通过**C 链** ，使用[C链 API](../../build/avalanchego-apis/contract-chain-c-chain-api.md)即可创建智能合约。
 
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI2NDc5NjUsMTgzMzkzMjYxNF19
+eyJoaXN0b3J5IjpbLTE2NTIyNTY3MywxODMzOTMyNjE0XX0=
 -->

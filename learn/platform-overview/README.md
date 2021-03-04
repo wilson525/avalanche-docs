@@ -67,11 +67,10 @@ Avalanche目前不支持创建新虚拟机\(VMs\)。目前Avalanche仅支持创�
 
 ## 交换链\(X 链\)
 
-**X链** acts as a decentralized platform for creating and trading digital smart assets, a representation of a real-world resource \(e.g., equity, bonds\) with a set of rules that govern its behavior, like “can’t be traded until tomorrow” or “can only be sent to US citizens.”
+**X链** 是创建和建议数字智能资产的去中心化平台、现实世界资源的代表\(例如股票、债券\)，其中包含一系列管理其行为的规则，例如“明天才能开始交易”或“只能向美国公民发行。”
+在X链上交易的一项资产就是AVAX。当您在Avalanche上向区块链发布一项交易时，您需要支付AVAX规定的费用。
 
-One asset traded on the X-Chain is AVAX. When you issue a transaction to a blockchain on Avalanche, you pay a fee denominated in AVAX.
-
-The X-Chain is an instance of the Avalanche Virtual Machine \(AVM\). The [X-Chain API](../../build/avalanchego-apis/exchange-chain-x-chain-api.md) allows clients to create and trade assets on the X-Chain and other instances of the AVM.
+X链是Avalanche虚拟机\(AVM\)的一个实例。通过 [X链 API](../../build/avalanchego-apis/exchange-chain-x-chain-api.md)，客户能够在X链和其他AVM实例上创建并交易资产。
 
 {% page-ref page="../../build/tutorials/smart-digital-assets/create-a-fix-cap-asset.md" %}
 
@@ -88,5 +87,5 @@ The **C-Chain** allows for the creation smart contracts using the [C-Chain’s A
 The C-Chain is an instance of the Ethereum Virtual Machine powered by [Avalanche](../../).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzM3MTM3MCwxODMzOTMyNjE0XX0=
+eyJoaXN0b3J5IjpbLTk1NTUyNjQ4OSwxODMzOTMyNjE0XX0=
 -->

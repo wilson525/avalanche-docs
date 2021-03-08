@@ -314,7 +314,7 @@ curl -X POST --data '{
 
 如果网络尚未完成交易，您可能会看到 `status` 是`Processing` 
 
-一旦您看到交易 `Accepted`, check the balance of the `to` address to see that it has the AVAX we sent:
+一旦您看到交易 `Accepted`请检查 `to` 地址中的余额是否已收到我们发送的AVAX：
 
 ```cpp
 curl -X POST --data '{
@@ -328,7 +328,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response should be:
+响应应当是：
 
 ```cpp
 {
@@ -340,7 +340,7 @@ The response should be:
 }
 ```
 
-In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75` to see that AVAX we sent was deducted from its balance, as well as the transaction fee.
+同样地，我们可以检查 `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75` ，以查看我们发送的AVAX和交易费用是否已从其余额中扣除。
 
 {% page-ref page="tutorials/nodes-and-staking/add-a-validator.md" %}
 
@@ -355,5 +355,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjE4MjA5OCwtODQ2MTQ3NzkxXX0=
+eyJoaXN0b3J5IjpbLTM3MTMzNjUwLC04NDYxNDc3OTFdfQ==
 -->

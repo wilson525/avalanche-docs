@@ -117,9 +117,9 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-如果反馈`true`, the chain is bootstrapped. If you make an API call to a chain that is not done bootstrapping, it will return `API call rejected because chain is not done bootstrapping`. If your node never finishes bootstrapping, follow [this FAQ](http://support.avalabs.org/en/articles/4593908-is-my-node-done-bootstrapping), if you are still experiencing issues please contact us on [Discord.](https://chat.avalabs.org/)
+如果反馈`true`，则链完成引导。如果您向一个未完成引导的链进行API调用，则该链会反馈 `API call rejected because chain is not done bootstrapping`。如果您的节点并未完成引导，请遵循 [this FAQ](http://support.avalabs.org/en/articles/4593908-is-my-node-done-bootstrapping)，如果您还有问题，请通过 [Discord.](https://chat.avalabs.org/)联系我们。
 
-Your node is running and connected now. If you want to use your node as a validator on the main net, check out [this tutorial](tutorials/nodes-and-staking/add-a-validator.md#add-a-validator-with-avalanche-wallet) to find out how to add your node as a validator using the web wallet.
+当前您的节点正在运行且已连接。如果您想在主网上将您的节点用作验证程序，请查看 [this tutorial](tutorials/nodes-and-staking/add-a-validator.md#add-a-validator-with-avalanche-wallet) to find out how to add your node as a validator using the web wallet.
 
 You can use `Ctrl + C` to kill the node.
 
@@ -358,5 +358,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODI5NzE1NDZdfQ==
+eyJoaXN0b3J5IjpbMTEwMDk4ODg5OV19
 -->

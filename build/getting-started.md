@@ -20,17 +20,15 @@
 Avalanche是一项非常轻量级的协议，因此对计算机的最低要求不高。
 
 * 硬件：CPU > 2 GHz，内存> 4 GB，存储> 10 GB免费空间
-* OS: Ubuntu 18.04/20.04 or MacOS &gt;= Catalina
+* 操作系统：Ubuntu 18.04/20.04或MacOS >= Catalina
 
-## Run an Avalanche Node and Send Funds
+## 运行Avalanche节点和发送资金
+安装AvalancheGo（即Avalanche节点的GO安装启用），并连接到Avalanche公共测试网。
 
-Let’s install AvalancheGo, the Go implementation of an Avalanche node, and connect to the Avalanche Public Testnet.
+### 下载AvalancheGo
+该节点是一个二进制程序。您可以在下载源代码后构建二进制程序，也可以下载预构建的二进制程序。二者选其一即可。
 
-### Download AvalancheGo
-
-The node is a binary program. You can either download the source code and then build the binary program, or you can download the pre-built binary. You don’t need to do both.
-
-Downloading [pre-built binary](getting-started.md#binary) is easier and recommended if you're just looking to run your own node and stake on it.
+如果您只是想要运行您自己的节点并对其进行质押，则更推荐下载 [预构建的二进制程序](getting-started.md#binary) ，该方式更为简单。
 
 Building the node from source is recommended if you're a developer looking to experiment and build on Avalanche.
 
@@ -361,5 +359,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODU1MDcwMzRdfQ==
+eyJoaXN0b3J5IjpbLTc0MjkxMjAxM119
 -->

@@ -125,11 +125,11 @@ curl -X POST --data '{
 如果您想要实验并使用您的节点，请继续阅读。
 为了能够从其他计算机对您的节点进行API调用，在启动节点时，请包含参数 `--http-host=` \(例如 `./build/avalanchego --http-host=`\)
 
-如果要连接到富士测试网，而不是主网，请使用参数 `--network-id=fuji`. You can get funds on the Testnet from the [faucet.](https://faucet.avax-test.network/)
+如果要连接到富士测试网，而不是主网，请使用参数 `--network-id=fuji`。您可以通过 [faucet.](https://faucet.avax-test.network/)在测试网上获得资金。
 
-### Create a Keystore User
+### 创建密钥库用户
 
-Avalanche nodes provide a built-in **Keystore.** The Keystore manages users and is a lot like a [wallet](http://support.avalabs.org/en/articles/4587108-what-is-a-blockchain-wallet). A user is a password-protected identity that a client can use when interacting with blockchains. **You should only create a keystore user on a node that you operate, as the node operator has access to your plaintext password.** To create a user, call [`keystore.createUser`](avalanchego-apis/keystore-api.md#keystore-createuser):
+Avalanche节点提供了一个内置 **密钥库.** 。密钥库对用户进行管理，而且很像一个 [钱包](http://support.avalabs.org/en/articles/4587108-what-is-a-blockchain-wallet)。用户是一个受密码保护的身份，客户端与区块链交互时可以使用该身份。 **由于节点操作人员能够访问您的明文密码，因此您只能在您操作的节点上创建密钥库用户。** To create a user, call [`keystore.createUser`](avalanchego-apis/keystore-api.md#keystore-createuser):
 
 ```cpp
 curl -X POST --data '{
@@ -356,5 +356,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTgwMDk4MjhdfQ==
+eyJoaXN0b3J5IjpbLTE1MzU1ODc2MDZdfQ==
 -->

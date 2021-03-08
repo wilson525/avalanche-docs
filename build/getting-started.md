@@ -119,15 +119,13 @@ curl -X POST --data '{
 
 如果反馈`true`，则链完成引导。如果您向一个未完成引导的链进行API调用，则该链会反馈 `API call rejected because chain is not done bootstrapping`。如果您的节点并未完成引导，请遵循 [this FAQ](http://support.avalabs.org/en/articles/4593908-is-my-node-done-bootstrapping)，如果您还有问题，请通过 [Discord.](https://chat.avalabs.org/)联系我们。
 
-当前您的节点正在运行且已连接。如果您想在主网上将您的节点用作验证程序，请查看 [this tutorial](tutorials/nodes-and-staking/add-a-validator.md#add-a-validator-with-avalanche-wallet) to find out how to add your node as a validator using the web wallet.
+当前您的节点正在运行且已连接。如果您想在主网上将您的节点用作验证程序，请查看 [教程](tutorials/nodes-and-staking/add-a-validator.md#add-a-validator-with-avalanche-wallet) ，以了解如何使用web钱包将节点添加为验证程序。
+您可以按下 `Ctrl + C` 来终止该节点。
 
-You can use `Ctrl + C` to kill the node.
+如果您想要实验并使用您的节点，请继续阅读。
+为了能够从其他计算机对您的节点进行API调用，在启动节点时，请包含参数 `--http-host=` \(例如 `./build/avalanchego --http-host=`\)
 
-If you want to experiment and play with your node, read on.
-
-To be able to make API calls to your node from other machines, when starting up the node include argument `--http-host=` \(e.g. `./build/avalanchego --http-host=`\)
-
-To connect to the Fuji Testnet instead of the main net, use argument `--network-id=fuji`. You can get funds on the Testnet from the [faucet.](https://faucet.avax-test.network/)
+如果要连接到富士测试网，而不是主网，请使用参数 `--network-id=fuji`. You can get funds on the Testnet from the [faucet.](https://faucet.avax-test.network/)
 
 ### Create a Keystore User
 
@@ -358,5 +356,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDk4ODg5OV19
+eyJoaXN0b3J5IjpbLTE5OTgwMDk4MjhdfQ==
 -->

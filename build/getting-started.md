@@ -36,15 +36,15 @@ Avalanche是一项非常轻量级的协议，因此对计算机的最低要求�
 
 如果您想根据源代码构建节点，您需要先安装Go 1.15.5或更新版本。请遵循 [此处](https://golang.org/doc/install) 指示
 
-运行 `go version`. **版本应是1.15.5或更新版本** 运行 `echo $GOPATH`. **It should not be empty.**
+运行 `go版本`. **版本应是1.15.5或更新版本** 运行 `echo $GOPATH`. **不应空白。**
 
-Download the AvalancheGo repository:
+下载AvalancheGo存储库：
 
 ```cpp
 go get -v -d github.com/ava-labs/avalanchego/...
 ```
 
-Note to advanced users: AvalancheGo uses Go modules, so you can clone the [AvalancheGo repository](https://github.com/ava-labs/avalanchego) to locations other than your GOPATH.
+高级用户注意事项：AvalancheGo使用Go模块，因此您可以将 [AvalancheGo repository](https://github.com/ava-labs/avalanchego) to locations other than your GOPATH.
 
 Change to the `avalanchego` directory:
 
@@ -359,5 +359,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTk0NDA5Ml19
+eyJoaXN0b3J5IjpbLTYxNjcyNzk4MF19
 -->

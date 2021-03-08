@@ -285,9 +285,9 @@ curl -X POST --data '{
 }
 ```
 
-#### Checking the Transaction Status
+####  检查交易状态
 
-This transaction will only take a second or two to finalize. We can check its status with [`avm.getTxStatus`](avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus):
+该交易仅需一两秒即可完成。我们可以使用[`avm.getTxStatus`](avalanchego-apis/exchange-
 
 ```cpp
 curl -X POST --data '{
@@ -355,5 +355,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTM1OTAxNDksLTg0NjE0Nzc5MV19
+eyJoaXN0b3J5IjpbMTc3NDQ2MzkxMSwtODQ2MTQ3NzkxXX0=
 -->

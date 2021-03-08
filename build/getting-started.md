@@ -44,21 +44,21 @@ Avalanche是一项非常轻量级的协议，因此对计算机的最低要求�
 go get -v -d github.com/ava-labs/avalanchego/...
 ```
 
-高级用户注意事项：AvalancheGo使用Go模块，因此您可以将 [AvalancheGo repository](https://github.com/ava-labs/avalanchego) to locations other than your GOPATH.
+高级用户注意事项：AvalancheGo使用Go模块，因此您可以将 [AvalancheGo 存储库](https://github.com/ava-labs/avalanchego) 复制到GOPATH以外的其他位置。
 
-Change to the `avalanchego` directory:
+切换到 `avalanchego` 目录：
 
 ```cpp
 cd $GOPATH/src/github.com/ava-labs/avalanchego
 ```
 
-Build AvalancheGo:
+构建AvalancheGo：
 
 ```cpp
 ./scripts/build.sh
 ```
 
-The binary, named `avalanchego`, is in `avalanchego/build`.
+`avalanchego`二进制程序在`avalanchego/build`
 
 #### **Binary**
 
@@ -359,5 +359,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNjcyNzk4MF19
+eyJoaXN0b3J5IjpbMTc5ODEyNDg5M119
 -->

@@ -129,7 +129,7 @@ curl -X POST --data '{
 
 ### 创建密钥库用户
 
-Avalanche节点提供了一个内置 **密钥库.** 。密钥库对用户进行管理，而且很像一个 [钱包](http://support.avalabs.org/en/articles/4587108-what-is-a-blockchain-wallet)。用户是一个受密码保护的身份，客户端与区块链交互时可以使用该身份。 **由于节点操作人员能够访问您的明文密码，因此您只能在您操作的节点上创建密钥库用户。** To create a user, call [`keystore.createUser`](avalanchego-apis/keystore-api.md#keystore-createuser):
+Avalanche节点提供了一个内置 **密钥库.** 。密钥库对用户进行管理，而且很像一个 [钱包](http://support.avalabs.org/en/articles/4587108-what-is-a-blockchain-wallet)。用户是一个受密码保护的身份，客户端与区块链交互时可以使用该身份。 **由于节点操作人员能够访问您的明文密码，因此您只能在您操作的节点上创建密钥库用户。** 如果要创建用户，请调用 [`keystore.createUser`](avalanchego-apis/keystore-api.md#keystore-createuser):
 
 ```cpp
 curl -X POST --data '{
@@ -143,7 +143,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/keystore
 ```
 
-The response should be:
+响应应当是：
 
 ```cpp
 {
@@ -153,10 +153,10 @@ The response should be:
 }
 ```
 
-Now, you have a user on this node. Keystore data exists at the node level. Users you create on one node’s Keystore do not exist on other nodes but you can import/export users to/from the Keystore. See the [Keystore API](avalanchego-apis/keystore-api.md) to see how.
+目前，该节点上您有一个用户账号。节点层面上存在密钥库数据。您在一个节点上密钥库里创建的用户在其他节点上不存在，但是您可以将用户导入/导出到密钥库。如需了解如何使用，请查阅 [密钥库 API](avalanchego-apis/keystore-api.md)。
 
 {% hint style="danger" %}
-**You should only keep a small amount of your funds on your node.** Most of your funds should be secured by a mnemonic that is not saved to any computer.
+**您应在您的节点上只保留少量资金。**您的大部分资金应由一个不会保存到任何计算机的助记符号进行保护。** Most of your funds should be secured by a mnemonic that is not saved to any computer.
 {% endhint %}
 
 ### Create an Address
@@ -356,5 +356,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU1ODc2MDZdfQ==
+eyJoaXN0b3J5IjpbLTExNjA4NjI5MDFdfQ==
 -->

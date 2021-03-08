@@ -209,7 +209,7 @@ _**注意事项：转移实际资金的指南如下。**_
 
 ![web wallet send tab](../.gitbook/assets/web-wallet-send-tab%20%284%29%20%284%29%20%285%29%20%285%29%20%286%29%20%287%29%20%283%29.png)
 
-通过调用 `avm.getBalance`另一种X链API方法，我们可以检查地址的给定资产余额。检查一下转账是否成功：
+通过调用 `avm.getBalance`，另一种X链API方法，我们可以检查地址的给定资产余额。检查一下转账是否成功：
 
 ```cpp
 curl -X POST --data '{
@@ -223,9 +223,8 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-Note that AVAX has the special ID `AVAX`. Usually an asset ID is an alphanumeric string.
-
-The response should indicate that we have `2,000,000 nAVAX` or `0.002 AVAX`.
+请注意，AVAX有一个特殊ID `AVAX`。通常来说，一个资产ID是一个字母数字串。
+响应应标明我们拥有`2,000,000 nAVAX` 或 `0.002 AVAX`.
 
 ```cpp
 {
@@ -243,9 +242,9 @@ The response should indicate that we have `2,000,000 nAVAX` or `0.002 AVAX`.
 }
 ```
 
-### Send AVAX
+### 发送AVAX
 
-Now, let’s send some AVAX by making an API call to our node:
+现在，让我们向我们的节点进行一次API调用，然后发送一些AVAX吧。
 
 ```cpp
 curl -X POST --data '{
@@ -263,7 +262,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-`amount` specifies the number of nAVAX to send.
+`amount` 规定了需要发送的nAVAX数量。
 
 If you want to specify a particular address where change should go, you can specify it in `changeAddr`. You can leave this field empty; if you do, any change will go to one of the addresses your user controls.
 
@@ -356,5 +355,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTM5MTQ5OCwtODQ2MTQ3NzkxXX0=
+eyJoaXN0b3J5IjpbOTA3MTg4MTg5LC04NDYxNDc3OTFdfQ==
 -->

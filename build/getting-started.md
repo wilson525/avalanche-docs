@@ -156,10 +156,10 @@ curl -X POST --data '{
 目前，该节点上您有一个用户账号。节点层面上存在密钥库数据。您在一个节点上密钥库里创建的用户在其他节点上不存在，但是您可以将用户导入/导出到密钥库。如需了解如何使用，请查阅 [密钥库 API](avalanchego-apis/keystore-api.md)。
 
 {% hint style="danger" %}
-**您应在您的节点上只保留少量资金。**您的大部分资金应由一个不会保存到任何计算机的助记符号进行保护。** Most of your funds should be secured by a mnemonic that is not saved to any computer.
+**您应在您的节点上只保留少量资金。** 您的大部分资金应由一个不会保存到任何计算机的助记符号进行保护。
 {% endhint %}
 
-### Create an Address
+### 创建地址
 
 Avalanche is a platform of heterogeneous blockchains, one of which is the [X-Chain](../learn/platform-overview/#exchange-chain-x-chain), which acts as a decentralized platform for creating and trading digital assets. We are now going to create an address to hold AVAX on our node.
 
@@ -356,5 +356,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjA4NjI5MDFdfQ==
+eyJoaXN0b3J5IjpbNTE4MTY5NzEwXX0=
 -->

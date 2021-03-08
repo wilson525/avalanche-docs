@@ -179,9 +179,9 @@ curl -X POST --data '{
 
 如果您的节点未完成引导，则此次调用会返回`503` 状态，并附信息 `API call rejected because chain is not done bootstrapping`。
 
-请注意，我们向`127.0.0.1:9650/ext/bc/X`发出此请求。`bc/X` portion signifies that the request is being sent to the blockchain whose ID \(or alias\) is `X` \(i.e., the X-Chain\).
+请注意，我们向`127.0.0.1:9650/ext/bc/X`发出此请求。`bc/X` 部分表明了请求正在发送至ID \(或别名\)为`X` \(例如X链\).
 
-The response should look like this:
+响应应如下：
 
 ```cpp
 {
@@ -193,7 +193,7 @@ The response should look like this:
 }
 ```
 
-Your user now controls the address `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75` on the X-Chain. To tell apart addresses on different chains, the Avalanche convention is for an address to include the ID or alias of the chain it exists on. Hence, this address begins `X-`, denoting that it exists on the X-Chain.
+目前您的用户可以控制 `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75` on the X-Chain. To tell apart addresses on different chains, the Avalanche convention is for an address to include the ID or alias of the chain it exists on. Hence, this address begins `X-`, denoting that it exists on the X-Chain.
 
 ### Send Funds From Avalanche Wallet to Your Node
 
@@ -356,5 +356,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3MjQ2NjM0XX0=
+eyJoaXN0b3J5IjpbLTg0NjE0Nzc5MV19
 -->

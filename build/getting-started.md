@@ -1,12 +1,12 @@
-# Getting Started: Run an Avalanche Node
+# 准备开始：运行Avalanche节点
 
-The quickest way to learn about Avalanche is to run a node and interact with the network.
+想要了解Avalanche，最快的方式是运行一个节点并进行网络互动。
 
 {% embed url="https://youtu.be/c\_SjtCiOFdg" %}
 
-In this tutorial \(est. time: 10 minutes\), we will:
+本教程中\(预计时间：10 分钟\)，我们将：
 
-* Install and run an Avalanche node
+* 安装并运行一个Avalanche节点
 * Connect to Avalanche
 * Send AVAX
 * Add your node to the validator set
@@ -360,3 +360,6 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 
 {% page-ref page="references/" %}
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEzMzg5MzE4MjddfQ==
+-->

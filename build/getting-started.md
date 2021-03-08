@@ -287,7 +287,7 @@ curl -X POST --data '{
 
 ####  检查交易状态
 
-该交易仅需一两秒即可完成。我们可以使用[`avm.getTxStatus`](avalanchego-apis/exchange-
+该交易仅需一两秒即可完成。我们可以使用[`avm.getTxStatus`](avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus)来检查其状态：
 
 ```cpp
 curl -X POST --data '{
@@ -300,7 +300,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/bc/X
 ```
 
-The response should indicate that the transaction was accepted:
+响应应表明该交易已接受：
 
 ```cpp
 {
@@ -312,7 +312,7 @@ The response should indicate that the transaction was accepted:
 }
 ```
 
-You might also see that `status` is `Processing` if the network has not yet finalized the transaction.
+You might also see that `status` 如果网络尚未完成交易，您可能会看到状态是 `Processing` if the network has not yet finalized the transaction.
 
 Once you see that the transaction is `Accepted`, check the balance of the `to` address to see that it has the AVAX we sent:
 
@@ -355,5 +355,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDQ2MzkxMSwtODQ2MTQ3NzkxXX0=
+eyJoaXN0b3J5IjpbLTE4NjQwOTUyNzMsLTg0NjE0Nzc5MV19
 -->

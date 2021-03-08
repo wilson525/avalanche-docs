@@ -312,9 +312,9 @@ curl -X POST --data '{
 }
 ```
 
-You might also see that `status` 如果网络尚未完成交易，您可能会看到状态是 `Processing` if the network has not yet finalized the transaction.
+如果网络尚未完成交易，您可能会看到 `status` 是`Processing` 
 
-Once you see that the transaction is `Accepted`, check the balance of the `to` address to see that it has the AVAX we sent:
+一旦您看到交易 `Accepted`, check the balance of the `to` address to see that it has the AVAX we sent:
 
 ```cpp
 curl -X POST --data '{
@@ -355,5 +355,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQwOTUyNzMsLTg0NjE0Nzc5MV19
+eyJoaXN0b3J5IjpbMjAyNjE4MjA5OCwtODQ2MTQ3NzkxXX0=
 -->

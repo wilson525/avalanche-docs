@@ -78,31 +78,30 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 
 如果是树莓派4或类似Arm64系统电脑的Linux系统：
 下载： `avalanchego-linux-arm64-<VERSION>.tar.gz`  
-Unzip: `tar -xvf avalanchego-linux-arm64-<VERSION>.tar.gz`  
-The resulting folder, `avalanchego-<VERSION>-linux`, contains the binaries.
+解压： `tar -xvf avalanchego-linux-arm64-<VERSION>.tar.gz`  
+生成的文件夹 `avalanchego-<VERSION>-linux`包含二进制程序。
 
-### Start a Node, and Connect to Avalanche
+### 启动一个节点，并连接到Avalanche
 
-If you built from source:
+如果您根据源代码进行构建：
 
 ```cpp
 ./build/avalanchego
 ```
 
-If you are using the pre-built binaries on MacOS:
+如果您在Mac操作系统上使用预构建的二进制程序：
 
 ```cpp
 ./avalanchego-<VERSION>/build/avalanchego
 ```
 
-If you are using the pre-built binaries on Linux:
+如果您在Linux系统上使用预构建的二进制程序：
 
 ```cpp
 ./avalanchego-<VERSION>-linux/avalanchego
 ```
 
-When the node starts, it has to bootstrap \(catch up with the rest of the network\). You will see logs about bootstrapping. When a given chain is done bootstrapping, it will print a log like this:
-
+节点启动时，它必须进行引导\(与网络的其他部分保持同步\)。您会看到有关引导的日志。当一个给定链完成了引导，则会打印出如下一份日志：
 `INFO [06-07|19:54:06] <X Chain> /snow/engine/avalanche/transitive.go#80: bootstrapping finished with 1 vertices in the accepted frontier`
 
 To check if a given chain is done bootstrapping, in another terminal window call [`info.isBootstrapped`](avalanchego-apis/info-api.md#info-isbootstrapped) by copying and pasting the following command:
@@ -359,5 +358,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1NjE2ODIyXX0=
+eyJoaXN0b3J5IjpbLTQxMTA4MzU4M119
 -->

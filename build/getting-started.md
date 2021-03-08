@@ -36,7 +36,7 @@ Avalanche是一项非常轻量级的协议，因此对计算机的最低要求�
 
 如果您想根据源代码构建节点，您需要先安装Go 1.15.5或更新版本。请遵循 [此处](https://golang.org/doc/install) 指示
 
-运行 `go `. **版本应是1.15.5或更新版本** 运行 `echo $GOPATH`. **不应空白。**
+运行 `go version`. **版本应是1.15.5或更新版本** 运行 `echo $GOPATH`. **不应空白。**
 
 下载AvalancheGo存储库：
 
@@ -117,7 +117,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-If this returns `true`, the chain is bootstrapped. If you make an API call to a chain that is not done bootstrapping, it will return `API call rejected because chain is not done bootstrapping`. If your node never finishes bootstrapping, follow [this FAQ](http://support.avalabs.org/en/articles/4593908-is-my-node-done-bootstrapping), if you are still experiencing issues please contact us on [Discord.](https://chat.avalabs.org/)
+如果反馈`true`, the chain is bootstrapped. If you make an API call to a chain that is not done bootstrapping, it will return `API call rejected because chain is not done bootstrapping`. If your node never finishes bootstrapping, follow [this FAQ](http://support.avalabs.org/en/articles/4593908-is-my-node-done-bootstrapping), if you are still experiencing issues please contact us on [Discord.](https://chat.avalabs.org/)
 
 Your node is running and connected now. If you want to use your node as a validator on the main net, check out [this tutorial](tutorials/nodes-and-staking/add-a-validator.md#add-a-validator-with-avalanche-wallet) to find out how to add your node as a validator using the web wallet.
 
@@ -358,5 +358,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDc5MDkxNV19
+eyJoaXN0b3J5IjpbLTEwODI5NzE1NDZdfQ==
 -->

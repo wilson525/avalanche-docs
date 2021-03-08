@@ -205,11 +205,11 @@ _**注意事项：转移实际资金的指南如下。**_
 
 访问 [Avalanche Wallet](https://wallet.avax.network). 。点击 `Access Wallet`，再点击 `Mnemonic Key Phrase` 输入您的助记词。
 
-Click the `Send` tab on the left. For amount, select, `.002` AVAX. Enter the address of your node, then click `Confirm`.
+点击左侧的 `Send` 键。金额选择 `.002` AVAX。输入您的节点地址，然后点击 `Confirm`.
 
 ![web wallet send tab](../.gitbook/assets/web-wallet-send-tab%20%284%29%20%284%29%20%285%29%20%285%29%20%286%29%20%287%29%20%283%29.png)
 
-We can check an address’s balance of a given asset by calling `avm.getBalance`, another method of the X-Chain’s API. Let’s check that the transfer went through:
+通过调用 `avm.getBalance`另一种X链API方法，我们可以检查地址的给定资产余额。检查一下转账是否成功：
 
 ```cpp
 curl -X POST --data '{
@@ -356,5 +356,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDg0MzA3MTMsLTg0NjE0Nzc5MV19
+eyJoaXN0b3J5IjpbLTUwNTM5MTQ5OCwtODQ2MTQ3NzkxXX0=
 -->

@@ -13,13 +13,13 @@
 
 如果您的问题在FAQ中未能解决，请在[Avalanche Discord](https://chat.avax.network)中寻求帮助！我们会帮助您解决任何困难。
 
-本教程主要面向开发人员和对Avalanche平台如何运行感兴趣的人士。如果您只是对设置质押节点感兴趣，您可以查询 [Set Up Avalanche Node With Installer](tutorials/nodes-and-staking/set-up-node-with-installer.md) tutorial instead. Installer automates the installation process and sets it up as a system service, which is recommended for unattended operation. You may also try things out by following this tutorial first, and then later set up the node using the installer as a permanent solution.
+本教程主要面向开发人员和对Avalanche平台如何运行感兴趣的人士。如果您只是对设置质押节点感兴趣，您可以查询 [通过安装程序设置Avalanche节点](tutorials/nodes-and-staking/set-up-node-with-installer.md) 教程。安装程序自动化安装过程并将其设置为一项系统服务，该安装方式推荐用于无人值守操作。您也可以先根据本教程进行尝试，然后永久使用安装程序来设置节点。
 
-## Requirements
+## 要求
 
-Avalanche is an incredibly lightweight protocol, so the minimum computer requirements are quite modest.
+Avalanche是一项非常轻量级的协议，因此对计算机的最低要求不高。
 
-* Hardware: CPU &gt; 2 GHz, RAM &gt; 4 GB, Storage &gt; 10 GB free space
+* 硬件：CPU > 2 GHz，内存> 4 GB，存储> 10 GB免费空间
 * OS: Ubuntu 18.04/20.04 or MacOS &gt;= Catalina
 
 ## Run an Avalanche Node and Send Funds
@@ -361,5 +361,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjY2MjMyM119
+eyJoaXN0b3J5IjpbLTEwODU1MDcwMzRdfQ==
 -->

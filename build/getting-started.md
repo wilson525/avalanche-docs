@@ -67,17 +67,17 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 `资产`项下，请选择适当的文件。
 
 如果是Mac操作系统：
-Download: `avalanchego-macos-<VERSION>.zip`  
-Unzip: `unzip avalanchego-macos-<VERSION>.zip`  
-The resulting folder, `avalanchego-<VERSION>`, contains the binaries.
+下载： `avalanchego-macos-<VERSION>.zip`  
+解压： `unzip avalanchego-macos-<VERSION>.zip`  
+生成的文件夹 `avalanchego-<VERSION>`包含二进制程序。
 
-For Linux on PCs or cloud providers:  
-Download: `avalanchego-linux-amd64-<VERSION>.tar.gz`  
-Unzip: `tar -xvf avalanchego-linux-amd64-<VERSION>.tar.gz`  
-The resulting folder, `avalanchego-<VERSION>-linux`, contains the binaries.
+如果是个人电脑或云供应商的Linux系统：
+下载： `avalanchego-linux-amd64-<VERSION>.tar.gz`  
+解压： `tar -xvf avalanchego-linux-amd64-<VERSION>.tar.gz`  
+生成的文件夹 `avalanchego-<VERSION>-linux`包含二进制程序。
 
-For Linux on RaspberryPi4 or similar Arm64-based computers:  
-Download: `avalanchego-linux-arm64-<VERSION>.tar.gz`  
+如果是树莓派4或类似Arm64系统电脑的Linux系统：
+下载： `avalanchego-linux-arm64-<VERSION>.tar.gz`  
 Unzip: `tar -xvf avalanchego-linux-arm64-<VERSION>.tar.gz`  
 The resulting folder, `avalanchego-<VERSION>-linux`, contains the binaries.
 
@@ -359,5 +359,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTE2NjcxNDRdfQ==
+eyJoaXN0b3J5IjpbNDU1NjE2ODIyXX0=
 -->

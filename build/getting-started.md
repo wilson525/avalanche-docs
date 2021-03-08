@@ -193,9 +193,9 @@ curl -X POST --data '{
 }
 ```
 
-目前您的用户可以控制 `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75` on the X-Chain. To tell apart addresses on different chains, the Avalanche convention is for an address to include the ID or alias of the chain it exists on. Hence, this address begins `X-`, denoting that it exists on the X-Chain.
+目前您的用户可以控制X链上的地址 `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75` 。为了区分不同链上的地址，Avalanche约定是用于包含其所在链的ID或别名的一个地址。因此，地址的开头是 `X-`，说明其存在于X链上。
 
-### Send Funds From Avalanche Wallet to Your Node
+### 从Avalanche钱包向您的节点发送资金
 
 {% hint style="warning" %}
 _**Note: the instructions below move real funds.**_
@@ -356,5 +356,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjE0Nzc5MV19
+eyJoaXN0b3J5IjpbLTM0MjEwMDU1MywtODQ2MTQ3NzkxXX0=
 -->

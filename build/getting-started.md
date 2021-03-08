@@ -58,15 +58,15 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 ./scripts/build.sh
 ```
 
-`avalanchego`二进制程序在`avalanchego/build`
+`avalanchego`二进制程序在`avalanchego/build`目录下。
 
-#### **Binary**
+#### **二进制**
 
-If you want to download a pre-built binary instead of building it yourself, go to our [releases page](https://github.com/ava-labs/avalanchego/releases), and select the release you want \(probably the latest one.\)
+如果您想要下载一个预构建的二进制程序，而不是自己构建，请访问我们的 [版本页面](https://github.com/ava-labs/avalanchego/releases)，并选择您需要的版本\(可能是最新版本\)
 
-Under `Assets`, select the appropriate file.
+`资产`项下，请选择适当的文件。
 
-For MacOS:  
+如果是Mac操作系统：
 Download: `avalanchego-macos-<VERSION>.zip`  
 Unzip: `unzip avalanchego-macos-<VERSION>.zip`  
 The resulting folder, `avalanchego-<VERSION>`, contains the binaries.
@@ -359,5 +359,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODEyNDg5M119
+eyJoaXN0b3J5IjpbLTIwMTE2NjcxNDRdfQ==
 -->

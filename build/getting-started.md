@@ -30,13 +30,13 @@ Avalanche是一项非常轻量级的协议，因此对计算机的最低要求�
 
 如果您只是想要运行您自己的节点并对其进行质押，则更推荐下载 [预构建的二进制程序](getting-started.md#binary) ，该方式更为简单。
 
-Building the node from source is recommended if you're a developer looking to experiment and build on Avalanche.
+如果您是一名想在在Avalanche上进行实验和构建的开发人员，则推荐根据源代码构建节点。
 
-#### **Source Code**
+#### **源代码**
 
-If you want to build the node from source, you're first going to need to install Go 1.15.5 or later. Follow the instructions [here](https://golang.org/doc/install).
+如果您想根据源代码构建节点，您需要先安装Go 1.15.5或更新版本。请遵循 [此处](https://golang.org/doc/install) 指示
 
-Run `go version`. **It should be 1.15.5 or above.** Run `echo $GOPATH`. **It should not be empty.**
+运行 `go version`. **版本应是1.15.5或更新版本** 运行 `echo $GOPATH`. **It should not be empty.**
 
 Download the AvalancheGo repository:
 
@@ -359,5 +359,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjkxMjAxM119
+eyJoaXN0b3J5IjpbLTYxMTk0NDA5Ml19
 -->

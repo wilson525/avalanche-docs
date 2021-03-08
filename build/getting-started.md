@@ -36,7 +36,7 @@ Avalanche是一项非常轻量级的协议，因此对计算机的最低要求�
 
 如果您想根据源代码构建节点，您需要先安装Go 1.15.5或更新版本。请遵循 [此处](https://golang.org/doc/install) 指示
 
-运行 `go版本`. **版本应是1.15.5或更新版本** 运行 `echo $GOPATH`. **不应空白。**
+运行 `go `. **版本应是1.15.5或更新版本** 运行 `echo $GOPATH`. **不应空白。**
 
 下载AvalancheGo存储库：
 
@@ -104,7 +104,7 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 节点启动时，它必须进行引导\(与网络的其他部分保持同步\)。您会看到有关引导的日志。当一个给定链完成了引导，则会打印出如下一份日志：
 `INFO [06-07|19:54:06] <X Chain> /snow/engine/avalanche/transitive.go#80: bootstrapping finished with 1 vertices in the accepted frontier`
 
-To check if a given chain is done bootstrapping, in another terminal window call [`info.isBootstrapped`](avalanchego-apis/info-api.md#info-isbootstrapped) by copying and pasting the following command:
+如果一个给定链完成了引导，则通过复制粘贴以下命令签入另一个终端窗口调用 [`info.isBootstrapped`](avalanchego-apis/info-api.md#info-isbootstrapped)
 
 ```cpp
 curl -X POST --data '{
@@ -358,5 +358,5 @@ In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf
 {% page-ref page="references/" %}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTA4MzU4M119
+eyJoaXN0b3J5IjpbMTU0MDc5MDkxNV19
 -->

@@ -43,7 +43,7 @@ sudo useradd -M -r -s /bin/false prometheus
 sudo mkdir /etc/prometheus /var/lib/prometheus
 ```
 
-下一步，从 [downloads page](https://prometheus.io/download/) \(make sure you select the appropriate processor architecture\), and use wget to download it and tar to unpack the archive:
+下一步，从 [下载页面](https://prometheus.io/download/)获取Prometheus最新版本的链接 \(请确保您选择了合适的处理器架构\)，并使用wget下载并使用tar对存档进行解压缩：
 
 ```cpp
 mkdir -p /tmp/prometheus && cd /tmp/prometheus
@@ -61,7 +61,7 @@ tar xvf prometheus-2.21.0.linux-amd64.tar.gz
 cd prometheus-2.21.0.linux-amd64
 ```
 
-Next, we need to move the binaries, set ownership, and move config files to appropriate locations:
+下一步，我们需要移动二进制文件，设置所有权，并将配置文件移动到适当位置：
 
 ```cpp
 sudo cp {prometheus,promtool} /usr/local/bin/
@@ -87,9 +87,9 @@ sudo cp -r {consoles,console_libraries} /etc/prometheus/
 sudo cp prometheus.yml /etc/prometheus/
 ```
 
-`/etc/prometheus` is used for configuration, and `/var/lib/prometheus` for data.
+`/etc/prometheus`是用于配置，而`/var/lib/prometheus` 是用于数据。
 
-Let’s set up Prometheus to run as a system service. Do**:**
+请对Prometheus进行设置，以将之作为系统服务运行。执行**:**
 
 ```cpp
 sudo nano /etc/systemd/system/prometheus.service
@@ -369,5 +369,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTU4MTI4OF19
+eyJoaXN0b3J5IjpbLTMyNDA4MTU2M119
 -->

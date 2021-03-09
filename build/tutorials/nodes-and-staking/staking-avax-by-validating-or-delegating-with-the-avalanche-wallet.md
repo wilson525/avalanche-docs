@@ -4,22 +4,21 @@
 
 Avalanche钱包是一个网络应用程序，无中介软件或任何类型的服务器通信。Avalanche钱包是采用Vue JS编写的，既可以线上访问，也可以本地编译和运行。
 
-Avalanche钱包可以从 [here](https://wallet.avax.network/)访问。
-Avalanche钱包源代码可以从[here](https://github.com/ava-labs/avalanche-wallet)找到。
+Avalanche钱包可以从 [这里](https://wallet.avax.network/)访问。
+Avalanche钱包源代码可以从[这里](https://github.com/ava-labs/avalanche-wallet)找到。
 
-**Let’s get staking!**
+**来质押吧！**
 
-### **Step 1 — Open the Avalanche Wallet** <a id="552d"></a>
+### **第1步——打开Avalanche钱包** <a id="552d"></a>
 
 ![Image for post](https://miro.medium.com/max/1552/0*tpBIOjLdppuNKMjA)
 
-You can access your wallet using your key phrase, keystore file, or Ledger Nano S \(coming soon!\)
-
-### **Step 2 — Navigate to “Earn” section** <a id="dc5a"></a>
+您可以使用您的关键字、密钥库文件或Ledger Nano S\(即将推出!\)来访问您的钱包。
+### **第2步——导航到“赚钱”章节** <a id="dc5a"></a>
 
 ![Image for post](https://miro.medium.com/max/1504/0*XTh3nZzBI1bkLbwO)
 
-**To stake, you need to have your funds available on the** [**Platform Chain \(P-Chain\)**](../../../learn/platform-overview/#platform-chain-p-chain)**! If your funds are on the** [**Exchange Chain \(X-Chain\)**](../../../learn/platform-overview/#exchange-chain-x-chain)**, we will need to transfer them to the P-Chain by initiating a cross-chain transfer. If your tokens are locked they are already on the P-Chain, so you don’t need to perform the Cross Chain Transfer from X-Chain to P-Chain.**
+**如需质押，您需要在** [**Platform Chain \(P-Chain\)**](../../../learn/platform-overview/#platform-chain-p-chain)**! If your funds are on the** [**Exchange Chain \(X-Chain\)**](../../../learn/platform-overview/#exchange-chain-x-chain)**, we will need to transfer them to the P-Chain by initiating a cross-chain transfer. If your tokens are locked they are already on the P-Chain, so you don’t need to perform the Cross Chain Transfer from X-Chain to P-Chain.**
 
 ![Image for post](https://miro.medium.com/max/1522/0*xKAf0nXSzqIdmBDg)
 
@@ -88,5 +87,5 @@ Confirm the details!
 Congratulations. You are now delegating the Avalanche Primary Network!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM2MzY5MjRdfQ==
+eyJoaXN0b3J5IjpbLTE5NzA1MDE1NDBdfQ==
 -->

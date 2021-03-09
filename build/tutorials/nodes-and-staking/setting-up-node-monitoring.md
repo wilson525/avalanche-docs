@@ -6,12 +6,14 @@ _感谢社区成员Jovica Popović编写了此教程。如有需要，您可以�
 
 本教程的前提是您在节点上运行了Ubuntu 18.04或20.04\( 本教程的Mac OS X版本即将发布\)。
 
-本教程会展示如何设置基础设施以监测 [AvalancheGo](https://github.com/ava-labs/avalanchego). We will use:
+本教程会展示如何设置基础设施以监测 [AvalancheGo](https://github.com/ava-labs/avalanchego)的实例。
 
-* [Prometheus](https://prometheus.io/) to gather and store data
-* [node\_exporter](https://github.com/prometheus/node_exporter) to get information about the machine,
-* AvalancheGo’s [metrics API](https://docs.avax.network/v1.0/en/api/metrics/) to get information about the node
-* [Grafana](https://grafana.com/) to visualize data on a dashboard.
+我们将使用：
+
+* [Prometheus](https://prometheus.io/) 收集和储存数据
+* [node\_exporter](https://github.com/prometheus/node_exporter) 获取计算机相关信息，
+* AvalancheGo’s [指标API](https://docs.avax.network/v1.0/en/api/metrics/) 获取节点相关信息
+* [Grafana](https://grafana.com/) 可视化仪表板上的数据。
 
 Prerequisites:
 
@@ -367,5 +369,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzE2MDI4MjVdfQ==
+eyJoaXN0b3J5IjpbLTIwOTUyMzY5ODFdfQ==
 -->

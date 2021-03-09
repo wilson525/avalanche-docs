@@ -227,19 +227,18 @@ grafana应显示 `active`。Grafana当前应在 `http://your-node-host-ip:3000/`
 * 选择Prometheus。
 * 在表格中输入姓名 \(Prometheus 会进行\)，将`http://localhost:9090` 作为URL。
 * 点击`Save & Test`
-* 查看“Data source is working” green message.
+* 查看“Data source is working” 的绿色信息。
 
-## Set up node\_exporter
+## 设置节点\_输出点
 
-In addition to metrics from AvalancheGo, let’s set up up monitoring of the machine itself, so we can check CPU, memory, network and disk usage and be aware of any anomalies. For that, we will use node\_exporter, a Prometheus plugin.
+除了AvalancheGo的指标以外，让我们再设置计算机本身的监测，因此我们可以检查CPU、内存、网络和磁盘使用情况，并了解任何异常情况。为此，我们会使用节点\_输出点，即Prometheus插件。
 
-Get the latest version with:
-
+获取最新版本：
 ```text
 curl -s https://api.github.com/repos/prometheus/node_exporter/releases/latest | grep browser_download_url | grep linux-amd64 |  cut -d '"' -f 4 | wget -qi -
 ```
 
-change `linux-amd64` if you have a different architecture \(RaspberryPi is `linux-arm64`, for example\). Untar and move the executable:
+如果您有不同的架构（例如，RaspberryPi是`linux-arm64`），请更改`linux-amd64` if you have a different architecture \(RaspberryPi is `linux-arm64`, for example\). Untar and move the executable:
 
 ```cpp
 tar xvf node_exporter-1.0.1.linux-amd64.tar.gz
@@ -368,5 +367,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQzNDk0NTNdfQ==
+eyJoaXN0b3J5IjpbLTIwMjEwMTAzNDVdfQ==
 -->

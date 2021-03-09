@@ -276,7 +276,7 @@ platform.addSubnetValidator(
 
 这些参数是支付交易费用的用户的用户名与密码。该用户持有足量子网的控制密钥，进而将验证程序添加到此子网中。
 
-我们使用外壳命令 `date` 来计算Unix次数，将来，10分钟和30天会分别被用作 `startTime` 和`endTime`的值。\(注意事项：如果您使用的是Mac，请用`$(date` 来替换 `$(gdate`如果您并未安装`gdate` installed, do `brew install coreutils`.\)
+我们使用外壳命令 `date` 来计算Unix次数，将来，10分钟和30天会分别被用作 `startTime` 和`endTime`的值。\(注意事项：如果您使用的是Mac，请用`$(date` 来替换 `$(gdate`如果您并未安装`gdate` ，请执行 `brew install coreutils`.\)
 
 ```cpp
 curl -X POST --data '{
@@ -296,7 +296,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-The response has the transaction ID, as well as the address the change went to.
+响应包含交易ID和收到更改的地址。
 
 ```cpp
 {
@@ -309,7 +309,7 @@ The response has the transaction ID, as well as the address the change went to.
 }
 ```
 
-We can check the transaction’s status by calling [`platform.getTxStatus`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-gettxstatus):
+我们可以通过调用[`platform.getTxStatus`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-gettxstatus)来查看交易状态:
 
 ```cpp
 curl -X POST --data '{
@@ -365,5 +365,6 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDcyNDgyMSwtMTk5OTM0MTc3Nl19
+eyJoaXN0b3J5IjpbLTExNjc3NjQ0NjUsLTE5OTkzNDE3NzZdfQ
+==
 -->

@@ -10,17 +10,17 @@ Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目�
 
 你需要一个正在运行的节点、该节点上的用户，以及由该用户控制的地址中的一些AVAX。全部教程可参见 [Run an Avalanche Node](../../getting-started.md) 
 
-接下来，您需要让您的节点成为 [主网](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network)上的验证程序。教程参见 [添加验证程序](../nodes-and-staking/add-a-validator.md) tutorial. It is recommended you do that [with API calls](../nodes-and-staking/add-a-validator.md#add-a-validator-with-api-calls), since that is the way you will be interacting with your node in the rest of this tutorial.
+接下来，您需要让您的节点成为 [主网](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network)上的验证程序。教程参见 [添加验证程序](../nodes-and-staking/add-a-validator.md) 。建议通过[API调用](../nodes-and-staking/add-a-validator.md#add-a-validator-with-api-calls)进行此操作，因为在本教程的其余部分中，您将以这种方式与节点进行交互。
 
-## Create the Subnet
+## 创建子网
 
-Every blockchain is validated by a [subnet](../../../learn/platform-overview/#subnets). Before you can create a blockchain, you’ll need a subnet to validate it. You can also use a subnet that already exists if you have a sufficient number of its control keys.
+每个区块链都仅通过一个[子网](../../../learn/platform-overview/#subnets)进行验证。创建区块链之前，您需要一个子网来对它进行验证。如果有足够的控制密钥，也可以使用既有的子网。
 
 {% page-ref page="create-a-subnet.md" %}
 
-### Add Validators to the Subnet
+### 向子网添加验证程序
 
-The subnet needs validators in it to, well, validate blockchains.
+子网需要验证程序来验证区块链。
 
 Make sure the subnet that will validate your blockchain has at least `snow-sample-size` validators in it. \(Recall that `snow-sample-size` is one of the [command-line arguments](../../references/command-line-interface.md) when starting a node. Its default value is 20.\)
 
@@ -283,5 +283,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTYxMjMzNl19
+eyJoaXN0b3J5IjpbMTAxOTk5MjQ4Nl19
 -->

@@ -341,30 +341,30 @@ sudo nano /etc/prometheus/prometheus.yml
           alias: 'machine'
 ```
 
-**缩进很重要**。请确保 `-job_name` 与现有 `-job_name entry`对齐，其他行也适当缩进。基于您的节点配置方式，请确保您使用了正确的主机IP，或`localhost`, depending on how your node is configured.
+**缩进很重要**。请确保 `-job_name` 与现有 `-job_name entry`对齐，其他行也适当缩进。基于您的节点配置方式，请确保您使用了正确的主机IP，或`localhost`
 
-Save the config file and restart Prometheus:
+保存配置文件并重启Prometheus：
 
 ```cpp
 sudo systemctl restart prometheus
 ```
 
-Check Prometheus web interface on `http://your-node-host-ip:9090/targets`. You should see three targets enabled:
+在 `http://your-node-host-ip:9090/targets`上检查Prometheus网络界面。您应该看到启用了三个目标：
 
 * Prometheus
 * avalanchego
 * avalanchego-machine
 
-Open Grafana; you can now create a dashboard using any of those sources. You can also use [the preconfigured dashboards](https://github.com/ava-labs/node-monitoring/tree/master/dashboards).
+打开Grafana；您现在可以使用任意上述来源创建仪表盘。您还可以使用[预配置仪表盘](https://github.com/ava-labs/node-monitoring/tree/master/dashboards).
 
-To import the preconfigured dashboard:
+如需导入预配置仪表盘：
 
-* Open Grafana’s web interface
-* Click `+` on the left toolbar
+* 打开Grafana的网络界面
+* 点击左侧工具栏上的 `+` 
 * Select `Import JSON` and then upload the JSON file
 
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODM2MzQ1MSwtNjIzOTExMjk5XX0=
+eyJoaXN0b3J5IjpbMTYzOTE5OTk5MCwtNjIzOTExMjk5XX0=
 -->

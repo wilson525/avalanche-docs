@@ -4,13 +4,13 @@
 
 Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目前支持创建[Avalanche 虚拟机 \(AVM\)](../../avalanchego-apis/exchange-chain-x-chain-api.md) 和时间戳虚拟机的新实例。
 
-In this tutorial, we’ll create a blockchain by creating a new instance of the AVM.
+在本教程中，我们将通过创建一个新的Avalanche虚拟机实例来创建一个区块链。
 
-### Prerequisites
+### 先决条件
 
-You will need a running node, a user on the node, and some AVAX in the address controlled by the user. All of that is covered in the [Run an Avalanche Node](../../getting-started.md) tutorial.
+你需要一个正在运行的节点、该节点上的用户，以及由该用户控制的地址中的一些AVAX。全部教程可参见 [Run an Avalanche Node](../../getting-started.md) 
 
-Next, you need to have your node be a validator on the [Primary Network](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network). You can find out how to do that in the [Add a Validator](../nodes-and-staking/add-a-validator.md) tutorial. It is recommended you do that [with API calls](../nodes-and-staking/add-a-validator.md#add-a-validator-with-api-calls), since that is the way you will be interacting with your node in the rest of this tutorial.
+接下来，您需要让您的节点成为 [主网](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network)上的验证程序。教程参见 [添加验证程序](../nodes-and-staking/add-a-validator.md) tutorial. It is recommended you do that [with API calls](../nodes-and-staking/add-a-validator.md#add-a-validator-with-api-calls), since that is the way you will be interacting with your node in the rest of this tutorial.
 
 ## Create the Subnet
 
@@ -283,5 +283,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTM4MjcxM119
+eyJoaXN0b3J5IjpbLTEyOTYxMjMzNl19
 -->

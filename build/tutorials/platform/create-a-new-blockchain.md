@@ -22,11 +22,11 @@ Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目�
 
 子网需要验证程序来验证区块链。
 
-Make sure the subnet that will validate your blockchain has at least `snow-sample-size` validators in it. \(Recall that `snow-sample-size` is one of the [command-line arguments](../../references/command-line-interface.md) when starting a node. Its default value is 20.\)
+确保用于验证区块链的子网中至少含有 `snow-sample-size` 的验证程序。\(回顾， `snow-sample-size` 是启动节点时的 [命令行参数](../../references/command-line-interface.md) 之一。默认值为20。\)
 
 {% page-ref page="../nodes-and-staking/add-a-validator.md" %}
 
-### Create the Genesis Data <a id="create-the-genesis-data"></a>
+### 创建初始数据 <a id="create-the-genesis-data"></a>
 
 Each blockchain has some genesis state when it’s created. Each Virtual Machine has a static API method named `buildGenesis` that takes in a JSON representation of a blockchain’s genesis state and returns the byte representation of that state. \(This isn’t true for some VMs, like the Platform VM, because we disallow the creation of new instances.\)
 
@@ -283,5 +283,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTk5MjQ4Nl19
+eyJoaXN0b3J5IjpbLTIxMTczMjcwODZdfQ==
 -->

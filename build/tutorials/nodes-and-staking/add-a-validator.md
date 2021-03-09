@@ -56,23 +56,23 @@ curl -X POST --data '{
 
 您应该查看交易成功的信息，并且您的余额也应更新。
 
-![Your validation transaction is sent](../../../.gitbook/assets/your-validation-transaction-is-sent.png)
+![您的验证交易已发送](../../../.gitbook/assets/your-validation-transaction-is-sent.png)
 
-Calling [`platform.getPendingValidators`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-getpendingvalidators) verifies that our transaction was accepted.
+调用 [`platform.getPendingValidators`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-getpendingvalidators) 核实了我们的交易已接受。
 
-![getPendingValidators postman](../../../.gitbook/assets/getPendingValidators-postman.png)
+![获取挂起验证程序 postman](../../../.gitbook/assets/getPendingValidators-postman.png)
 
-Go back to the `Earn` tab, and click `Estimated Rewards`.
+返回 `Earn` 选项，并点击 `Estimated Rewards`.
 
-![Earn, validate, delegate](../../../.gitbook/assets/earn-validate-delegate.png)
+![赚钱、验证、授权](../../../.gitbook/assets/earn-validate-delegate.png)
 
-Once your validator’s start time has passed, you will see the rewards it may earn, as well as its start time, end time, and the percentage of its validation period that has passed.
+一旦您的验证程序开始时间过了，您就会看到它可能赚取的收益、开始时间、结束时间机器验证期已经过去的百分比。
 
-![Estimated rewards](../../../.gitbook/assets/estimated-rewards.png)
+![预计收益](../../../.gitbook/assets/estimated-rewards.png)
 
-That’s it!
+就是这样！
 
-## Add a validator with API calls
+## 向API调用添加验证程序
 
 We can also add a node to the validator set by making API calls to our node. To add a node the Primary Network, we’ll call [`platform.addValidator`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-addvalidator).
 
@@ -366,5 +366,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzI0NjU0MF19
+eyJoaXN0b3J5IjpbLTEzNTM0NzQ2OTBdfQ==
 -->

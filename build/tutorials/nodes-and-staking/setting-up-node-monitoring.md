@@ -182,7 +182,7 @@ wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
 echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
 ```
 
-To install Grafana:
+如需安装Grafana：
 
 ```cpp
 sudo apt-get update
@@ -192,7 +192,7 @@ sudo apt-get update
 sudo apt-get install grafana
 ```
 
-To configure it as a service:
+将其作为一项服务进行配置：
 
 ```cpp
 sudo systemctl daemon-reload
@@ -206,16 +206,16 @@ sudo systemctl start grafana-server
 sudo systemctl enable grafana-server.service
 ```
 
-To make sure it’s running properly:
+如需确认其运行正常：
 
 ```text
 sudo systemctl status grafana-server
 ```
 
-which should show grafana as `active`. Grafana should now be available at `http://your-node-host-ip:3000/`
+grafana应显示 `active`。Grafana当前应在 `http://your-node-host-ip:3000/`上可用。
 
 {% hint style="warning" %}
-You may need to do `sudo ufw allow 3000/tcp` if the firewall is on**.**
+如果防火墙处于 **.**，则您可能需要进行`sudo ufw allow 3000/tcp` 
 {% endhint %}
 
 Log in with username/password admin/admin and set up a new, secure password. Now we need to connect Grafana to our data source, Prometheus.
@@ -368,5 +368,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDc1ODc3MF19
+eyJoaXN0b3J5IjpbLTYzMjMxNzgzN119
 -->

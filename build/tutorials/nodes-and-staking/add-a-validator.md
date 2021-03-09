@@ -140,13 +140,13 @@ curl -X POST --data '{
 
 `delegationFeeRate`
 
-Avalanche allows for delegation of stake. This parameter is the percent fee this validator charges when others delegate stake to them. For example, if `delegationFeeRate` is `1.2345` and someone delegates to this validator, then when the delegation period is over, 1.2345% of the reward goes to the validator and the rest goes to the delegator.
+通过Avalanche，可以进行质押委托。该参数是其他人将股份委托给验证程序时，验证程序收取的百分比费用。例如，如果`delegationFeeRate` 为 `1.2345` ，并且有人向验证程序提出委托时，则委托期结束时，1.2345%的收益会分配给验证程序，其余部分则会分配给委托方。
 
-`username` and `password`
+`username` 与 `password`
 
-These parameters are the username and password of the user that pays the transaction fee, provides the staked AVAX, and to whom the staked AVAX will be returned.
+这些参数是支付交易费用、提供质押AVAX和回收质押AVAX的用户的用户名与密码。
 
-Now let’s issue the transaction. We use the shell command `date` to compute the Unix time 10 minutes and 30 days in the future to use as the values of `startTime` and `endTime`, respectively. \(Note: If you’re on a Mac, replace `$(date` with `$(gdate`. If you don’t have `gdate` installed, do `brew install coreutils`.\) In this example we stake 2,000 AVAX \(2 x 1012 nAVAX\).
+现在让我们发起交易吧。我们使用外壳命令 `date` 来计算Unix次数，将来，10分钟和30天会分别被用作 `startTime` 与 `endTime`的值。respectively. \(Note: If you’re on a Mac, replace `$(date` with `$(gdate`. If you don’t have `gdate` installed, do `brew install coreutils`.\) In this example we stake 2,000 AVAX \(2 x 1012 nAVAX\).
 
 ```cpp
 curl -X POST --data '{
@@ -365,5 +365,6 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTQyMzQ0MywtMTk5OTM0MTc3Nl19
+eyJoaXN0b3J5IjpbLTEwMjQwNDAwOTEsLTE5OTkzNDE3NzZdfQ
+==
 -->

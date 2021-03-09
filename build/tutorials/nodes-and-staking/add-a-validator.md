@@ -266,17 +266,17 @@ platform.addSubnetValidator(
 
 `weight`
 
-This is the validator’s sampling weight for consensus. If the validator’s weight is 1 and the cumulative weight of all validators in the subnet is 100, then this validator will be included in about 1 in every 100 samples during consensus.
+这是为达成共识的验证程序的采样权重。如果验证程序的权重是1，且子网中所有验证程序的累计权重是100，则达成共识期间，每100个样本中就有1个包含该验证程序。
 
 `changeAddr`
 
-Any change resulting from this transaction will be sent to this address. You can leave this field empty; if you do, change will be sent to one of the addresses your user controls.
+关于此交易的任何更改都会发送到此地址。您可以留空此区域；如果您留空了，更改会发送到您的用户控制的一个地址。
 
-`username` and `password`
+`username` 与 `password`
 
-These parameters are the username and password of the user that pays the transaction fee. This user must hold a sufficient number of this Subnet’s control keys in order to add a validator to this Subnet.
+这些参数是支付交易费用的用户的用户名与密码。该用户持有足量子网的控制密钥，进而将验证程序添加到此子网中。
 
-We use the shell command `date` to compute the Unix time 10 minutes and 30 days in the future to use as the values of `startTime` and `endTime`, respectively. \(Note: If you’re on a Mac, replace `$(date` with `$(gdate`. If you don’t have `gdate` installed, do `brew install coreutils`.\)
+我们使用外壳命令 `date` 来计算Unix次数，将来，10分钟和30天会分别被用作 `startTime` 和`endTime`的值。\(注意事项：如果您使用的是Mac，请用`$(date` 来替换 `$(gdate`如果您并未安装`gdate` installed, do `brew install coreutils`.\)
 
 ```cpp
 curl -X POST --data '{
@@ -365,6 +365,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDcwMDk5NDYsLTE5OTkzNDE3NzZdfQ
-==
+eyJoaXN0b3J5IjpbMTEzMDcyNDgyMSwtMTk5OTM0MTc3Nl19
 -->

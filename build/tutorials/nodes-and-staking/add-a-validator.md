@@ -233,7 +233,7 @@ curl -X POST --data '{
 
 假如子网的ID是`nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`，阈值是2，则 `username` 至少持有2个控制密钥。
 
-如需添加验证程序，我们将调用API法[`platform.addSubnetValidator`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-addsubnetvalidator). Its signature is:
+如需添加验证程序，我们将调用API法[`platform.addSubnetValidator`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-addsubnetvalidator)。其特征是：
 
 ```cpp
 platform.addSubnetValidator(
@@ -250,19 +250,19 @@ platform.addSubnetValidator(
 ) -> {txID: string}
 ```
 
-Let’s examine the parameters:
+让我们来检查一下参数：
 
 `nodeID`
 
-This is the node ID of the validator being added to the subnet. **This validator must validate the Primary Network for the entire duration that it validates this Subnet.**
+这是添加到子网的验证程序的节点ID。**此验证程序必须在其验证此子网的全程中验证主网。**
 
 `subnetID`
 
-This is the ID of the subnet we’re adding a validator to.
+这是我们要将验证程序添加进去的子网的ID。
 
-`startTime` and `endTime`
+`startTime` 与 `endTime`
 
-Similar to above, these are the Unix times that the validator will start and stop validating the subnet. `startTime` must be at or after the time that the validator starts validating the Primary Network, and `endTime` must be at or before the time that the validator stops validating the Primary Network.
+与上文类似，这是验证程序将开始和停止验证子网的Unix次数。`startTime` 必须在验证程序开始验证主网的同时或之后，而 `endTime` 必须在验证程序停止验证主网的同时或之前。
 
 `weight`
 
@@ -365,5 +365,6 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDQzNDU5MCwtMTk5OTM0MTc3Nl19
+eyJoaXN0b3J5IjpbLTEzMDcwMDk5NDYsLTE5OTkzNDE3NzZdfQ
+==
 -->

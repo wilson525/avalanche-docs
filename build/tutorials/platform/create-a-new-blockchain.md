@@ -1,8 +1,8 @@
-# Create a Blockchain
+# 创建区块链
 
-## Introduction
+## 简介
 
-One of the core features of Avalanche is the ability to create new blockchains. Avalanche currently supports the creation of new instances of the [Avalanche Virtual Machine \(AVM\)](../../avalanchego-apis/exchange-chain-x-chain-api.md) and the Timestamp VM.
+Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目前支持创建[Avalanche 虚拟机 \(AVM\)](../../avalanchego-apis/exchange-chain-x-chain-api.md) 和时间戳虚拟机的新实例。
 
 In this tutorial, we’ll create a blockchain by creating a new instance of the AVM.
 
@@ -282,3 +282,6 @@ curl -X POST --data '{
 }
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQ0OTM4MjcxM119
+-->

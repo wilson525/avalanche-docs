@@ -204,7 +204,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-The response should include the node we just added:
+响应包括我们刚刚添加的节点：
 
 ```cpp
 {
@@ -223,9 +223,9 @@ The response should include the node we just added:
 }
 ```
 
-When the time reaches `1584021450`, this node will start validating the Primary Network. When it reaches `1584121156`, this node will stop validating the Primary Network. The staked AVAX will be returned to an address controlled by `username`, and the rewards, if any, will be given to `rewardAddress`.
+当时间达到 `1584021450`时，该节点将开始验证主网。当时间达到`1584121156`，该节点将停止验证主网。质押的AVAX会退还至`username`控制的地址，如有，则收益会发送到 `rewardAddress`.
 
-## Adding a Subnet Validator
+## 添加子网验证程序
 
 ### Issuing a Subnet Validator Transaction
 
@@ -365,6 +365,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ4ODIzODAsLTE5OTkzNDE3NzZdfQ
-==
+eyJoaXN0b3J5IjpbMTk4MjE1OTUzNSwtMTk5OTM0MTc3Nl19
 -->

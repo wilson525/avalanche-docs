@@ -18,7 +18,7 @@ Avalanche钱包源代码可以从[这里](https://github.com/ava-labs/avalanche-
 
 ![Image for post](https://miro.medium.com/max/1504/0*XTh3nZzBI1bkLbwO)
 
-**如需质押，您需要在** [**Platform Chain \(P-Chain\)**](../../../learn/platform-overview/#platform-chain-p-chain)**! If your funds are on the** [**Exchange Chain \(X-Chain\)**](../../../learn/platform-overview/#exchange-chain-x-chain)**, we will need to transfer them to the P-Chain by initiating a cross-chain transfer. If your tokens are locked they are already on the P-Chain, so you don’t need to perform the Cross Chain Transfer from X-Chain to P-Chain.**
+**如需质押，您需要在** [**平台链 \(P-Chain\)**](../../../learn/platform-overview/#platform-chain-p-chain)**上提供资金！如果您的资金处于** [**交换链 \(X-Chain\)**](../../../learn/platform-overview/#exchange-chain-x-chain)**, we will need to transfer them to the P-Chain by initiating a cross-chain transfer. If your tokens are locked they are already on the P-Chain, so you don’t need to perform the Cross Chain Transfer from X-Chain to P-Chain.**
 
 ![Image for post](https://miro.medium.com/max/1522/0*xKAf0nXSzqIdmBDg)
 
@@ -87,5 +87,5 @@ Confirm the details!
 Congratulations. You are now delegating the Avalanche Primary Network!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzA1MDE1NDBdfQ==
+eyJoaXN0b3J5IjpbMTc2NzQwOTc3Nl19
 -->

@@ -44,17 +44,17 @@ curl -X POST --data '{
 }
 ```
 
-打开 [钱包](https://wallet.avax.network/), and go the `Earn` tab. Choose `Add Validator`.
+打开 [钱包](https://wallet.avax.network/)，并进入`Earn` 选项。选择 `Add Validator`。
 
-![Web wallet earn tab](../../../.gitbook/assets/web-wallet-earn-tab.png)
+![线上钱包收入选项](../../../.gitbook/assets/web-wallet-earn-tab.png)
 
-Fill out the staking parameters. They are explained in more detail below. When you’ve filled in all the staking parameters and double-checked them, click `Confirm`. Make sure the staking period is at least 2 weeks, the delegation fee rate is at least 2%, and you’re staking at least 2,000 AVAX.
+填写质押参数。下面将进行更详细的讲解。当您填写完所有质押参数并复查时，请点击`Confirm`请确认质押期至少是2周，委托费率至少是2%，并且您至少质押了2000AVAX。
 
 {% page-ref page="../../../learn/platform-overview/staking.md" %}
 
-![Earn validate](../../../.gitbook/assets/earn-validate.png)
+![获得验证](../../../.gitbook/assets/earn-validate.png)
 
-You should see this success message, and your balance should be updated.
+您应该查看交易成功的信息，并且您的余额也应更新。
 
 ![Your validation transaction is sent](../../../.gitbook/assets/your-validation-transaction-is-sent.png)
 
@@ -366,5 +366,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzE5NjQ5MjJdfQ==
+eyJoaXN0b3J5IjpbMTg0NzI0NjU0MF19
 -->

@@ -18,23 +18,23 @@ Avalanche钱包源代码可以从[这里](https://github.com/ava-labs/avalanche-
 
 ![Image for post](https://miro.medium.com/max/1504/0*XTh3nZzBI1bkLbwO)
 
-**如需质押，您需要在** [**平台链 \(P-Chain\)**](../../../learn/platform-overview/#platform-chain-p-chain)**上提供资金！如果您的资金处于** [**交换链 \(X-Chain\)**](../../../learn/platform-overview/#exchange-chain-x-chain)**, we will need to transfer them to the P-Chain by initiating a cross-chain transfer. If your tokens are locked they are already on the P-Chain, so you don’t need to perform the Cross Chain Transfer from X-Chain to P-Chain.**
+**如需质押，您需要在** [**平台链 \(P-Chain\)**](../../../learn/platform-overview/#platform-chain-p-chain)**上提供资金！如果您的资金处于** [**交换链 \(X-Chain\)**](../../../learn/platform-overview/#exchange-chain-x-chain)**，我们将需要通过启动跨链转账将其转到P链上。如果您的代币已锁定，则您的代币已处于P链上，所以您不需要将资金从X链跨链转账到P链上。**
 
 ![Image for post](https://miro.medium.com/max/1522/0*xKAf0nXSzqIdmBDg)
 
-Enter the amount you wish to transfer to your P-Chain and complete the transfer by clicking the “Transfer” button below.
+输入您希望转账到P链上的金额，并通过点击下方“转账”按钮来完成转账。
 
 ![Image for post](https://miro.medium.com/max/1488/0*aremeYNYtKP5nGPx)
 
-Voila!
+就是这！
 
 ![Image for post](https://miro.medium.com/max/1512/0*XP8f8CISy-LJ_Lc3)
 
-Now, we have our funds ready for staking on the P-Chain. Next, you can add a validator or a delegator to your wallet.
+目前，我们已经将资金准备好质押在P链上。下一步，您可以给您的钱包添加一个验证程序或委托程序。
 
-### **Step 3A: Become a validator!** <a id="60f0"></a>
+### **第3步A：成为验证程序！** <a id="60f0"></a>
 
-To add a validator, we need to have a node running. We can set one up using the released [binaries](https://github.com/ava-labs/avalanchego/releases/) or build them from the [AvalancheGo source code](https://github.com/ava-labs/avalanchego).
+如需添加验证程序，我们需要保持一个节点处于运行中。我们可以使用发布的 [二进制文件](https://github.com/ava-labs/avalanchego/releases/) or build them from the [AvalancheGo source code](https://github.com/ava-labs/avalanchego).
 
 Using the binaries is easy and convenient and sets you up to be a validator in 4 steps:
 
@@ -87,5 +87,5 @@ Confirm the details!
 Congratulations. You are now delegating the Avalanche Primary Network!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzQwOTc3Nl19
+eyJoaXN0b3J5IjpbMTkzOTY2MDU4N119
 -->

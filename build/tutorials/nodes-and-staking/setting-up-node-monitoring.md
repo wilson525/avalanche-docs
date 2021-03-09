@@ -361,10 +361,10 @@ sudo systemctl restart prometheus
 
 * 打开Grafana的网络界面
 * 点击左侧工具栏上的 `+` 
-* Select `Import JSON` and then upload the JSON file
+* 选择 `Import JSON` ，然后上传JSON文件
 
-That’s it! You may now marvel at all the things your node does. Woohoo!
+就是这样！现在您可能震惊于节点的万能。哇哦！
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTE5OTk5MCwtNjIzOTExMjk5XX0=
+eyJoaXN0b3J5IjpbNDQ1MzE5OTg2LC02MjM5MTEyOTldfQ==
 -->

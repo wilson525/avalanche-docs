@@ -29,11 +29,11 @@ _感谢社区成员Jovica Popović编写了此教程。如有需要，您可以�
 
 ### 出资
 
-Grafana仪表盘的基础取自 [ColmenaLabs](https://blog.colmenalabs.org/index.html), which is apparently not available anymore. If you have ideas and suggestions on how to improve this tutorial, please say so, post an issue, or make a pull request on [Github](https://github.com/ava-labs).
+Grafana仪表盘的基础取自 [ColmenaLabs](https://blog.colmenalabs.org/index.html)的优秀人士，目前已不提供。如果您对如何改进本教程有任何想法和建议，请在[Github](https://github.com/ava-labs)上说明、发布问题或发出请求。
 
-## Set up Prometheus
+## 设置Prometheus
 
-First, we need to add a system user account and create directories \(you will need superuser credentials\):
+首先，我们需要添加一个系统用户账号并创建目录 \(您会需要超级用户凭据\):
 
 ```cpp
 sudo useradd -M -r -s /bin/false prometheus
@@ -43,7 +43,7 @@ sudo useradd -M -r -s /bin/false prometheus
 sudo mkdir /etc/prometheus /var/lib/prometheus
 ```
 
-Next, get the link to the latest version of Prometheus from the [downloads page](https://prometheus.io/download/) \(make sure you select the appropriate processor architecture\), and use wget to download it and tar to unpack the archive:
+下一步，从 [downloads page](https://prometheus.io/download/) \(make sure you select the appropriate processor architecture\), and use wget to download it and tar to unpack the archive:
 
 ```cpp
 mkdir -p /tmp/prometheus && cd /tmp/prometheus
@@ -369,5 +369,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTQ5NjIwMl19
+eyJoaXN0b3J5IjpbLTQ0NTU4MTI4OF19
 -->

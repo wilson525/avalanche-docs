@@ -48,27 +48,27 @@ Avalanche钱包源代码可以从[这里](https://github.com/ava-labs/avalanche-
 \* Windows系统： avalanchego-win-&lt;VERSION&gt;.zip
 
 * 导航到二进制文件目录 cd avalanchego-&lt;VERSION&gt;
-* 在Linux和OSX系统中运行二进制文件与 /avalanchego on Linux and OSX and AvalancheGo on Windows
+* 在Linux和OSX系统中运行二进制文件与 /avalanchego ，在Windows系统中运行AvalancheGo。
 
-We will let our node bootstrap and sync with the rest with the network, and we are ready to roll.
+我们会让我们的节点与网络的其他部分一同引导并同步，并且我们随时准备开始。
 
-We will need our Node ID. Let’s find that using the [info API](../../avalanchego-apis/info-api.md)!
+我们会需要节点ID。通过[info API](../../avalanchego-apis/info-api.md)，我们可以找到它
 
-If you need any help setting up your node, join us on [Discord](https://chat.avax.network/).
+如果您在设置您的节点时需要任何帮助，请通过[Discord](https://chat.avax.network/)加入我们
 
 ![Image for post](https://miro.medium.com/max/1600/0*6hZSaT651Dd7R4bL)
 
-Fill the fields and confirm!
+填完字段并确认！
 
 ![Image for post](https://miro.medium.com/max/1600/0*cy61ZMDY5veMvCZj)
 
-Carefully check the details, and click “Confirm” again!
+仔细检查细节，并再次点击“确认”！
 
 ![Image for post](https://miro.medium.com/max/1600/0*f3GlN03He6TFkOV7)
 
-Congratulations. You are now validating the Avalanche Primary Network!
+恭喜。您现在正在验证Avalanche主网！
 
-### **Step 3B: Add a Delegator!** <a id="59bd"></a>
+### **第3步B：添加委托程序！** <a id="59bd"></a>
 
 ![Image for post](https://miro.medium.com/max/1600/0*f-wXi2SiSm4eBmHt)
 
@@ -87,5 +87,5 @@ Confirm the details!
 Congratulations. You are now delegating the Avalanche Primary Network!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTYyMDIzNDhdfQ==
+eyJoaXN0b3J5IjpbMTg2MzQ1NzA0NF19
 -->

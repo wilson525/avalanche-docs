@@ -215,19 +215,19 @@ sudo systemctl status grafana-server
 grafana应显示 `active`。Grafana当前应在 `http://your-node-host-ip:3000/`上可用。
 
 {% hint style="warning" %}
-如果防火墙处于 **.**，则您可能需要进行`sudo ufw allow 3000/tcp` 
+如果防火墙处于**.**，则您可能需要进行`sudo ufw allow 3000/tcp` 
 {% endhint %}
 
-Log in with username/password admin/admin and set up a new, secure password. Now we need to connect Grafana to our data source, Prometheus.
+使用管理员/管理员用户名/密码登录，并设置一个新的安全密码。目前，我们需要将Grafana连接到我们的数据源Prometheus。
 
-On Grafana’s web interface:
+在Grafana的网络界面上：
 
-* Go to Configuration on the left-side menu and select Data Sources.
-* Click Add Data Source
-* Select Prometheus.
-* In the form, enter the name \(Prometheus will do\), and `http://localhost:9090` as the URL.
-* Click `Save & Test`
-* Check for “Data source is working” green message.
+* 转到左侧菜单上的配置并选择数据源。
+* 点击添加数据源。
+* 选择Prometheus。
+* 在表格中输入姓名 \(Prometheus 会进行\)，将`http://localhost:9090` 作为URL。
+* 点击`Save & Test`
+* 查看“Data source is working” green message.
 
 ## Set up node\_exporter
 
@@ -368,5 +368,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjMxNzgzN119
+eyJoaXN0b3J5IjpbLTEwMTQzNDk0NTNdfQ==
 -->

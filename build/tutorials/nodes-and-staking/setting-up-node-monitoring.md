@@ -159,12 +159,12 @@ Sep 13 15:00:04 ubuntu prometheus[1767]: level=info ts=2020-09-13T13:00:04.776Z 
 您还可以检查Prometheus网络界面 `http://your-node-host-ip:9090/`
 
 {% hint style="warning" %}
-如果防火墙处于`sudo ufw allow 9090/tcp` if the firewall is on**.**
+如果防火墙处于**.**，则您可能需要进行`sudo ufw allow 9090/tcp` 
 {% endhint %}
 
-## Install Grafana
+## 安装Grafana
 
-To set up Grafana project repositories with Ubuntu:
+使用Ubuntu来设置Grafana项目存储库：
 
 ```cpp
 sudo apt-get install -y apt-transport-https
@@ -368,5 +368,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDUyMDgyNzhdfQ==
+eyJoaXN0b3J5IjpbLTkxMDc1ODc3MF19
 -->

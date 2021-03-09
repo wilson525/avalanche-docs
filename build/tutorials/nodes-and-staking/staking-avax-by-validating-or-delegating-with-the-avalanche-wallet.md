@@ -1,11 +1,11 @@
-# Stake AVAX, by Validating or Delegating, with the Avalanche Wallet
+# 使用Avalanche钱包，通过验证或委托来质押AVAX
 
-## **Introduction** <a id="001f"></a>
+## **简介** <a id="001f"></a>
 
-The Avalanche Wallet is a web-based application with no middleware or any kind of server communication. The Avalanche Wallet is written in Vue JS and can be either accessed online or compiled and run locally.
+Avalanche钱包是一个网络应用程序，无中介软件或任何类型的服务器通信。Avalanche钱包是采用Vue JS编写的，既可以线上访问，也可以本地编译和运行。
 
-The Avalanche Wallet can be accessed [here](https://wallet.avax.network/).  
-The Avalanche Wallet source code can be found [here](https://github.com/ava-labs/avalanche-wallet).
+Avalanche钱包可以从 [here](https://wallet.avax.network/)访问。
+Avalanche钱包源代码可以从[here](https://github.com/ava-labs/avalanche-wallet)找到。
 
 **Let’s get staking!**
 
@@ -87,3 +87,6 @@ Confirm the details!
 
 Congratulations. You are now delegating the Avalanche Primary Network!
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTIxNDM2MzY5MjRdfQ==
+-->

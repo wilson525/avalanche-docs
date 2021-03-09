@@ -12,13 +12,13 @@ P链管理Avalanche上的元数据。其中包括跟踪哪些节点位于哪些�
 
 ## 要求
 
-您已完成 [行一个Avalanche节点](../../getting-started.md) ，并了解 [Avalanche架构](../../../learn/platform-overview/)。本教程中，我们使用 [Avalanche Postman收藏夹](https://github.com/ava-labs/avalanche-postman-collection) to help us make API calls.
+您已完成 [行一个Avalanche节点](../../getting-started.md) ，并了解 [Avalanche架构](../../../learn/platform-overview/)。本教程中，我们使用 [Avalanche Postman收藏夹](https://github.com/ava-labs/avalanche-postman-collection) 来帮助我们进行API调用。
 
-In order to ensure your node is well-connected, make sure that your node can receive and send TCP traffic on the staking port \(`9651` by default\) and that you started your node with command line argument `--public-ip=[YOUR NODE'S PUBLIC IP HERE]`. Failing to do either of these may jeopardize your staking reward.
+为了确保您连好了您的节点，请确保您的节点能够在锁定端口上收到并发送TCP流量 \(`9651` by default\) ，并且您使用命令行参数启动了节点 `--public-ip=[您的节点的公共IP]`。如果未做到这一点，则您的质押收益可能会受到影响。
 
-## Add a validator with Avalanche Wallet
+## 向Avalanche钱包添加验证程序
 
-First, we show you how to add your node as a validator by using [Avalanche Wallet](https://wallet.avax.network).
+首先，我们向您展示如何使用 [Avalanche Wallet](https://wallet.avax.network)将您的节点作为验证程序添加进来
 
 Get your node’s ID by calling [`info.getNodeID`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-getnodeid):
 
@@ -366,5 +366,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjIyNjgzNl19
+eyJoaXN0b3J5IjpbMTEyODE0Mzc2OF19
 -->

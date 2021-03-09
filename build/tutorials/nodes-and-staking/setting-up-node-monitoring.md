@@ -95,7 +95,7 @@ sudo cp prometheus.yml /etc/prometheus/
 sudo nano /etc/systemd/system/prometheus.service
 ```
 
-\(or open that file in the text editor of your choice\), and enter the following configuration:
+\(或在您选择的文本编辑器中打开该文件\)，并输入以下配置：
 
 ```cpp
 [Unit]
@@ -119,7 +119,7 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
-Save the file. Now, we can run Prometheus as a system service:
+保存文件。现在，我们可以将Prometheus作为系统服务运行：
 
 ```cpp
 sudo systemctl daemon-reload
@@ -133,13 +133,12 @@ sudo systemctl start prometheus
 sudo systemctl enable prometheus
 ```
 
-Prometheus should now be running. To make sure, we can check with:
-
+Prometheus当前应正在运行中。如需确认，我们可以进行检查：
 ```cpp
 systemctl status prometheus
 ```
 
-which should produce something like:
+应生成如下结果：
 
 ```cpp
 ● prometheus.service - Prometheus
@@ -157,10 +156,10 @@ Sep 13 15:00:04 ubuntu prometheus[1767]: level=info ts=2020-09-13T13:00:04.776Z 
 ...
 ```
 
-You can also check Prometheus web interface, available on `http://your-node-host-ip:9090/`
+您还可以检查Prometheus网络界面 `http://your-node-host-ip:9090/`
 
 {% hint style="warning" %}
-You may need to do `sudo ufw allow 9090/tcp` if the firewall is on**.**
+如果防火墙处于`sudo ufw allow 9090/tcp` if the firewall is on**.**
 {% endhint %}
 
 ## Install Grafana
@@ -369,5 +368,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDA4MTU2M119
+eyJoaXN0b3J5IjpbLTIxMDUyMDgyNzhdfQ==
 -->

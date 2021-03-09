@@ -1,12 +1,12 @@
-# Run an Avalanche Node Monitoring
+# 运行Avalanche节点监测
 
-_Thank you to community member Jovica Popović, who wrote this tutorial. You can reach him on our_ [_Discord_](https://chat.avax.network) _if needed._
+_感谢社区成员Jovica Popović编写了此教程。如有需要，您可以通过我们的_ [_Discord_](https://chat.avax.network) _来联系他_
 
-## Introduction
+## 简介
 
-This tutorial assumes you have Ubuntu 18.04 or 20.04 running on your node \(a Mac OS X version of this tutorial will come later\).
+本教程的前提是您在节点上运行了Ubuntu 18.04或20.04\( 本教程的Mac OS X版本即将发布\)。
 
-This tutorial will show how to set up infrastructure to monitor an instance of [AvalancheGo](https://github.com/ava-labs/avalanchego). We will use:
+本教程会展示如何设置基础设施以监测 [AvalancheGo](https://github.com/ava-labs/avalanchego). We will use:
 
 * [Prometheus](https://prometheus.io/) to gather and store data
 * [node\_exporter](https://github.com/prometheus/node_exporter) to get information about the machine,
@@ -366,3 +366,6 @@ To import the preconfigured dashboard:
 
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwMzE2MDI4MjVdfQ==
+-->

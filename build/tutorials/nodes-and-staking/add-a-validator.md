@@ -167,7 +167,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-The response has the transaction ID, as well as the address the change went to.
+响应包含交易ID和收到更改的地址。
 
 ```cpp
 {
@@ -180,7 +180,7 @@ The response has the transaction ID, as well as the address the change went to.
 }
 ```
 
-We can check the transaction’s status by calling [`platform.getTxStatus`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-gettxstatus):
+我们可以通过调用[`platform.getTxStatus`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-gettxstatus)来查看交易状态:
 
 ```cpp
 curl -X POST --data '{
@@ -365,6 +365,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTc4NDA5ODMsLTE5OTkzNDE3NzZdfQ
-==
+eyJoaXN0b3J5IjpbMTI5MzUwOTYzNiwtMTk5OTM0MTc3Nl19
 -->

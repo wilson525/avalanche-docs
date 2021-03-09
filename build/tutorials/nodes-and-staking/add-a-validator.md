@@ -123,15 +123,13 @@ curl -X POST --data '{
 
 `开始时间` 与 `结束时间`
 
-当一个人发起一项交易，并加入主网时，即确定了输入 \(start validating\) 和离开 \(stop validating.\) 的时间。验证主网的最短持续时间为24小时，最长持续时间为一年。离开后可以重新进入主网，但最长持续时间是一年。 `startTime` and `endTime` are the Unix times when your validator will start and stop validating the Primary Network, respectively. `startTime` must be in the future relative to the time the transaction is issued.
+当一个人发起一项交易，并加入主网时，即确定了输入 \(开始验证\) 和离开 \(结束验证\) 的时间。验证主网的最短持续时间为24小时，最长持续时间为一年。离开后可以重新进入主网，但最长持续时间是一年。 `开始时间` and `结束时间` 分别是您的验证程序启动和停止验证主网的Unix次数。`开始时间` 必须是在交易发起时间之后。
+`质押金额`
 
-`stakeAmount`
+为了验证主网，您必须质押AVAX。该参数确定了质押的AVAX金额。
+`收益地址`
 
-In order to validate the Primary Network, one must stake AVAX. This parameter defines the amount of AVAX staked.
-
-`rewardAddress`
-
-When a validator stops validating the Primary Network, they will receive a reward if they are sufficiently responsive and correct while they validated the Primary Network. These tokens are sent to `rewardAddress`. The original stake will be sent back to an address controlled by `username`.
+当验证程序停止验证主网时，如果它们验证主网时响应足够且正确，则它们会获得收益。上述代币会发送到 `rewardAddress`. The original stake will be sent back to an address controlled by `username`.
 
 A validator’s stake is never slashed, regardless of their behavior; they will always receive their stake back when they’re done validating.
 
@@ -366,5 +364,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzc5MjY4OV19
+eyJoaXN0b3J5IjpbLTE5OTkzNDE3NzZdfQ==
 -->

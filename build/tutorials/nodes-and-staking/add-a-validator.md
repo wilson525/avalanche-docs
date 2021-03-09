@@ -2,12 +2,12 @@
 
 ## 简介
 
-[主网](https://avalanche.gitbook.io/avalanche/build/tutorials/platform/add-a-validator#introduction) 是Avalanche平台固有的，并验证Avalanche的 [内置区块链](https://avalanche.gitbook.io/avalanche/learn/platform-overview)。本教程中，我们将向Avalanche主网和 [子网](https://avalanche.gitbook.io/avalanche/learn/platform-overview#subnets) on Avalanche.
+[主网](https://avalanche.gitbook.io/avalanche/build/tutorials/platform/add-a-validator#introduction) 是Avalanche平台固有的，并验证Avalanche的 [内置区块链](https://avalanche.gitbook.io/avalanche/learn/platform-overview)。本教程中，我们将向Avalanche主网和 [子网](https://avalanche.gitbook.io/avalanche/learn/platform-overview#subnets) 上添加一个节点
 
-The P-Chain manages metadata on Avalanche. This includes tracking which nodes are in which subnets, which blockchains exist, and which subnets are validating which blockchains. To add a validator, we’ll issue [transactions](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction) to the P-Chain.
+P链管理Avalanche上的元数据。其中包括跟踪哪些节点位于哪些子网中、存在哪些区块链以及哪些子网正在验证哪些区块链。如需添加一个验证程序，我们将向P链发起 [交易](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction)
 
 {% hint style="danger" %}
-Note that once you issue the transaction to add a node as a validator, there is no way to change the parameters. **You can’t remove your stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values in the API calls below. If you’re not sure, browse the [Developer FAQ's](http://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
+请注意，一旦您发起交易来将一个节点作为验证程序加入时，参数是无法更改的。**您无法提前移除质押或更改质押金额、节点ID或收益地址。** 请确保您在以下API调用中使用了正确的值。如果您不确定，请浏览 [开发人员FAQ](http://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
 {% endhint %}
 
 ## Requirements
@@ -366,5 +366,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTU1NjQ3OTRdfQ==
+eyJoaXN0b3J5IjpbMTk4MjM2NTYwNF19
 -->

@@ -74,9 +74,9 @@ curl -X POST --data '{
 
 ## 向API调用添加验证程序
 
-We can also add a node to the validator set by making API calls to our node. To add a node the Primary Network, we’ll call [`platform.addValidator`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-addvalidator).
+通过向我们的节点进行API调用，您可以向验证程序集合添加一个节点。要将节点添加到主网，我们将调用[`platform.addValidator`](https://avalanche.gitbook.io/avalanche/build/apis/platform-chain-p-chain-api#platform-addvalidator).
 
-This method’s signature is:
+此方法的明显特征是：
 
 ```cpp
 platform.addValidator(
@@ -94,11 +94,11 @@ platform.addValidator(
 ) -> {txID: string}
 ```
 
-Let’s go through and examine these arguments.
+让我们看看这些论点。
 
 `nodeID`
 
-This is the node ID of the validator being added. To get your node’s ID, call [`info.getNodeID`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-getnodeid):
+这是将要添加的验证程序的节点ID。如需获取您的节点ID，请调用 [`info.getNodeID`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-getnodeid):
 
 ```cpp
 curl -X POST --data '{
@@ -109,7 +109,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-The response has your node’s ID:
+响应中包含您的节点ID：
 
 ```cpp
 {
@@ -121,7 +121,7 @@ The response has your node’s ID:
 }
 ```
 
-`startTime` and `endTime`
+`开始时间` 与 `结束时间`
 
 When one issues a transaction to join the Primary Network they specify the time they will enter \(start validating\) and leave \(stop validating.\) The minimum duration that one can validate the Primary Network is 24 hours, and the maximum duration is one year. One can re-enter the Primary Network after leaving, it’s just that the maximum _continuous_ duration is one year. `startTime` and `endTime` are the Unix times when your validator will start and stop validating the Primary Network, respectively. `startTime` must be in the future relative to the time the transaction is issued.
 
@@ -366,5 +366,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM0NzQ2OTBdfQ==
+eyJoaXN0b3J5IjpbLTY1MTM1MTgyOF19
 -->

@@ -7,12 +7,12 @@
 P链管理Avalanche上的元数据。其中包括跟踪哪些节点位于哪些子网中、存在哪些区块链以及哪些子网正在验证哪些区块链。如需添加一个验证程序，我们将向P链发起 [交易](http://support.avalabs.org/en/articles/4587384-what-is-a-transaction)
 
 {% hint style="danger" %}
-请注意，一旦您发起交易来将一个节点作为验证程序加入时，参数是无法更改的。**您无法提前移除质押或更改质押金额、节点ID或收益地址。** 请确保您在以下API调用中使用了正确的值。如果您不确定，请浏览 [开发人员FAQ](http://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
+请注意，一旦您发起交易来将一个节点作为验证程序加入时，参数是无法更改的。**您无法提前移除质押或更改质押金额、节点ID或收益地址。** 请确保您在以下API调用中使用了正确的值。如果您不确定，请浏览 [开发人员FAQ](http://support.avalabs.org/en/collections/2618154-developer-faq) 或在 [Discord.](https://chat.avalabs.org/)上寻求帮助。
 {% endhint %}
 
-## Requirements
+## 要求
 
-You've completed [Run an Avalanche Node](../../getting-started.md) and are familiar with [Avalanche's architecture](../../../learn/platform-overview/). In this tutorial, we use [Avalanche’s Postman collection](https://github.com/ava-labs/avalanche-postman-collection) to help us make API calls.
+您已完成 [行一个Avalanche节点](../../getting-started.md) ，并了解 [Avalanche架构](../../../learn/platform-overview/)。本教程中，我们使用 [Avalanche Postman收藏夹](https://github.com/ava-labs/avalanche-postman-collection) to help us make API calls.
 
 In order to ensure your node is well-connected, make sure that your node can receive and send TCP traffic on the staking port \(`9651` by default\) and that you started your node with command line argument `--public-ip=[YOUR NODE'S PUBLIC IP HERE]`. Failing to do either of these may jeopardize your staking reward.
 
@@ -366,5 +366,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MjM2NTYwNF19
+eyJoaXN0b3J5IjpbLTI2MjIyNjgzNl19
 -->

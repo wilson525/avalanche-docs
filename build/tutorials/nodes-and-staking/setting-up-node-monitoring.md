@@ -299,7 +299,7 @@ ExecStart=/usr/local/bin/node_exporter \
 WantedBy=multi-user.target
 ```
 
-This configures node\_exporter to collect various data we might find interesting. Start the service, and enable it on boot:
+这配置了节点\_输出点，以收集我们可能感兴趣的各种数据。开启服务，并在启动时启用它：
 
 ```cpp
 sudo systemctl start node_exporter
@@ -313,11 +313,10 @@ sudo systemctl enable node_exporter
 sudo systemctl status node_exporter
 ```
 
-Now, we’re ready to tie it all together.
+目前，我们已经准备好了。
 
-## Configure AvalancheGo and node\_exporter Prometheus jobs
-
-Make sure that your AvalancheGo node is running with appropriate [command line arguments](../../references/command-line-interface.md). The metrics API must be enabled \(by default, it is\). If you use CLI argument `--http-host` to make API calls from outside of the host machine, make note of the address at which APIs listen.
+## 配置AvalancheGo和节点\_输出点Prometheus工作任务
+请确保您的AvalancheGo节点正在与适当的 [command line arguments](../../references/command-line-interface.md)一同运行。 The metrics API must be enabled \(by default, it is\). If you use CLI argument `--http-host` to make API calls from outside of the host machine, make note of the address at which APIs listen.
 
 We now need to define an appropriate Prometheus job. Let’s edit Prometheus configuration:
 
@@ -367,5 +366,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3ODQwODA3XX0=
+eyJoaXN0b3J5IjpbMTUwMjgxOTIxMV19
 -->

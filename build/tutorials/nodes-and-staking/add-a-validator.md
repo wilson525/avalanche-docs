@@ -18,11 +18,11 @@ P链管理Avalanche上的元数据。其中包括跟踪哪些节点位于哪些�
 
 ## 向Avalanche钱包添加验证程序
 
-首先，我们向您展示如何使用 [Avalanche Wallet](https://wallet.avax.network)将您的节点作为验证程序添加进来
+首先，我们向您展示如何使用 [Avalanche 钱包](https://wallet.avax.network)将您的节点作为验证程序添加进来
 
-Get your node’s ID by calling [`info.getNodeID`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-getnodeid):
+如需获取您的节点ID，请调用 [`info.getNodeID`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-getnodeid):
 
-![getNodeID postman](../../../.gitbook/assets/getNodeID-postman.png)
+![获取节点ID postman](../../../.gitbook/assets/getNodeID-postman.png)
 
 ```cpp
 curl -X POST --data '{
@@ -32,7 +32,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-The response has your node’s ID:
+响应中包含您的节点ID：
 
 ```cpp
 {
@@ -44,7 +44,7 @@ The response has your node’s ID:
 }
 ```
 
-Open [the wallet](https://wallet.avax.network/), and go the `Earn` tab. Choose `Add Validator`.
+打开 [钱包](https://wallet.avax.network/), and go the `Earn` tab. Choose `Add Validator`.
 
 ![Web wallet earn tab](../../../.gitbook/assets/web-wallet-earn-tab.png)
 
@@ -366,5 +366,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODE0Mzc2OF19
+eyJoaXN0b3J5IjpbLTExMzE5NjQ5MjJdfQ==
 -->

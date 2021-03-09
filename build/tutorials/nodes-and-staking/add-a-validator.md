@@ -123,7 +123,7 @@ curl -X POST --data '{
 
 `开始时间` 与 `结束时间`
 
-When one issues a transaction to join the Primary Network they specify the time they will enter \(start validating\) and leave \(stop validating.\) The minimum duration that one can validate the Primary Network is 24 hours, and the maximum duration is one year. One can re-enter the Primary Network after leaving, it’s just that the maximum _continuous_ duration is one year. `startTime` and `endTime` are the Unix times when your validator will start and stop validating the Primary Network, respectively. `startTime` must be in the future relative to the time the transaction is issued.
+当一个人发起一项交易，并加入主网时，即确定了输入 \(start validating\) 和离开 \(stop validating.\) 的时间。验证主网的最短持续时间为24小时，最长持续时间为一年。离开后可以重新进入主网，但最长持续时间是一年。 `startTime` and `endTime` are the Unix times when your validator will start and stop validating the Primary Network, respectively. `startTime` must be in the future relative to the time the transaction is issued.
 
 `stakeAmount`
 
@@ -366,5 +366,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTM1MTgyOF19
+eyJoaXN0b3J5IjpbLTUyNzc5MjY4OV19
 -->

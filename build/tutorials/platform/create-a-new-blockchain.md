@@ -28,7 +28,7 @@ Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目�
 
 ### 创建初始数据 <a id="create-the-genesis-data"></a>
 
-Each blockchain has some genesis state when it’s created. Each Virtual Machine has a static API method named `buildGenesis` that takes in a JSON representation of a blockchain’s genesis state and returns the byte representation of that state. \(This isn’t true for some VMs, like the Platform VM, because we disallow the creation of new instances.\)
+每个区块链在创建时都有一些初始状态。每个虚拟机都有一个名为 `buildGenesis` 的静态API方法，该方法接收区块链初始状态的JSON形式，并返回该状态的字节形式。\(某些虚拟机并非如此，比如Platform VM，因为我们不允许创建新实例。\)
 
 The [AVM’s documentation](../../avalanchego-apis/exchange-chain-x-chain-api.md) specifies that the argument to [`avm.buildGenesis`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-buildgenesis) should look like this:
 
@@ -283,5 +283,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTczMjcwODZdfQ==
+eyJoaXN0b3J5IjpbNjEwNjIzMzg5XX0=
 -->

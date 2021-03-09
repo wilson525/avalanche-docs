@@ -316,7 +316,7 @@ sudo systemctl status node_exporter
 目前，我们已经准备好了。
 
 ## 配置AvalancheGo和节点\_输出点Prometheus工作任务
-请确保您的AvalancheGo节点正在与适当的 [command line arguments](../../references/command-line-interface.md)一同运行。 The metrics API must be enabled \(by default, it is\). If you use CLI argument `--http-host` to make API calls from outside of the host machine, make note of the address at which APIs listen.
+请确保您的AvalancheGo节点正在与适当的 [command line arguments](../../references/command-line-interface.md)一同运行。 The metrics API must be enabled \(by default, it is\)。指标API必须启用\（默认情况下\)。如果您使用CLI参数 `--http-host` to make API calls from outside of the host machine, make note of the address at which APIs listen.
 
 We now need to define an appropriate Prometheus job. Let’s edit Prometheus configuration:
 
@@ -366,5 +366,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjgxOTIxMV19
+eyJoaXN0b3J5IjpbLTYyMzkxMTI5OV19
 -->

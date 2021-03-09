@@ -124,18 +124,19 @@ curl -X POST --data '{
 `开始时间` 与 `结束时间`
 
 当一个人发起一项交易，并加入主网时，即确定了输入 \(开始验证\) 和离开 \(结束验证\) 的时间。验证主网的最短持续时间为24小时，最长持续时间为一年。离开后可以重新进入主网，但最长持续时间是一年。 `开始时间` and `结束时间` 分别是您的验证程序启动和停止验证主网的Unix次数。`开始时间` 必须是在交易发起时间之后。
-`质押金额`
+`stakeAmount`
 
 为了验证主网，您必须质押AVAX。该参数确定了质押的AVAX金额。
-`收益地址`
 
-当验证程序停止验证主网时，如果它们验证主网时响应足够且正确，则它们会获得收益。上述代币会发送到 `rewardAddress`. The original stake will be sent back to an address controlled by `username`.
+`rewardAddress`
 
-A validator’s stake is never slashed, regardless of their behavior; they will always receive their stake back when they’re done validating.
+当验证程序停止验证主网时，如果它们验证主网时响应足够且正确，则它们会获得收益。上述代币会发送到`rewardAddress`。原始质押会发送回 `username`控制的一个地址。
+
+无论行为如何，验证程序的质押永远不会大幅削减；完成验证时，它们会一直收回其质押。
 
 `changeAddr`
 
-Any change resulting from this transaction will be sent to this address. You can leave this field empty; if you do, change will be sent to one of the addresses your user controls.
+任何关于此交易的更改都会发送到此地址。您可以留空此区域；如果您留空了，更改会发送到您的用户名下的一个地址。
 
 `delegationFeeRate`
 
@@ -364,5 +365,5 @@ The full command is:
 `./build/avalanchego --whitelisted-subnets=nTd2Q2nTLp8M9qv2VKHMdvYhtNWX7aTPa4SMEK7x7yJHbcWvr`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkzNDE3NzZdfQ==
+eyJoaXN0b3J5IjpbLTI0NTQyMzQ0MywtMTk5OTM0MTc3Nl19
 -->

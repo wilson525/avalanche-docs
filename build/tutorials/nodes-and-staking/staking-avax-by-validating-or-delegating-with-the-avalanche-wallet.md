@@ -41,14 +41,14 @@ Avalanche钱包源代码可以从[这里](https://github.com/ava-labs/avalanche-
 * 在[here](https://github.com/ava-labs/avalanchego/releases)下载最新版本tar.gz\( osx和windows的压缩包\)
 * 解压成我们选择的文件夹：
 
-\* Linux: tar -xvf avalanchego-linux-&lt;VERSION&gt;.tar.gz
+\* Linux系统：解压 tar -xvf avalanchego-linux-&lt;VERSION&gt;.tar.gz
 
-\* OSX: unzip avalanchego-macos-&lt;VERSION&gt;.zip
+\* OSX系统：解压 avalanchego-macos-&lt;VERSION&gt;.zip
 
-\* Windows: unzip avalanchego-win-&lt;VERSION&gt;.zip
+\* Windows系统： avalanchego-win-&lt;VERSION&gt;.zip
 
-* Navigate to the binaries directory cd avalanchego-&lt;VERSION&gt;
-* Run the binary with ./avalanchego on Linux and OSX and AvalancheGo on Windows
+* 导航到二进制文件目录 cd avalanchego-&lt;VERSION&gt;
+* 在Linux和OSX系统中运行二进制文件与 /avalanchego on Linux and OSX and AvalancheGo on Windows
 
 We will let our node bootstrap and sync with the rest with the network, and we are ready to roll.
 
@@ -87,5 +87,5 @@ Confirm the details!
 Congratulations. You are now delegating the Avalanche Primary Network!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzM3MzU2OF19
+eyJoaXN0b3J5IjpbLTExOTYyMDIzNDhdfQ==
 -->

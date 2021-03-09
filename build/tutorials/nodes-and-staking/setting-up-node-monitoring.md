@@ -15,21 +15,21 @@ _感谢社区成员Jovica Popović编写了此教程。如有需要，您可以�
 * AvalancheGo’s [指标API](https://docs.avax.network/v1.0/en/api/metrics/) 获取节点相关信息
 * [Grafana](https://grafana.com/) 可视化仪表板上的数据。
 
-Prerequisites:
+先决条件：
 
-* A running AvalancheGo node
-* Shell access to the machine running the node
-* Administrator privileges on the machine
+* 一个运行中的AvalancheGo节点
+* 运行节点的计算机的外壳访问
+* 计算机的管理员特权
 
-### **Caveat: Security**
+### **警告：安全性**
 
 {% hint style="danger" %}
-The system as described here **should not** be opened to the public internet. Neither Prometheus nor Grafana as shown here is hardened against unauthorized access. Make sure that both of them are accessible only over a secured proxy, local network, or VPN. Setting that up is beyond the scope of this tutorial, but exercise caution. Bad security practices could lead to attackers gaining control over your node! It is your responsibility to follow proper security practices.
+此处所述系统 **不应**向公共互联网开放。如图所示，Prometheus和Grafana均严禁未经允许的访问。请确保而这均只能通过安全代理、本地网络或VPN访问。本教程不包括其设置，但操作时要谨慎。如果安全操作有问题，则可能使攻击者获得对您节点的控制权！您自行负责遵循适当的安全做法。
 {% endhint %}
 
-### Contributions
+### 出资
 
-The basis for the Grafana dashboard was taken from the good guys at [ColmenaLabs](https://blog.colmenalabs.org/index.html), which is apparently not available anymore. If you have ideas and suggestions on how to improve this tutorial, please say so, post an issue, or make a pull request on [Github](https://github.com/ava-labs).
+Grafana仪表盘的基础取自 [ColmenaLabs](https://blog.colmenalabs.org/index.html), which is apparently not available anymore. If you have ideas and suggestions on how to improve this tutorial, please say so, post an issue, or make a pull request on [Github](https://github.com/ava-labs).
 
 ## Set up Prometheus
 
@@ -369,5 +369,5 @@ To import the preconfigured dashboard:
 That’s it! You may now marvel at all the things your node does. Woohoo!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTUyMzY5ODFdfQ==
+eyJoaXN0b3J5IjpbLTczOTQ5NjIwMl19
 -->

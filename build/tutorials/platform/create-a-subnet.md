@@ -26,7 +26,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-This gives the first control key \(again, it actually gives the _address_ of the first control key\). The key is held by the user we just specified.
+这样就生成了第一个控制密钥\(再次声明，它生成的实际上是第一个控制密钥的 _address_ \)。密钥由我们刚刚指定的用户持有。
 
 ```cpp
 {
@@ -38,7 +38,7 @@ This gives the first control key \(again, it actually gives the _address_ of the
 }
 ```
 
-Generate the second key:
+生成第二个密钥：
 
 ```cpp
 curl -X POST --data '{
@@ -52,7 +52,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-The response contains the second control key, which is held by the user we just specified:
+响应包含由我们刚刚指定的用户持有的第二个控制密钥：
 
 ```cpp
 {
@@ -64,9 +64,9 @@ The response contains the second control key, which is held by the user we just 
 }
 ```
 
-### Create the Subnet <a id="create-the-subnet"></a>
+### 创建子网 <a id="create-the-subnet"></a>
 
-To create a subnet, we call [`platform.createSubnet`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createsubnet).
+要创建子网，我们需要调用[`platform.createSubnet`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createsubnet).
 
 ```cpp
 curl -X POST --data '{
@@ -85,8 +85,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-The response gives us the transaction’s ID, which is also the ID of the newly created Subnet.
-
+T响应给出了交易的地址，也就是新创建的子网的地址。
 ```cpp
 {
     "jsonrpc": "2.0",
@@ -137,5 +136,5 @@ The response confirms that our subnet was created:
 This [tutorial](../nodes-and-staking/add-a-validator.md) will show you how to add validators to a subnet.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NjkyODI0OV19
+eyJoaXN0b3J5IjpbMTI3MDc3NDEyMF19
 -->

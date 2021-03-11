@@ -82,7 +82,7 @@ Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目�
 }
 ```
 
-要创建初始状态的字节形式，请调用 [`avm.buildGenesis`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-buildgenesis). Your call should look like the one below. Note that this call is made to the AVM’s static API endpoint, `/ext/vm/avm`.
+要创建初始状态的字节形式，请调用 [`avm.buildGenesis`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-buildgenesis)。调用示例如下。注意，这个调用的对象是AVM的静态API端点， `/ext/vm/avm`.
 
 ```cpp
 curl -X POST --data '{
@@ -143,7 +143,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/vm/avm
 ```
 
-This returns the byte representation of your blockchain’s genesis state:
+返回区块链初始状态的字节形式：
 
 ```cpp
 {
@@ -155,9 +155,9 @@ This returns the byte representation of your blockchain’s genesis state:
 }
 ```
 
-## Create the Blockchain
+## 创建区块链
 
-Now let’s create the new blockchain. To do so, we call [`platform.createBlockchain`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createblockchain). Your call should look like the one below. You have to change `subnetID` to the subnet that will validate your blockchain, and supply a `username` that controls a sufficient number of the subnet’s control keys. As a reminder, you can find out what a subnet’s threshold and control keys are by calling [`platform.getSubnets`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getsubnets).
+现在，让我们创建一个新的区块链。为此，调用[`platform.createBlockchain`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createblockchain)。调用示例如下。必须更改用于验证区块链的子网的 `subnetID` to the subnet that will validate your blockchain, and supply a `username` that controls a sufficient number of the subnet’s control keys. As a reminder, you can find out what a subnet’s threshold and control keys are by calling [`platform.getSubnets`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getsubnets).
 
 ```cpp
 curl -X POST --data '{
@@ -283,5 +283,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODY1NDI1OCw2MTA2MjMzODldfQ==
+eyJoaXN0b3J5IjpbLTE1NzkzNTU4MDEsNjEwNjIzMzg5XX0=
 -->

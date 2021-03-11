@@ -4,7 +4,7 @@
 
 [子网](../../../learn/platform-overview/#subnets) 是一组验证程序。一个子网验证一组区块链。每个区块链仅由一个子网进行验证，该子网在区块链创建时就已指定。子网是一种允许创建获许可区块链的强大原语。
 
-创建子网时，会指定阈值和一组密钥。\(实际上，指定的是密钥的地址，而不是密钥本身。\) 为了在子网中添加一个验证程序，需要这些密钥的 _threshold_ 签名。我们将它们称为子网的 **control keys** ，将向子网添加验证程序的交易中 **control signature.** The upshot is that a subnet has control over its membership.
+创建子网时，会指定阈值和一组密钥。\(实际上，指定的是密钥的地址，而不是密钥本身。\) 为了在子网中添加一个验证程序，需要这些密钥的 _threshold_ 签名。我们将它们称为子网的 **控制密钥** and we call a control key’s signature on a transaction that adds a validator to a subnet a **控制签名** The upshot is that a subnet has control over its membership.
 
 In this tutorial, we’ll create a new subnet with 2 control keys and a threshold of 2.
 
@@ -137,5 +137,5 @@ The response confirms that our subnet was created:
 This [tutorial](../nodes-and-staking/add-a-validator.md) will show you how to add validators to a subnet.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzIzOTMxMF19
+eyJoaXN0b3J5IjpbMTM0MDc2MzEwNF19
 -->

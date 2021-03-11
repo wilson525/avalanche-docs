@@ -48,7 +48,7 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 
 假设您已安装 [Avash](https://avalanche.gitbook.io/avalanche/build/tools/avash).
 
-To open Avash:
+打开 Avash：
 
 ```cpp
 cd $GOPATH/src/github.com/ava-labs/avash
@@ -62,17 +62,17 @@ go build
 ./avash
 ```
 
-Now we’re in Avash. To start the network:
+现在我们已经打开Avash。启动网络：
 
 ```cpp
 runscript scripts/five_node_staking.lua
 ```
 
-When you want to tear down the network, run `exit` to exit Avash.
+当您想要关闭网络时，运行`exit` 退出 Avash。
 
-### Verifying Nodes are Connected <a id="verifying-nodes-are-connected"></a>
+### 检查节点是否连接 <a id="verifying-nodes-are-connected"></a>
 
-We can look at one of the node’s peers to ensure that the nodes are connected. To do so, call [`info.peers`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-peers).
+可以通过检查与一个节点相连的其他节点来确保所有节点都已连接。为此，调用[`info.peers`](https://avalanche.gitbook.io/avalanche/build/apis/info-api#info-peers).
 
 ```cpp
 curl -X POST --data '{
@@ -82,8 +82,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-`peers` should have 4 entries:
-
+`peers` 应该有4个条目：
 ```cpp
 {
     "jsonrpc":"2.0",
@@ -128,7 +127,7 @@ curl -X POST --data '{
 }
 ```
 
-### Getting AVAX <a id="getting-avax"></a>
+### 获得 AVAX <a id="getting-avax"></a>
 
 When running a network with `--network-id=local`, as we’ve done, there is a pre-funded X-Chain address that you can import in order to get AVAX. The private key for this address is `PrivateKey-ewoqjP7PxY4yr3iLTpLisriqt94hdyDFNgchSxGGztUrTXtNN`. After you create a keystore user on a node, you can import this key, and the funds it holds, with:
 
@@ -152,5 +151,5 @@ That’s it! Your local version of Avalanche is up and running. It has the defau
 You can add more nodes to the network. Just remember to give unique values for `db-dir`, `http-port` , and `staking-port`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyNjA4NjE1XX0=
+eyJoaXN0b3J5IjpbLTY1MjU5ODMyMF19
 -->

@@ -129,7 +129,7 @@ curl -X POST --data '{
 
 ### 获得 AVAX <a id="getting-avax"></a>
 
-When running a network with `--network-id=local`, as we’ve done, there is a pre-funded X-Chain address that you can import in order to get AVAX. The private key for this address is `PrivateKey-ewoqjP7PxY4yr3iLTpLisriqt94hdyDFNgchSxGGztUrTXtNN`. After you create a keystore user on a node, you can import this key, and the funds it holds, with:
+当运行一个 `--network-id=local`的网络时，正如我们所做的那样，您可以导入一个预先投资的X链地址来获得AVAX。该地址的私人密钥为 `PrivateKey-ewoqjP7PxY4yr3iLTpLisriqt94hdyDFNgchSxGGztUrTXtNN`。在节点上创建密钥库用户之后，您可以通过以下方式导入该密钥及其持有的资金：
 
 ```cpp
 curl --location --request POST 'localhost:9650/ext/platform' \
@@ -146,10 +146,10 @@ curl --location --request POST 'localhost:9650/ext/platform' \
 }'
 ```
 
-That’s it! Your local version of Avalanche is up and running. It has the default blockchains: the [X-Chain](https://avalanche.gitbook.io/avalanche/learn/platform-overview#exchange-chain-x-chain), [C-Chain](https://avalanche.gitbook.io/avalanche/learn/platform-overview#contract-chain-c-chain), and [P-Chain](https://avalanche.gitbook.io/avalanche/learn/platform-overview#platform-chain-p-chain). The only subnet that exists is the Primary Network.
+就这样！您的Avalanche本地版本已启动并运行。它的默认区块链：[X-链](https://avalanche.gitbook.io/avalanche/learn/platform-overview#exchange-chain-x-chain), [C-链](https://avalanche.gitbook.io/avalanche/learn/platform-overview#contract-chain-c-chain), 和 [P-链](https://avalanche.gitbook.io/avalanche/learn/platform-overview#platform-chain-p-chain)。主网是唯一的子网。
 
-You can add more nodes to the network. Just remember to give unique values for `db-dir`, `http-port` , and `staking-port`.
+您可以在网络中添加更多节点。但需记住，`db-dir`, `http-port` ，和 `staking-port`的赋值必须是唯一的。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjU5ODMyMF19
+eyJoaXN0b3J5IjpbMTE2NTczMjA2Ml19
 -->

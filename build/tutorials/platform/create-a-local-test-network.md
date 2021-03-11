@@ -148,8 +148,8 @@ curl --location --request POST 'localhost:9650/ext/platform' \
 
 就这样！您的Avalanche本地版本已启动并运行。它的默认区块链：[X-链](https://avalanche.gitbook.io/avalanche/learn/platform-overview#exchange-chain-x-chain), [C-链](https://avalanche.gitbook.io/avalanche/learn/platform-overview#contract-chain-c-chain), 和 [P-链](https://avalanche.gitbook.io/avalanche/learn/platform-overview#platform-chain-p-chain)。主网是唯一的子网。
 
-您可以在网络中添加更多节点。但需记住，`db-dir`, `http-port` ，和 `staking-port`的赋值必须是唯一的。
+您可以在网络中添加更多节点。但需记住，`db-dir`, `http-port` ，和 `staking-port` 的赋值必须是唯一的。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTczMjA2Ml19
+eyJoaXN0b3J5IjpbLTU0MTI0ODk4MF19
 -->

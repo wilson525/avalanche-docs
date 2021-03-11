@@ -30,7 +30,7 @@ Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目�
 
 每个区块链在创建时都有一些初始状态。每个虚拟机都有一个名为 `buildGenesis` 的静态API方法，该方法接收区块链初始状态的JSON形式，并返回该状态的字节形式。\(某些虚拟机并非如此，比如Platform VM，因为我们不允许创建新实例。\)
 
-[AVM文档](../../avalanchego-apis/exchange-chain-x-chain-api.md) 指定了 [`avm.buildGenesis`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-buildgenesis) should look like this:
+[AVM文档](../../avalanchego-apis/exchange-chain-x-chain-api.md) 指定了 [`avm.buildGenesis`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-buildgenesis) 的参数，如下所示：
 
 ```cpp
 {
@@ -82,7 +82,7 @@ Avalanche的核心特征之一就是创建新区块链的能力。Avalanche目�
 }
 ```
 
-To create the byte representation of this genesis state, call [`avm.buildGenesis`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-buildgenesis). Your call should look like the one below. Note that this call is made to the AVM’s static API endpoint, `/ext/vm/avm`.
+要创建初始状态的字节形式，请调用 [`avm.buildGenesis`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-buildgenesis). Your call should look like the one below. Note that this call is made to the AVM’s static API endpoint, `/ext/vm/avm`.
 
 ```cpp
 curl -X POST --data '{
@@ -283,5 +283,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NzExMzQwNCw2MTA2MjMzODldfQ==
+eyJoaXN0b3J5IjpbMTIwODY1NDI1OCw2MTA2MjMzODldfQ==
 -->

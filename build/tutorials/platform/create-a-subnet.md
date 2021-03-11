@@ -4,15 +4,15 @@
 
 [子网](../../../learn/platform-overview/#subnets) 是一组验证程序。一个子网验证一组区块链。每个区块链仅由一个子网进行验证，该子网在区块链创建时就已指定。子网是一种允许创建获许可区块链的强大原语。
 
-创建子网时，会指定阈值和一组密钥。\(实际上，指定的是密钥的地址，而不是密钥本身。\) 为了在子网中添加一个验证程序，需要这些密钥的 _threshold_ 签名。我们将它们称为子网的 **控制密钥** and we call a control key’s signature on a transaction that adds a validator to a subnet a **控制签名** The upshot is that a subnet has control over its membership.
+创建子网时，会指定阈值和一组密钥。\(实际上，指定的是密钥的地址，而不是密钥本身。\) 为了在子网中添加一个验证程序，需要这些密钥的 _threshold_ 签名。我们将它们称为子网的 **控制密钥** ，将向子网添加验证程序的交易中**控制密钥** 的签名称为 **控制签名** 。结果就是子网可以控制它的成员。
 
-In this tutorial, we’ll create a new subnet with 2 control keys and a threshold of 2.
+在本教程中，我们将创建一个具有2个控制密钥和阈值为2的新子网。
 
-### Generate the Control Keys <a id="generate-the-control-keys"></a>
+### 生成控制密钥<a id="generate-the-control-keys"></a>
 
-First, let’s generate the 2 control keys. To do so we call [`platform.createAddress`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createaddress) This generates a new private key and stores it for a user.
+首先，让我们生成2个控制密钥。为此，我们需要调用 [`platform.createAddress`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createaddress) 。这将为客户生成并存储一个新的私人密钥。
 
-To generate the first key:
+生成第一个密钥：
 
 ```cpp
 curl -X POST --data '{
@@ -137,5 +137,5 @@ The response confirms that our subnet was created:
 This [tutorial](../nodes-and-staking/add-a-validator.md) will show you how to add validators to a subnet.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MDc2MzEwNF19
+eyJoaXN0b3J5IjpbLTI4NjkyODI0OV19
 -->

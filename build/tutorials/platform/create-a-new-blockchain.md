@@ -190,10 +190,9 @@ curl -X POST --data '{
 
 ### 验证成功 <a id="verify-success"></a>
 
-After a few seconds, the transaction to create our blockchain should have been accepted and the blockchain should exist \(assuming the request was well-formed, etc.\)
+几秒种后，创建区块链的交易就会被接受，区块链创建成功 \(假设请求格式正确，等等\)
 
-To check, call [`platform.getBlockchains`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getblockchains). This returns a list of all blockchains that exist.
-
+调用[`platform.getBlockchains`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getblockchains)进行查看。返回一张所有现有区块链的列表。
 ```cpp
 curl -X POST --data '{
     "jsonrpc":"2.0",
@@ -203,7 +202,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-The response confirms that the blockchain was created:
+这一响应确认区块链已创建：
 
 ```cpp
 {
@@ -252,9 +251,9 @@ The response confirms that the blockchain was created:
 }
 ```
 
-### Interact With the New Blockchain <a id="interact-with-the-new-blockchain"></a>
+### 与新区块链进行交互 <a id="interact-with-the-new-blockchain"></a>
 
-You can interact with this new instance of the AVM almost the same way you’d interact with the [X-Chain](../../../learn/platform-overview/#exchange-chain-x-chain). There are two small differences:
+您可以与这个新的 AVM 实例进行交互，就像与 [X链](../../../learn/platform-overview/#exchange-chain-x-chain)进行交互一样。有两个细微差别：
 
 * The API endpoint of your blockchain is `127.0.0.1:9650/ext/bc/zpFTwJwzPh3b9N6Ahccy4fXdJFHJJdhGah5z731J6ZspcYKpK`.
 * Addresses are prepended with `zpFTwJwzPh3b9N6Ahccy4fXdJFHJJdhGah5z731J6ZspcYKpK-` rather than `X-`.
@@ -283,5 +282,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODcxOTE5NDQsNjEwNjIzMzg5XX0=
+eyJoaXN0b3J5IjpbNjM3NjcyMTYxLDYxMDYyMzM4OV19
 -->

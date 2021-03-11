@@ -255,10 +255,10 @@ curl -X POST --data '{
 
 您可以与这个新的 AVM 实例进行交互，就像与 [X链](../../../learn/platform-overview/#exchange-chain-x-chain)进行交互一样。有两个细微差别：
 
-* The API endpoint of your blockchain is `127.0.0.1:9650/ext/bc/zpFTwJwzPh3b9N6Ahccy4fXdJFHJJdhGah5z731J6ZspcYKpK`.
-* Addresses are prepended with `zpFTwJwzPh3b9N6Ahccy4fXdJFHJJdhGah5z731J6ZspcYKpK-` rather than `X-`.
+* 区块链的API端点为`127.0.0.1:9650/ext/bc/zpFTwJwzPh3b9N6Ahccy4fXdJFHJJdhGah5z731J6ZspcYKpK`.
+* 地址前缀是`zpFTwJwzPh3b9N6Ahccy4fXdJFHJJdhGah5z731J6ZspcYKpK-` 而不是 `X-`.
 
-In the genesis data we specified that address `8UeduLccQuSmYiY3fGQEyotM9uXxoHoQQ` has 100,000 units of the asset with alias `asset1`. Let’s verify that:
+在初始数据中，我们指定地址`8UeduLccQuSmYiY3fGQEyotM9uXxoHoQQ` 有100,000单位的资产，别名 `asset1`。我们来验证一下：
 
 ```cpp
 curl -X POST --data '{
@@ -282,5 +282,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM3NjcyMTYxLDYxMDYyMzM4OV19
+eyJoaXN0b3J5IjpbLTE1NDY4ODI4MDIsNjEwNjIzMzg5XX0=
 -->

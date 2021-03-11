@@ -10,11 +10,11 @@
 
 ## 创建本地测试网络
 
-`$GOPATH/src/github.com/ava-labs/avalanchego`. [AvalancheGo](https://avalanche.gitbook.io/avalanche/build/getting-started#download-avalanchego)`$GOPATH/src/github.com/ava-labs/avalanchego/staking/local/staker1.crt`, etc.
+下面的命令假设您已经在`$GOPATH/src/github.com/ava-labs/avalanchego`上安装了[AvalancheGo](https://avalanche.gitbook.io/avalanche/build/getting-started#download-avalanchego) 。创建的每一个节点都是一个验证程序。这些节点的质押密钥在`$GOPATH/src/github.com/ava-labs/avalanchego/staking/local/staker1.crt`等
 
-### Manually
+### 手动
 
-To start the network:
+启动网络：
 
 ```cpp
 cd $GOPATH/src/github.com/ava-labs/avalanchego
@@ -44,9 +44,9 @@ cd $GOPATH/src/github.com/ava-labs/avalanchego
 ./build/avalanchego --public-ip=127.0.0.1 --snow-sample-size=2 --snow-quorum-size=2 --http-port=9658 --staking-port=9659 --db-dir=db/node5 --staking-enabled=true --network-id=local --bootstrap-ips=127.0.0.1:9651 --bootstrap-ids=NodeID-7Xhw2mDxuDS44j42TCB6U5579esbSt3Lg --staking-tls-cert-file=$(pwd)/staking/local/staker5.crt --staking-tls-key-file=$(pwd)/staking/local/staker5.key
 ```
 
-### With Avash
+### 通过 Avash
 
-We assume you’ve installed [Avash](https://avalanche.gitbook.io/avalanche/build/tools/avash).
+假设您已安装 [Avash](https://avalanche.gitbook.io/avalanche/build/tools/avash).
 
 To open Avash:
 
@@ -152,5 +152,5 @@ That’s it! Your local version of Avalanche is up and running. It has the defau
 You can add more nodes to the network. Just remember to give unique values for `db-dir`, `http-port` , and `staking-port`.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMDI0NTYyOV19
+eyJoaXN0b3J5IjpbOTAyNjA4NjE1XX0=
 -->

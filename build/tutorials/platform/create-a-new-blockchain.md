@@ -157,7 +157,7 @@ curl -X POST --data '{
 
 ## 创建区块链
 
-现在，让我们创建一个新的区块链。为此，调用[`platform.createBlockchain`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createblockchain)。调用示例如下。必须更改用于验证区块链的子网的 `subnetID` to the subnet that will validate your blockchain, and supply a `username` that controls a sufficient number of the subnet’s control keys. As a reminder, you can find out what a subnet’s threshold and control keys are by calling [`platform.getSubnets`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getsubnets).
+现在，让我们创建一个新的区块链。为此，调用[`platform.createBlockchain`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createblockchain)。调用示例如下。必须更改用于验证区块链的子网的 `subnetID` ，并提供一个控制着足够子网控制密钥的 `username` 。提醒一下，您可以通过调用[`platform.getSubnets`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getsubnets)来确定子网的阈值和控制密钥。
 
 ```cpp
 curl -X POST --data '{
@@ -175,7 +175,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-The response contains the transaction ID:
+响应包含交易地址：
 
 ```cpp
 {
@@ -188,7 +188,7 @@ The response contains the transaction ID:
 }
 ```
 
-### Verify Success <a id="verify-success"></a>
+### 验证成功 <a id="verify-success"></a>
 
 After a few seconds, the transaction to create our blockchain should have been accepted and the blockchain should exist \(assuming the request was well-formed, etc.\)
 
@@ -283,5 +283,5 @@ curl -X POST --data '{
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzkzNTU4MDEsNjEwNjIzMzg5XX0=
+eyJoaXN0b3J5IjpbLTE4ODcxOTE5NDQsNjEwNjIzMzg5XX0=
 -->

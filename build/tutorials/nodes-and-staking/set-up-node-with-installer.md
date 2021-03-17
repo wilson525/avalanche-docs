@@ -36,19 +36,18 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 
 如果您曾在此电脑上运行过AvalancheGo节点，则您会在`$HOME/.avalanchego` 目录下保存本地节点文档。此类文档不会受到干扰，此脚本设置的节点将以之前的同一身份和状态继续运行。换言之，为了您的节点安全，请备份 `$HOME/.avalanchego/staking` 目录下的`staker.crt` 和 `staker.key`文件，并将其保存到其他安全地方。如有需要，您可以使用上述文档在另一台电脑上重新创建您的节点。
 
-### Networking considerations
+### 联网注意事项
+T如需成功运行，AvalancheGo需要通过网络接口`9651`进行联网。在您进行安装之前，您需要确定您的节点将要运行的联网环境。
 
-To run successfully, AvalancheGo needs to accept connections from the Internet on the network port `9651`. Before you proceed with the installation, you need to determine the networking environment your node will run in.
+#### 在云供应商上运行
 
-#### Running on a cloud provider
+如果您的节点正在云供应商计算机实例上运行，则该节点会有一个固定IP。找出该固定IP，或如果您并未准备好，请设置。此脚本会尝试自行找出IP，但是这并非所有环境下都可行，因此您需要检查IP或自行输入。
 
-If your node is running on a cloud provider computer instance, it will have a static IP. Find out what that static IP is, or set it up if you didn't already. The script will try to find out the IP by itself, but that might not work in all environments, so you will need to check the IP or enter it yourself.
+#### 在家庭连接上运行
 
-#### Running on a home connection
+I如果您正在一台住宅网络连接的计算机上运行节点，则您拥有一个动态IP；换言之，您的IP会定期变化。安装脚本会针对此情况合理配置节点。但是，如果是家庭连接，您需要设置从互联网到节点所安装计算机转发 `9651` 端口的入站端口。
 
-If you're running a node on a computer that is on a residential internet connection, you have a dynamic IP; that is, your IP will change periodically. The install script will configure the node appropriately for that situation. But, for a home connection, you will need to set up inbound port forwarding of port `9651` from the internet to the computer the node is installed on.
-
-As there are too many models and router configurations, we cannot provide instructions on what exactly to do, but there are online guides to be found \(like [this](https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/), or [this](https://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/) \), and your service provider support might help too.
+由于型号和路由器配置过多，因此我们无法就具体应该做什么给出意见，但是可以在\(如 [这里](https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/)，或 [这里](https://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/) \), and your service provider support might help too.
 
 ## Running the script
 
@@ -235,5 +234,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDUzMjg3OThdfQ==
+eyJoaXN0b3J5IjpbLTEzNTY5Nzk5NDldfQ==
 -->

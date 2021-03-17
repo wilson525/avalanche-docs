@@ -132,25 +132,25 @@ AWS安全组定义了什么样的互联网流量可以进入并退出您的EC2�
 
 ![Under &quot;Actions&quot;, select &quot;Associate Elastic IP address.&quot;](https://miro.medium.com/max/490/1*Mj6N7CllYVJDl_-zcCl-gw.png)
 
-Select the instance you just created. This will associate the new Elastic IP with the instance and give it a public IP address that won't change.
+选择您刚刚创建的实例。从而关联新的弹性IP与实例，并赋予其一个固定的公共IP地址。
 
 ![Assign the Elastic IP to your EC2 instance.](https://miro.medium.com/max/834/1*NW-S4LzL3EC1q2_4AkIPUg.png)
 
-## Set Up AvalancheGo <a id="829e"></a>
+## 设置AvalancheGo<a id="829e"></a>
 
-Go back to the EC2 Dashboard and select `Running Instances`.
+返回EC2仪表盘，并选择 `Running Instances`.
 
 ![Go to your running instances.](https://miro.medium.com/max/672/1*CHJZQ7piTCl_nsuEAeWpDw.png)
 
-Select the newly created EC2 instance. This opens a details panel with information about the instance.
+选择新创建的EC2实例。打开详情面板，查看实例信息。
 
 ![Details about your new instance.](https://miro.medium.com/max/1125/1*3DNT5ecS-Dbf33I_gxKMlg.png)
 
-Copy the `IPv4 Public IP` field to use later. From now on we call this value `PUBLICIP`.
+复制 `IPv4 Public IP`字段，供以后使用。自此，我们称该值为`PUBLICIP`.
 
-**Remember: the terminal commands below assume you're running Linux. Commands may differ for MacOS or other operating systems. When copy-pasting a command from a code block, copy and paste the entirety of the text in the block.**
+**请记住：以下终端命令假设您正在运行的是Linux系统。Mac或其他操作系统的命令可能有所不同。当从代码区复制粘贴命令时，请复制并粘贴区域中的全部文本。**
 
-Log into the AWS instance from your local machine. Open a terminal \(try shortcut `CTRL + ALT + T`\) and navigate to the directory containing the `.pem` file you downloaded earlier.
+从您的本地计算机登录AWS实例。打开终端\(try shortcut `CTRL + ALT + T`\) and navigate to the directory containing the `.pem` file you downloaded earlier.
 
 Move the `.pem` file to `$HOME/.ssh` \(where `.pem` files generally live\) with:
 
@@ -274,5 +274,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjE2NzA4Ml19
+eyJoaXN0b3J5IjpbMTk1MTk2MzIzM119
 -->

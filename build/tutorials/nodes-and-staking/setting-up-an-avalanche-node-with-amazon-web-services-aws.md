@@ -150,21 +150,21 @@ AWS安全组定义了什么样的互联网流量可以进入并退出您的EC2�
 
 **请记住：以下终端命令假设您正在运行的是Linux系统。Mac或其他操作系统的命令可能有所不同。当从代码区复制粘贴命令时，请复制并粘贴区域中的全部文本。**
 
-从您的本地计算机登录AWS实例。打开终端\(try shortcut `CTRL + ALT + T`\) and navigate to the directory containing the `.pem` file you downloaded earlier.
+从您的本地计算机登录AWS实例。打开终端\(快捷键 `CTRL + ALT + T`\) ，并导航至包含您之前下载的`.pem` 文件的目录。
 
-Move the `.pem` file to `$HOME/.ssh` \(where `.pem` files generally live\) with:
+将`.pem` 文件移动到 `$HOME/.ssh` \(一般放置 `.pem` 文件的地方\) ，并：
 
 ```bash
 mv avalanche.pem ~/.ssh
 ```
 
-Add it to the SSH agent so that we can use it to SSH into your EC2 instance, and mark it as read-only.
+将其添加至SSH代理中，以便我们将其用到您的EC2实例中的SSH，并将其标记为只读。
 
 ```bash
 ssh-add ~/.ssh/avalanche.pem; chmod 400 ~/.ssh/avalanche.pem
 ```
 
-SSH into the instance. \(Remember to replace `PUBLICIP` with the public IP field from earlier.\)
+SSH进入实例。\(请记得用之前的公共IP字段替代 `PUBLICIP` \)
 
 ```text
 ssh ubuntu@PUBLICIP
@@ -274,5 +274,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTk2MzIzM119
+eyJoaXN0b3J5IjpbLTkwNzYyNTVdfQ==
 -->

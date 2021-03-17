@@ -268,12 +268,12 @@ AvalancheGo是一个正在进行中的项目，有定期的版本升级。大多
 ./avalanchego-installer.sh
 ```
 
-Your machine is now running the newest AvalancheGo version. To see the status of the AvalancheGo service, run `sudo systemctl status avalanchego.`
+您的计算机现在正在运行AvalancheGo的最新版本。如需查看AvalancheGo服务的状态，请运行 `sudo systemctl status avalanchego.`
 
-## Wrap Up
+## 打包
 
-That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
+就是这样！现在您已经在AWS EC2实例上运行一个AvalancheGo节点了。我们推荐为您的AvalancheGo节点设置 [节点监测](setting-up-node-monitoring.md)。我们也推荐设置AWS账单提醒，那么当有账单到达时，您不会觉得意外。如果您对本教程有任何反馈或其他意见，请在 [Discord](https://chat.avalabs.org)向我们发送信息
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwNTI4OTk2XX0=
+eyJoaXN0b3J5IjpbLTEzMDMxNDEzNV19
 -->

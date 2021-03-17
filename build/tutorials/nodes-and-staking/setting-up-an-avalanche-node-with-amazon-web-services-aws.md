@@ -101,35 +101,34 @@ AWS安全组定义了什么样的互联网流量可以进入并退出您的EC2�
 
 ![Add a tag with key &quot;Name&quot; and value &quot;My Avalanche Node.&quot;](https://miro.medium.com/max/1295/1*Ov1MfCZuHRzWl7YATKYDwg.png)
 
-现在，将之前创建的安全组分配给实例。选择 **Select an existing security group** and choose the security group created earlier.
+现在，将之前创建的安全组分配给实例。选择 **Select an existing security group** ，并选择之前创建的安全组。
 
 ![Choose the security group created earlier.](../../../.gitbook/assets/configure-security-group.png)
 
-Finally, click **Review and Launch** in the bottom right. A review page will show the details of the instance you're about to launch. Review those, and if all looks good, click the blue **Launch** button in the bottom right corner of the screen.
+最后，点击右下角的 **Review and Launch** 。查看页面上会显示您将要启动的实例的详情。查看后，如果一切运行良好，则点击屏幕右下角的蓝色 **Launch** 按钮。
 
-You'll be asked to select a key pair for this instance. Select **Choose an existing key pair** and then select the `avalanche` key pair you made earlier in the tutorial. Check the box acknowledging that you have access to the `.pem` or `.ppk` file created earlier \(make sure you've backed it up!\) and then click **Launch Instances**.
+我们会要求您为此实例选择一个关键对。选择 **Choose an existing key pair** ，然后选择您之前在教程中创建的`avalanche` 关键对。检查确认您有权访问先前创建的 `.pem` 或 `.ppk` 文件的复选框（请确保您已备份！）然后单击**Launch Instances**
 
 ![Use the key pair created earlier.](https://miro.medium.com/max/700/1*isN2Z7Y39JgoBAaDZ75x-g.png)
 
-You should see a new pop up that confirms the instance is launching!
-
+您应该会看到一个新的弹出窗口，以确认实例正在启动！
 ![Your instance is launching!](https://miro.medium.com/max/727/1*QEmh9Kpn1RbHmoKLHRpTPQ.png)
 
-### Assign an Elastic IP
+### 分配一个弹性IP
 
-By default, your instance will not have a fixed IP. Let's give it a fixed IP through AWS's Elastic IP service. Go back to the EC2 dashboard. Under **Network & Security,** select **Elastic IPs**.
+默认情况下，您的实例并不拥有固定IP。让我们通过AWS的弹性IP服务给您的实例一个固定IP。返回EC2仪表盘。 **Network & Security,** 项下，选择 **Elastic IPs**.
 
 ![Select &quot;Elastic IPs&quot; under &quot;Network &amp; Security.&quot;](https://miro.medium.com/max/192/1*BGm6pR_LV9QnZxoWJ7TgJw.png)
 
-Select **Allocate Elastic IP address**.
+选择 **Allocate Elastic IP address**.
 
 ![Select &quot;Allocate Elastic IP address.&quot;](https://miro.medium.com/max/503/1*pjDWA9ybZBKnEr1JTg_Mmw.png)
 
-Select the region your instance is running in, and choose to use Amazon’s pool of IPv4 addresses. Click **Allocate**.
+选择实例运行所在的区域，并选择使用亚马逊的IPv4地址库。点击**Allocate**.
 
 ![Settings for the Elastic IP.](https://miro.medium.com/max/840/1*hL5TtBcD_kR71OGYLQnyBg.png)
 
-Select the Elastic IP you just created from the Elastic IP manager. From the **Actions** drop-down, choose **Associate Elastic IP address**.
+选择您刚从弹性IP管理器中创建的弹性IP。在 **Actions** 下拉列表中，选择 **Associate Elastic IP address**。
 
 ![Under &quot;Actions&quot;, select &quot;Associate Elastic IP address.&quot;](https://miro.medium.com/max/490/1*Mj6N7CllYVJDl_-zcCl-gw.png)
 
@@ -275,5 +274,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTEwNzI5XX0=
+eyJoaXN0b3J5IjpbLTEyNjE2NzA4Ml19
 -->

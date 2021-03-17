@@ -1,15 +1,15 @@
-# Run an Avalanche Node on Linux using Install Script
+# 通过安装脚本在Linux系统上运行Avalanche节点
 
-We have a shell \(bash\) script that installs AvalancheGo on your computer. This script sets up full, running node in a matter of minutes with minimal user input required.
+我们有一个shell \(bash\) 脚本，用于在您的计算机上安装AvalancheGo。此脚本几分钟内即可设置完整的、正在运行的节点，且只需少量用户输入。
 
-## Before you start
+## 在您开始之前
 
-This install script assumes:
+此安装脚本假定：
 
-* OS: Ubuntu 18.04 or 20.04 \(sorry, MacOS and Windows not yet supported\)
-* AvalancheGo is not running and not already installed as a service
-* User running the script has superuser privileges \(can run `sudo`\)
-
+* 操作系统：Ubuntu 18.04或20.04 \(很抱歉，尚不支持MacOS和Windows系统\)
+* AvalancheGo未运行且尚未作为一项服务安装
+* 运行脚本的用户拥有超级用户权限\(可以运行“sudo”\）
+* 
 ### Environment considerations
 
 If you run a different flavor of Linux, the script might not work as intended. It assumes `systemd` is used to run system services. Other Linux flavors might use something else, or might have files in different places than is assumed by the script.
@@ -237,3 +237,6 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjA1MjU5MDAwMF19
+-->

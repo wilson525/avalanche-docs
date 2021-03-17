@@ -75,17 +75,17 @@ AWS安全组定义了什么样的互联网流量可以进入并退出您的EC2�
 
 ![Select c5.large.](https://miro.medium.com/max/883/1*YSmQYAGvwJmKEFg0iA60aQ.png)
 
-Click the **Next: Configure Instance Details** button in the bottom right-hand corner.
+击右下角的 **Next: Configure Instance Details** 按钮。
 
 ![](https://miro.medium.com/max/575/1*LdOFvctYF3HkFxmyNGDGSg.png)
 
-The instance details can stay as their defaults.
+实例详情可保留为默认值。
 
-### Optional: Using Spot Instances or Reserved Instances <a id="c99a"></a>
+### 可选：使用点实例或保留实例 <a id="c99a"></a>
 
-By default, you will be charged hourly for running your EC2 instance. There are two ways you may be able to pay less for your EC2.
+默认情况下，运行EC2实例将按小时计费。如需减少运行EC2的费用，有两种方法。
 
-The first is by launching your EC2 as a **Spot Instance**. Spot instances are instances that are not guaranteed to always be up, but which cost less on average than persistent instances. Spot instances use a supply-and-demand market price structure. As demand for instances goes up, the price for a spot instance goes up. You can set a maximum price you’re willing to pay for the spot instance. You may be able to save a significant amount of money, with the caveat that your EC2 instance may stop if the price increases. Do your own research before selecting this option to determine if the interruption frequency at your maximum price justifies the cost savings. If you choose to use a spot instance, be sure to set the interruption behavior to **Stop**, not **Terminate,** and check the **Persistent Request** option.
+第一种方法：将EC2作为 **Spot Instance**启动。点实例是并不保证总是能启动的实例，但其平均成本低于持久实例。点实例采用供需市场价格结构。随着实例需求的上升，点实例的价格也上涨。您可以设定一个您愿意为点实例的支付的最高价格。您可以节省大量资金，但需要注意的是，如果价格上涨，您的EC2实例可能会停止。在选择此选项之前，请先自行调研，以确定以您的最高价格计算的中断频率是否能节省成本。如果选择使用点实例，请确保将中断行为设置为 **Stop**而不是 **Terminate,** ，并查看 **Persistent Request** 选项。
 
 The other way you could save money is by using a **Reserved Instance**. With a reserved instance, you pay upfront for an entire year of EC2 usage, and receive a lower per-hour rate in exchange for locking in. If you intend to run a node for a long time and don't want to risk service interruptions, this is a good option to save money. Again, do your own research before selecting this option.
 
@@ -275,5 +275,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjY0ODQ4Nl19
+eyJoaXN0b3J5IjpbLTgyNTUxODY3OV19
 -->

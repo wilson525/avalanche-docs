@@ -6,19 +6,19 @@
 
 如需启动，您需要：
 
-* An AWS account
-* A terminal with which to SSH into your AWS machine
-* A place to securely store and back up files
+* AWS账户
+* 用于SSH到AWS计算机的终端
+* 安全存储和备份文件的地方
 
-This tutorial assumes your local machine has a Unix style terminal. If you're on Windows, you'll have to adapt some of the commands used here.
+本教程假设您的本地计算机拥有Unix系统终端。如果您用的是Windows系统，则您必须调整此处使用的一些命令。
 
-## Log Into AWS <a id="ff31"></a>
+## 登录AWS <a id="ff31"></a>
 
-Signing up for AWS is outside the scope of this article, but Amazon has instructions [here](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account).
+本文不讨论如何注册AWS，但是亚马逊[here](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account)有相关说明
 
-It is _highly_ recommended that you set up Multi-Factor Authentication on your AWS root user account to protect it. Amazon has documentation for this [here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html#enable-virt-mfa-for-root).
+强烈建议您在AWS根用户帐户上设置多重身份验证进行保护。亚马逊 [here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html#enable-virt-mfa-for-root)对此有相关文件
 
-Once your account is set up, you should create a new EC2 instance. An EC2 is a virtual machine instance in AWS's cloud. Go to the [AWS Management Console](https://console.aws.amazon.com/) and enter the EC2 dashboard.
+一旦设置了您的账户，您应创建一个新的EC2实例。EC2是AWS云端的一个虚拟机实例。访问 [AWS Management Console](https://console.aws.amazon.com/) and enter the EC2 dashboard.
 
 ![AWS Management Console.png](../../../.gitbook/assets/AWS-Management-Console.png)
 
@@ -276,5 +276,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjgwOTc1MTNdfQ==
+eyJoaXN0b3J5IjpbMTgxMjk3MTM1MF19
 -->

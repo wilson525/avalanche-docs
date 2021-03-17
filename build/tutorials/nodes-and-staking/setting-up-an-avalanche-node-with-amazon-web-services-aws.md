@@ -170,29 +170,29 @@ SSH进入实例。\(请记得用之前的公共IP字段替代 `PUBLICIP` \)
 ssh ubuntu@PUBLICIP
 ```
 
-If the permissions are **not** set correctly, you will see the following error.
+如果权限设置 **not** 正确，则会出现以下错误。
 
 ![Make sure you set the permissions correctly.](https://miro.medium.com/max/1065/1*Lfp8o3DTsGfoy2HOOLw3pg.png)
 
-You are now logged into the EC2 instance.
+现在，您已登录到EC2实例。
 
 ![You&apos;re on the EC2 instance.](https://miro.medium.com/max/1030/1*XNdOvUznKbuuMF5pMf186w.png)
 
-If you have not already done so, update the instance to make sure it has the latest operating system and security updates:
+如果尚未更新实例，请更新实例，以确保其拥有最新的操作系统和安全更新：
 
 ```text
 sudo apt update; sudo apt upgrade -y; sudo reboot
 ```
 
-This also reboots the instance. Wait 5 minutes, then log in again by running this command on your local machine:
+这也会重启实例。等待5分钟，然后在本地计算机上运行以下命令来重新登录：
 
 ```bash
 ssh ubuntu@PUBLICIP
 ```
 
-You're logged into the EC2 instance again. Now we’ll need to set up our Avalanche node. To do this, follow the [Set Up Avalanche Node With Installer](set-up-node-with-installer.md) tutorial which automates the installation process. You will need the `PUBLICIP` we set up earlier.
+您再次登录到EC2实例。现在我们需要设置Avalanche节点。为此，请按照 [使用安装程序设置Avalanche节点](set-up-node-with-installer.md) 教程，自动化安装过程。您会需要我们之前设置的`PUBLICIP` 
 
-Your AvalancheGo node should now be running and in the process of bootstrapping, which can take a few hours. To check if it's done, you can issue an API call using `curl`. If you're making the request from the EC2 instance, the request is:
+您的AvalancheGo节点现在应正在运行并处于引导过程中，这可能需要几个小时。如需检查这一过程是否已完成，您可以使用 `curl`来发行API调用。如果您是从EC2实例发出请求，则请求是：
 
 ```text
 curl -X POST --data '{
@@ -274,5 +274,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzYyNTVdfQ==
+eyJoaXN0b3J5IjpbNzQwNDgyMjUxXX0=
 -->

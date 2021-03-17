@@ -188,21 +188,22 @@ sudo systemctl start avalanchego
 
 ## 节点升级
 
-AvalancheGo is an ongoing project and there are regular version upgrades. Most upgrades are recommended but not required. Advance notice will be given for upgrades that are not backwards compatible. When a new version of the node is released, you will notice log lines like:
+AvalancheGo仍是一个进行中的项目，因此会有定期版本升级。大多数升级只是推荐，并不必需。如果升级与后台不兼容，则会有提前通知。当发行节点新版本时，您会看到如下日志字段：
 
 ```text
 Jan 08 10:26:45 ip-172-31-16-229 avalanchego[6335]: INFO [01-08|10:26:45] avalanchego/network/peer.go#526: beacon 9CkG9MBNavnw7EVSRsuFr7ws9gascDQy3 attempting to connect with newer version avalanche/1.1.1. You may want to update your client
 ```
 
-It is recommended to always upgrade to the latest version, because new versions bring bug fixes, new features and upgrades.
 
-To upgrade your node, just run the installer script again:
+由于新版本修复了错误并带来了新功能和升级，因此推荐始终升级至最新版本。
+
+如需升级您的节点，只需再次运行安装脚本即可：
 
 ```text
 ./avalanchego-installer.sh
 ```
 
-It will detect that you already have AvalancheGo installed:
+它会检测您是否已经安装了AvalancheGo：
 
 ```text
 AvalancheGo installer
@@ -213,7 +214,7 @@ Found AvalancheGo systemd service already installed, switching to upgrade mode.
 Stopping service...
 ```
 
-It will then upgrade your node to the latest version, and after it's done, start the node back up, and print out the information about the latest version:
+然后它会将您的节点升级至最新版本，升级完成后，开始节点备份并打印最新版本的信息。
 
 ```text
 Node upgraded, starting service...
@@ -222,7 +223,7 @@ avalanche/1.1.1 [network=mainnet, database=v1.0.0, commit=f76f1fd5f99736cf468413
 Done!
 ```
 
-## What next?
+## 下一步呢？
 
 That's it, you're running an AvalancheGo node! Congratulations! Let us know you did it on our [Twitter](https://twitter.com/avalancheavax), [Telegram](https://t.me/avalancheavax) or [Reddit](https://t.me/avalancheavax)!
 
@@ -233,5 +234,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzUzNTEzNV19
+eyJoaXN0b3J5IjpbLTEwMzMzNjM1MDBdfQ==
 -->

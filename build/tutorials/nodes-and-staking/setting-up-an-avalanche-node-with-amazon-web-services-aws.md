@@ -87,21 +87,21 @@ AWS安全组定义了什么样的互联网流量可以进入并退出您的EC2�
 
 第一种方法：将EC2作为 **Spot Instance**启动。点实例是并不保证总是能启动的实例，但其平均成本低于持久实例。点实例采用供需市场价格结构。随着实例需求的上升，点实例的价格也上涨。您可以设定一个您愿意为点实例的支付的最高价格。您可以节省大量资金，但需要注意的是，如果价格上涨，您的EC2实例可能会停止。在选择此选项之前，请先自行调研，以确定以您的最高价格计算的中断频率是否能节省成本。如果选择使用点实例，请确保将中断行为设置为 **Stop**而不是 **Terminate,** ，并查看 **Persistent Request** 选项。
 
-The other way you could save money is by using a **Reserved Instance**. With a reserved instance, you pay upfront for an entire year of EC2 usage, and receive a lower per-hour rate in exchange for locking in. If you intend to run a node for a long time and don't want to risk service interruptions, this is a good option to save money. Again, do your own research before selecting this option.
+第二种省钱方法：使用**Reserved Instance**。您需要为保留实例预付一整年的EC2使用费，并以较低的每小时费率换取锁定。如果您计划长时间运行一个节点，并且不想冒服务中断的风险，那么这是一个很好的省钱选择。同样，选择此选项之前，请自行调研。
 
-### Add Storage, Tags, Security Group <a id="dbf5"></a>
+### 添加存储、标签、安全组 <a id="dbf5"></a>
 
-Click the **Next: Add Storage** button in the bottom right corner of the screen.
+点击屏幕右下角的 **Next: Add Storage**
 
-You need to add space to your instance's disk. We use 100 GB in this example. The Avalanche database will continually grow until pruning is implemented , so it’s safer to have a larger hard drive allocation for now.
+您需要为您的实例磁盘添加空间。本例中，我们使用的是100GB。Avalanche数据库将不断扩大，直至实现精简，所以目前而言更安全的做法是拥有更大的硬盘驱动分配。
 
 ![Select 100 GB for the disk size.](../../../.gitbook/assets/add-storage.png)
 
-Click **Next: Add Tags** in the bottom right corner of the screen to add tags to the instance. Tags enable us to associate metadata with our instance. Add a tag with key `Name` and value `My Avalanche Node`. This will make it clear what this instance is on your list of EC2 instances.
+点击屏幕右下角的 **Next: Add Tags** ，为实例添加标签。通过标签，我们可以将元数据与实例联系起来。添加标签，其键为 `Name` ，值为 `My Avalanche Node`。借此，您能够明确该实例在您的EC2实例列表中是什么。
 
 ![Add a tag with key &quot;Name&quot; and value &quot;My Avalanche Node.&quot;](https://miro.medium.com/max/1295/1*Ov1MfCZuHRzWl7YATKYDwg.png)
 
-Now assign the security group created earlier to the instance. Choose **Select an existing security group** and choose the security group created earlier.
+现在，将之前创建的安全组分配给实例。选择 **Select an existing security group** and choose the security group created earlier.
 
 ![Choose the security group created earlier.](../../../.gitbook/assets/configure-security-group.png)
 
@@ -275,5 +275,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTUxODY3OV19
+eyJoaXN0b3J5IjpbMjAwMTEwNzI5XX0=
 -->

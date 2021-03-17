@@ -33,25 +33,25 @@
 
 ![Create a key pair that will later be assigned to your EC2 instance.](https://miro.medium.com/max/827/1*Bo30BXjwPTGpgFtoU9VDBA.png)
 
-点击 `Create key pair`。您应看到一条成功消息，并且密钥文件应下载到您的本地计算机上。如无此文件，您将无法访问EC2实例。**Make a copy of this file and put it on a separate storage medium such as an external hard drive. Keep this file secret; do not share it with others.**
+点击 `Create key pair`。您应看到一条成功消息，并且密钥文件应下载到您的本地计算机上。如无此文件，您将无法访问EC2实例。**复制此文件并将其放在单独的存储介质（如外部硬盘）上。此文件保密，不得与他人共享**
 
 ![Success message after creating a key pair.](https://miro.medium.com/max/534/1*RGpHRWWFjNKMZb7cQTyeWQ.png)
 
-## Create a Security Group <a id="f8df"></a>
+## 创建安全组 <a id="f8df"></a>
 
-An AWS Security Group defines what internet traffic can enter and leave your EC2 instance. Think of it like a firewall. Create a new Security Group by selecting **Security Groups** under the **Network & Security** drop-down.
+AWS安全组定义了什么样的互联网流量可以进入并退出您的EC2实例。将其想象成防火墙。在**Security Groups** 下拉列表中选择 **Network & Security** ，创建一个新的安全组。
 
 ![Select &quot;Security Groups&quot; underneath &quot;Network &amp; Security.&quot;](https://miro.medium.com/max/214/1*pFOMpS0HhzcAYbl_VfyWlA.png)
 
-This opens the Security Groups panel. Click **Create security group** in the top right of the Security Groups panel.
+打开安全组面板。点击安全组面板右上角的 **Create security group** 
 
 ![Select &quot;Create security group.&quot;](https://miro.medium.com/max/772/1*B0JSYoMBplAtCz2Yb2e1sA.png)
 
-You'll need to specify what inbound traffic is allowed. Allow SSH traffic from your IP address so that you can log into your EC2 instance. \(Each time your ISP changes your IP address, you will need to modify this rule. If your ISP changes regularly, you may allow SSH traffic from anywhere to avoid having to modify this rule frequently.\) Allow TCP traffic on port 9651 so your node can communicate with other nodes on the network. Allow TCP traffic on port 9650 from your IP so you can make API calls to your node. **It's important that you only allow traffic on this port from your IP.** If you allow incoming traffic from anywhere, this could be used as an denial of service attack vector. Finally, allow all outbound traffic.
+您需要指定哪些入站流量是允许进入的。允许来自您的IP地址的SSH流量，因此您可以登陆您的EC2实例。\(每次您的ISP更改您的IP地址时，您需要修改此规则。如果您的ISP定期更改，则您可以允许来自任何地方的SSH流量进入，以避免频繁修改此规则。\)允许端口9651上的TCP通信，则您的节点可以与网络上的其他节点通信。允许来自IP的端口9650上的TCP通信，则可以对节点进行API调用。 **重要的是，您只允许从您的IP上访问这个端口。**如果允许来自任何地方的入站流量，则这可用作服务攻击向量的拒绝。最后，允许所有出站流量。
 
 ![Your inbound and outbound rules should look like this.](../../../.gitbook/assets/inbound-rules.png)
 
-Add a tag to the new security group with key `Name` and value`Avalanche Security Group`. This will enable us to know what this security group is when we see it in the list of security groups.
+给新的安全组添加一个标签，其键为 `Name` ，值为`Avalanche Security Group`. This will enable us to know what this security group is when we see it in the list of security groups.
 
 ![Tag the security group so you can identify it later.](https://miro.medium.com/max/961/1*QehD3uyplkb4RPxddP1qkg.png)
 
@@ -275,5 +275,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTExNDQxMDhdfQ==
+eyJoaXN0b3J5IjpbLTIwNDk3MTM2NzVdfQ==
 -->

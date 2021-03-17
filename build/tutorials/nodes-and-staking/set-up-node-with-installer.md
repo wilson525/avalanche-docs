@@ -225,14 +225,14 @@ Done!
 
 ## 下一步呢？
 
-That's it, you're running an AvalancheGo node! Congratulations! Let us know you did it on our [Twitter](https://twitter.com/avalancheavax), [Telegram](https://t.me/avalancheavax) or [Reddit](https://t.me/avalancheavax)!
+T就是这样，您正在运行AvalancheGo节点了！恭喜！如果您做到了，请在我们的[Twitter](https://twitter.com/avalancheavax), [Telegram](https://t.me/avalancheavax) 或 [Reddit](https://t.me/avalancheavax)!
 
-If you're on a residential network \(dynamic IP\), don't forget to set up port forwarding. If you're on a cloud service provider, you're good to go.
+如果您使用的是住宅网络\(动态IP\)，请记得设置端口转发。如果您使用的是云服务供应商，那么您可以直接开始了。
 
-Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.md), [stake your tokens](staking-avax-by-validating-or-delegating-with-the-avalanche-wallet.md), or level up your installation by setting up [node monitoring](setting-up-node-monitoring.md) to get a better insight into what your node is doing.
+现在您可以 [与您的节点互动](../../avalanchego-apis/issuing-api-calls.md)，[质押您的代币](staking-avax-by-validating-or-delegating-with-the-avalanche-wallet.md)或通过设置[节点监测](setting-up-node-monitoring.md) 来升级您的安装，从而更好地查看您的节点的当前进度。
 
-If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
+如有任何问题或需要帮助，请随时通过 [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzMzNjM1MDBdfQ==
+eyJoaXN0b3J5IjpbLTM1NzgwMzY1Nl19
 -->

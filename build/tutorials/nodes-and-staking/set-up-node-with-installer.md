@@ -96,9 +96,9 @@ Enter your connection type [1,2]:
 Detected '3.15.152.14' as your public IP. Is this correct? [y,n]:
 ```
 
-按 `y`, or `n` 确认，如果检测到的IP有误\(or empty\), and then enter the correct IP at the next prompt.
+按 `y` 确认，如果检测到的IP有误\(或为空\)，然后在下一个弹窗中输入正确IP。
 
-The script will then continue with system service creation and finish with starting the service.
+然后，脚本会继续创建系统服务，并在启动服务时结束。
 
 ```text
 Installing service with public IP: 3.15.152.14
@@ -115,9 +115,9 @@ sudo journalctl -u avalanchego -f
 Reach us over on https://chat.avax.network if you're having problems.
 ```
 
-The script is finished, and you should see the system prompt again.
+脚本完成，您应该会再次看到系统弹窗。
 
-## Post installation
+## 安装后
 
 AvalancheGo should be running in the background as a service. You can check that it's running with:
 
@@ -234,5 +234,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDc1NzAyMTddfQ==
+eyJoaXN0b3J5IjpbLTQzMzMzODkyNF19
 -->

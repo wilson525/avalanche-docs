@@ -231,8 +231,8 @@ T就是这样，您正在运行AvalancheGo节点了！恭喜！如果您做到�
 
 现在您可以 [与您的节点互动](../../avalanchego-apis/issuing-api-calls.md)，[质押您的代币](staking-avax-by-validating-or-delegating-with-the-avalanche-wallet.md)或通过设置[节点监测](setting-up-node-monitoring.md) 来升级您的安装，从而更好地查看您的节点的当前进度。
 
-如有任何问题或需要帮助，请随时通过 [Discord](https://chat.avalabs.org/) server.
+如有任何问题或需要帮助，请随时通过 [Discord](https://chat.avalabs.org/) 服务器联系我们
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzgwMzY1Nl19
+eyJoaXN0b3J5IjpbMTY4MTU2MzcyNV19
 -->

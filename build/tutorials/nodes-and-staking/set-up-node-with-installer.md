@@ -119,13 +119,13 @@ Reach us over on https://chat.avax.network if you're having problems.
 
 ## 安装后
 
-AvalancheGo should be running in the background as a service. You can check that it's running with:
+AvalancheGo应在后台作为一项服务运行。您可以查看它是否正在运行：
 
 ```text
 sudo systemctl status avalanchego
 ```
 
-This will print the node's latest logs, which should look like this:
+它会打印节点的最新日志，如下所示：
 
 ```text
 ● avalanchego.service - AvalancheGo systemd service
@@ -149,9 +149,9 @@ Jan 05 10:39:09 ip-172-31-30-64 avalanchego[2142]: INFO [01-05|10:39:09] <P Chai
 Jan 05 10:39:11 ip-172-31-30-64 avalanchego[2142]: INFO [01-05|10:39:11] <P Chain> avalanchego/snow/engine/snowman/bootstrap/bootstrapper.go#210: fetched 12500 blocks
 ```
 
-Note the `active (running)` which indicates the service is running ok. You may need to press `q` to return to the command prompt.
+请注意，`active (running)` 说明服务运行正常。您可能需要按 `q` 来返回命令弹窗。
 
-To find out your NodeID, which is used to identify your node to the network, run the following command:
+如需找出您的节点ID，以在网络中辨识您的节点，请运行如下命令：
 
 ```text
 sudo journalctl -u avalanchego | grep "node's ID"
@@ -234,5 +234,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMzMzODkyNF19
+eyJoaXN0b3J5IjpbMTYzNzg4NDgzNl19
 -->

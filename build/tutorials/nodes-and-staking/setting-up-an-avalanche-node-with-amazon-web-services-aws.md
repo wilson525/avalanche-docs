@@ -51,27 +51,27 @@ AWS安全组定义了什么样的互联网流量可以进入并退出您的EC2�
 
 ![Your inbound and outbound rules should look like this.](../../../.gitbook/assets/inbound-rules.png)
 
-给新的安全组添加一个标签，其键为 `Name` ，值为`Avalanche Security Group`. This will enable us to know what this security group is when we see it in the list of security groups.
+给新的安全组添加一个标签，其键为 `Name` ，值为`Avalanche Security Group`。借此，当我们在安全组列表中看到该安全组时，我们能够知晓它是什么。
 
 ![Tag the security group so you can identify it later.](https://miro.medium.com/max/961/1*QehD3uyplkb4RPxddP1qkg.png)
 
-Click `Create security group`. You should see the new security group in the list of security groups.
+点击 `Create security group`。您应在安全组列表中看到新的安全组。
 
-## Launch an EC2 Instance <a id="0682"></a>
+## 启动EC2实例 <a id="0682"></a>
 
-Now you're ready to launch an EC2 instance. Go to the EC2 Dashboard and select **Launch instance**.
+现在，您可以启动EC2实例。访问EC2仪表盘并选择 **Launch instance**.
 
 ![Select &quot;Launch Instance.&quot;](https://miro.medium.com/max/813/1*zsawPDMBFlonC_7kg060wQ.png)
 
-Select **Ubuntu 20.04 LTS \(HVM\), SSD Volume Type** for the operating system.
+为操作系统选择 **Ubuntu 20.04 LTS \(HVM\), SSD Volume Type** 
 
 ![Select Ubuntu 20.04 LTS.](https://miro.medium.com/max/1591/1*u438irkY1UoRGHO6v76jRw.png)
 
-Next, choose your instance type. This defines the hardware specifications of the cloud instance. In this tutorial we set up a **c5.large**. This should be more than powerful enough since Avalanche is a lightweight consensus protocol. To create a c5.large instance, select the **Compute-optimized** option from the filter drop-down menu.
+下一步，选择您的实例类型。这定义了云实例的硬件规范。在本教程中，我们设置了一个 **c5.large**. 。由于Avalanche是一个轻量级共识协议，因此这应当已经足够了。如需创建c5.large实例，请从筛选程序下拉菜单中选择 **Compute-optimized**选项。
 
 ![Filter by compute optimized.](https://miro.medium.com/max/595/1*tLVhk8BUXVShgm8XHOzmCQ.png)
 
-Select the checkbox next to the c5.large instance in the table.
+选择表格中c5.large实例旁的复选框。
 
 ![Select c5.large.](https://miro.medium.com/max/883/1*YSmQYAGvwJmKEFg0iA60aQ.png)
 
@@ -275,5 +275,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk3MTM2NzVdfQ==
+eyJoaXN0b3J5IjpbLTg2MjY0ODQ4Nl19
 -->

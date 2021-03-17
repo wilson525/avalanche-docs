@@ -26,15 +26,14 @@
 
 ![Select &quot;Key Pairs&quot; under the &quot;Network &amp; Security&quot; drop-down.](../../../.gitbook/assets/Network-and-Security.png)
 
-Select **Create key pair** to launch the key pair creation wizard.
-
+选择 **Create key pair** ，以启动密钥对创建向导。
 ![Select &quot;Create key pair.&quot;](https://miro.medium.com/max/847/1*UZ4L0DGUogCfBq-TZ5U3Kw.png)
 
-Name your key `avalanche`. If your local machine has MacOS or Linux, select the `pem` file format. If it's Windows, use the `ppk` file format. Optionally, you can add tags for the key pair to assist with tracking.
+将您的密钥命名为 `avalanche`。如果您的本地计算机是MacOS或Linux操作系统，请选择 `pem` 文件格式。如果是Windows系统，请使用 `ppk` 文件格式。或者，您可以为密钥对添加标记，以协助追踪。
 
 ![Create a key pair that will later be assigned to your EC2 instance.](https://miro.medium.com/max/827/1*Bo30BXjwPTGpgFtoU9VDBA.png)
 
-Click `Create key pair`. You should see a success message, and the key file should be downloaded to your local machine. Without this file, you will not be able to access your EC2 instance. **Make a copy of this file and put it on a separate storage medium such as an external hard drive. Keep this file secret; do not share it with others.**
+点击 `Create key pair`。您应看到一条成功消息，并且密钥文件应下载到您的本地计算机上。如无此文件，您将无法访问EC2实例。**Make a copy of this file and put it on a separate storage medium such as an external hard drive. Keep this file secret; do not share it with others.**
 
 ![Success message after creating a key pair.](https://miro.medium.com/max/534/1*RGpHRWWFjNKMZb7cQTyeWQ.png)
 
@@ -276,5 +275,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDM2MjI0N119
+eyJoaXN0b3J5IjpbLTExNTExNDQxMDhdfQ==
 -->

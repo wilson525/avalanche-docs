@@ -242,27 +242,27 @@ AvalancheGo还有其他API，例如可能用于与节点互动的 [Health API](.
 
 ![Some APIs are disabled by default.](https://miro.medium.com/max/881/1*Vm-Uh2yV0pDCVn8zqFw64A.png)
 
-备份节点的质押密钥和证书，以防EC2实例损坏或不可用。节点ID衍生自其质押密钥和证书。如果您丢失了质押密钥或证书，那么您的节点将获得一个新的节点ID，如果您的节点是验证程序，则您可能没有资格获得质押奖励。 **It is very strongly advised that you copy your node's staking key and certificate**. The first time you run a node, it will generate a new staking key/certificate pair and store them in directory `/home/ubuntu/.avalanchego/staking`.
+备份节点的质押密钥和证书，以防EC2实例损坏或不可用。节点ID衍生自其质押密钥和证书。如果您丢失了质押密钥或证书，那么您的节点将获得一个新的节点ID，如果您的节点是验证程序，则您可能没有资格获得质押奖励。 **强烈建议您复制节点的质押密钥和证书**。第一次运行节点时，它将生成一个新的质押密钥/证书对，并存储于`/home/ubuntu/.avalanchego/staking`目录下。
 
-Exit out of the SSH instance by running:
+通过运行以下命令退出SSH实例：
 
 ```bash
 exit
 ```
 
-Now you're no longer connected to the EC2 instance; you're back on your local machine.
 
-To copy the staking key and certificate to your machine, run the following command. As always, replace `PUBLICIP`.
+现在，您已经断开了EC2实例的连接；您返回了您的本地计算机。
+
+如果要将质押密钥和证书复制到您的计算机上，请运行以下命令。与之前一样，替换 `PUBLICIP`.
 
 ```text
 scp -r ubuntu@PUBLICIP:/home/ubuntu/.avalanchego/staking ~/aws_avalanche_backup
 ```
 
-Now your staking key and certificate are in directory `~/aws_avalanche_backup` . **The contents of this directory are secret.** You should hold this directory on storage not connected to the internet \(like an external hard drive.\)
+现在，您的质押密钥和证书位于`~/aws_avalanche_backup` 目录下**The contents of this directory are secret.** 您应将此目录保存在未连接到互联网的存储器上\(例如外部硬盘\)
+### 升级您的节点 <a id="9ac7"></a>
 
-### Upgrading Your Node <a id="9ac7"></a>
-
-AvalancheGo is an ongoing project and there are regular version upgrades. Most upgrades are recommended but not required. Advance notice will be given for upgrades that are not backwards compatible. To update your node to the latest version, SSH into your AWS instance as before and run the installer script again.
+AvalancheGo是一个正在进行中的项目，有定期的版本升级。大多数升级都只是推荐的，而不是必须的。如果升级不兼容，则会有提前通知。如果要把您的节点更新到最新版本，则需像之前一样SSH进入您的AWS实例并再次运行安装程序脚本。
 
 ```text
 ./avalanchego-installer.sh
@@ -275,5 +275,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODAwOTMzNF19
+eyJoaXN0b3J5IjpbNTkwNTI4OTk2XX0=
 -->

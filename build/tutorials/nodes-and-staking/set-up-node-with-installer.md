@@ -47,13 +47,14 @@ T如需成功运行，AvalancheGo需要通过网络接口`9651`进行联网。�
 
 I如果您正在一台住宅网络连接的计算机上运行节点，则您拥有一个动态IP；换言之，您的IP会定期变化。安装脚本会针对此情况合理配置节点。但是，如果是家庭连接，您需要设置从互联网到节点所安装计算机转发 `9651` 端口的入站端口。
 
-由于型号和路由器配置过多，因此我们无法就具体应该做什么给出意见，但是可以在\(如 [这里](https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/)，或 [这里](https://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/) \), and your service provider support might help too.
+由于型号和路由器配置过多，因此我们无法就具体应该做什么给出意见，但是可以在\(如 [这里](https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/)，或 [这里](https://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/) \)找到线上指南，您的服务供应商支持可能也有所帮助。
 
-## Running the script
+## 运行脚本
 
-So, now that you prepared your system and have the info ready, let's get to it.
 
-To download and run the script, enter the following in the terminal:
+所以，既然您已经准备好了系统和信息，那就开始吧。
+
+如需下载并运行脚本，请在终端输入下列信息：
 
 ```text
 wget https://raw.githubusercontent.com/ava-labs/avalanche-docs/master/scripts/avalanchego-installer.sh;\
@@ -61,7 +62,7 @@ chmod 755 avalanchego-installer.sh;\
 ./avalanchego-installer.sh
 ```
 
-And we're off! The output should look something like this:
+让我们开始吧！输出应该看起来是这样的：
 
 ```text
 AvalancheGo installer
@@ -80,7 +81,7 @@ avalanchego-v1.1.1/avalanchego
 Node files unpacked into /home/ubuntu/avalanche-node
 ```
 
-And then the script will prompt you for information about the network environment:
+然后，脚本会提示您输入有关网络环境的信息：
 
 ```text
 To complete the setup some networking information is needed.
@@ -90,13 +91,12 @@ Where is the node installed:
 Enter your connection type [1,2]:
 ```
 
-enter `1` if you have dynamic IP, and `2` if you have a static IP. If you are on a static IP, it will try to auto-detect the IP and ask for confirmation.
-
+如果您是动态IP，请输入`1` ，如果您是固定IP，请输入 `2` 。如果您是固定IP，则它会尝试自动检测IP并询问确认。
 ```text
 Detected '3.15.152.14' as your public IP. Is this correct? [y,n]:
 ```
 
-Confirm with `y`, or `n` if the detected IP is wrong \(or empty\), and then enter the correct IP at the next prompt.
+按 `y`, or `n` 确认，如果检测到的IP有误\(or empty\), and then enter the correct IP at the next prompt.
 
 The script will then continue with system service creation and finish with starting the service.
 
@@ -234,5 +234,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTY5Nzk5NDldfQ==
+eyJoaXN0b3J5IjpbLTEyNDc1NzAyMTddfQ==
 -->

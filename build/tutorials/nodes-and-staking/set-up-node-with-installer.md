@@ -32,9 +32,9 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 
 查找不包含`grep` 本例中，不包含“grep”的是第二行。其中展示了您的节点信息。请注意本例中的进程ID是`2630`。通过运行 `kill -2 2630`.
 
-#### Node working files
+####节点工作文档
 
-If you previously ran an AvalancheGo node on this computer, you will have local node files stored in `$HOME/.avalanchego` directory. Those files will not be disturbed, and node set up by the script will continue operation with the same identity and state it had before. That being said, for your node's security, back up `staker.crt` and `staker.key` files, found in `$HOME/.avalanchego/staking` and store them somewhere secure. You can use those files to recreate your node on a different computer if you ever need to.
+如果您曾在此电脑上运行过AvalancheGo节点，则您会在`$HOME/.avalanchego` 目录下保存本地节点文档。此类文档不会受到干扰，此脚本设置的节点将以之前的同一身份和状态继续运行。换言之，为了您的节点安全，请备份 `$HOME/.avalanchego/staking` 目录下的`staker.crt` 和 `staker.key`文件，并将其保存到其他安全地方。如有需要，您可以使用上述文档在另一台电脑上重新创建您的节点。
 
 ### Networking considerations
 
@@ -235,5 +235,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODAxODkxOF19
+eyJoaXN0b3J5IjpbLTE2NDUzMjg3OThdfQ==
 -->

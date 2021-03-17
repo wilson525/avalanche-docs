@@ -205,7 +205,7 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-Once the node is finished bootstrapping, the response will be:
+一旦节点完成引导，则响应将是：
 
 ```text
 {
@@ -217,9 +217,10 @@ Once the node is finished bootstrapping, the response will be:
 }
 ```
 
-You can continue on, even if AvalancheGo isn't done bootstrapping.
 
-In order to make your node a validator, you'll need its node ID. To get it, run:
+即使AvalancheGo并未完成引导，您也可以继续。
+
+为了使您的节点成为验证程序，您将需要其节点ID。如需获得它，请运行：
 
 ```text
 curl -X POST --data '{
@@ -229,19 +230,19 @@ curl -X POST --data '{
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/info
 ```
 
-The response contains the node ID.
+响应中包含节点ID。
 
 ```text
 {"jsonrpc":"2.0","result":{"nodeID":"NodeID-DznHmm3o7RkmpLkWMn9NqafH66mqunXbM"},"id":1}
 ```
 
-In the above example the node ID is`NodeID-DznHmm3o7RkmpLkWMn9NqafH66mqunXbM`. Copy your node ID for later. Your node ID is not a secret, so you can just paste it into a text editor.
+上述例子中，节点ID是`NodeID-DznHmm3o7RkmpLkWMn9NqafH66mqunXbM`。复制您的节点ID，供以后使用。您的节点ID并不保密，因此您可以把它粘贴到文本编辑器中。
 
-AvalancheGo has other APIs, such as the [Health API](../../avalanchego-apis/health-api.md), that may be used to interact with the node. Some APIs are disabled by default. To enable such APIs, modify the ExecStart section of `/etc/systemd/system/avalanchego.service` \(created during the installation process\) to include flags that enable these endpoints. Don't manually enable any APIs unless you have a reason to.
+AvalancheGo还有其他API，例如可能用于与节点互动的 [Health API](../../avalanchego-apis/health-api.md), 。默认情况下，部分API是禁用的。如需启用上述API，请修改`/etc/systemd/system/avalanchego.service` 的ExecStart部分\(在安装过程中创建\)，以纳入启用上述终结点的标志。如无理由，请勿手动启用任何API。
 
 ![Some APIs are disabled by default.](https://miro.medium.com/max/881/1*Vm-Uh2yV0pDCVn8zqFw64A.png)
 
-Back up the node's staking key and certificate in case the EC2 instance is corrupted or otherwise unavailable. The node's ID is derived from its staking key and certificate. If you lose your staking key or certificate then your node will get a new node ID, which could cause you to become ineligible for a staking reward if your node is a validator. **It is very strongly advised that you copy your node's staking key and certificate**. The first time you run a node, it will generate a new staking key/certificate pair and store them in directory `/home/ubuntu/.avalanchego/staking`.
+备份节点的质押密钥和证书，以防EC2实例损坏或不可用。节点ID衍生自其质押密钥和证书。如果您丢失了质押密钥或证书，那么您的节点将获得一个新的节点ID，如果您的节点是验证程序，则您可能没有资格获得质押奖励。 **It is very strongly advised that you copy your node's staking key and certificate**. The first time you run a node, it will generate a new staking key/certificate pair and store them in directory `/home/ubuntu/.avalanchego/staking`.
 
 Exit out of the SSH instance by running:
 
@@ -274,5 +275,5 @@ Your machine is now running the newest AvalancheGo version. To see the status of
 That's it! You now have an AvalancheGo node running on an AWS EC2 instance. We recommend setting up [node monitoring ](setting-up-node-monitoring.md)for your AvalancheGo node. We also recommend setting up AWS billing alerts so you're not surprised when the bill arrives. If you have feedback on this tutorial, or anything else, send us a message on [Discord](https://chat.avalabs.org).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwNDgyMjUxXX0=
+eyJoaXN0b3J5IjpbLTE2ODAwOTMzNF19
 -->

@@ -8,25 +8,22 @@
 
 * 操作系统：Ubuntu 18.04或20.04 \(很抱歉，尚不支持MacOS和Windows系统\)
 * AvalancheGo未运行且尚未作为一项服务安装
-* 运行脚本的用户拥有超级用户权限\(可以运行“sudo”\）
+* 运行脚本的用户拥有超级用户权限\(可以运行“sudo”\)
 * 
-### Environment considerations
+### 环境考虑
+如果您运行不同类型的Linux，脚本可能无法按预期工作。它假定 `systemd` 用于运行系统服务。其他类型的Linux可能会使用其他脚本，或者可能在脚本假定的不同位置有文件。
 
-If you run a different flavor of Linux, the script might not work as intended. It assumes `systemd` is used to run system services. Other Linux flavors might use something else, or might have files in different places than is assumed by the script.
+如果您已经在电脑上运行一个节点，那么请在运行此脚本前停止运行。
 
-If you have a node already running on the computer, stop it before running the script.
+#### 终端上的节点运行
 
-#### Node running from terminal
+如果您的节点在终端上运行，请按下 `ctrl+C`，停止运行。
 
-If your node is running in a terminal stop it by pressing `ctrl+C`.
+#### 作为一项服务来运行节点
 
-#### Node running as a service
-
-If your node is already running as a service, then you probably don't need this script. You're good to go.
-
-#### Node running in the background
-
-If your node is running in the background \(by running with `nohup`, for example\) then find the process running the node by running `ps aux | grep avalanche`. This will produce output like:
+如果您的节点已经作为一项服务在运行，那么您可能不需要此脚本。您已经可以开始了。
+#### 后台运行的节点
+如果您的节点正在后台运行 \(by running with `nohup`, for example\) then find the process running the node by running `ps aux | grep avalanche`. This will produce output like:
 
 ```text
 ubuntu  6834  0.0  0.0   2828   676 pts/1    S+   19:54   0:00 grep avalanche
@@ -238,5 +235,5 @@ Now you can [interact with your node](../../avalanchego-apis/issuing-api-calls.m
 If you have any questions, or need help, feel free to contact us on our [Discord](https://chat.avalabs.org/) server.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjU5MDAwMF19
+eyJoaXN0b3J5IjpbLTE5MjExMDEyMjFdfQ==
 -->

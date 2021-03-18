@@ -51,19 +51,19 @@ Done!
 
 备份完成后，您就可以开始升级节点。首先停止运行当前版本。
 
-### Node running from terminal
+### 从终端运行的节点
 
-If your node is running in a terminal stop it by pressing `ctrl+c`.
+如果您的节点在终端中运行，按 `ctrl+c`停止。
 
-### Node running as a service
+### 作为服务运行的节点
 
-If your node is running as a service, stop it by entering:
+如果您的节点是作为服务运行的，输入以下命令停止：
 
 `sudo systemctl stop avalanchego.service`
 
-\(your service may be named differently, `avalanche.service`, or similar\)
+\(您的服务可能有不同的命名，如`avalanche.service`或类似的\)
 
-### Node running in background
+### 后台运行的节点
 
 If your node is running in the background \(by running with `nohup`, for example\) then find the process running the node by running `ps aux | grep avalanche`. This will produce output like:
 
@@ -180,5 +180,5 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzMTcyMzE0XX0=
+eyJoaXN0b3J5IjpbMTk5MDE2ODc2Nl19
 -->

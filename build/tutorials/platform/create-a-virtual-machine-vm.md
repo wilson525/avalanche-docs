@@ -507,16 +507,17 @@ AvalancheGo使用[Gorilla的RPC库](https://www.gorillatoolkit.org/pkg/rpc) 来�
 使用Gorilla，每个应用程序编程接口服务都会有一个结构体。在这个区块链中，只有一个应用程序编程接口服务。
 
 结构体服务的声明：
+
 ```cpp
 // Service is the API service for this VM
 type Service struct{ vm *VM }
 ```
 
-For each API method, there is: \* A struct that defines the method’s arguments \* A struct that defines the method’s return values \* A method that implements the API method, and is parameterized on the above 2 structs
+对于每个应用程序编程接口方法，都有： \* 一个定义方法参数的结构体\* 一个定义方法返回值的结构体 \* 一个实现应用程序编程接口方法并在上述2个结构体上进行了参数化的方法。
 
 #### **ProposeBlock**
 
-This API method allows clients to add a block to the blockchain.
+此应用程序编程接口方法允许客户端向区块链添加区块。
 
 ```cpp
 // ProposeBlockArgs are the arguments to ProposeValue
@@ -555,7 +556,7 @@ func (s *Service) ProposeBlock(_ *http.Request, args *ProposeBlockArgs, reply *P
 
 #### **GetBlock**
 
-This API method allows clients to get a block by its ID.
+此应用程序编程接口方法允许客户端通过ID获取区块。
 
 ```cpp
 // APIBlock is the API representation of a block
@@ -618,11 +619,11 @@ func (s *Service) GetBlock(_ *http.Request, args *GetBlockArgs, reply *GetBlockR
 
 #### **API**
 
-The resulting API has the following methods:
+由此产生的应用程序编程接口有以下方法：
 
 **timestamp.getBlock**
 
-Get a block by its ID. If no ID is provided, get the latest block.
+通过区块的ID获取区块。如果无法获取ID，则获取最新的区块。
 
 **Signature**
 
@@ -717,5 +718,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDUzNzQ5MThdfQ==
+eyJoaXN0b3J5IjpbLTE1MjY4MTY5MjhdfQ==
 -->

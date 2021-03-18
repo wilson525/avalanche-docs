@@ -1,8 +1,8 @@
-# Upgrade Your AvalancheGo Node
+# AvalancheGo节点升级
 
-## **Backup your node**
+## **节点备份**
 
-Before upgrading your node, it is recommended you backup your staker files which are used to identify your node on the network. In the default installation, you can copy them by running following commands:
+升级节点之前，建议您将用于识别网络上的节点的质押者文件进行备份。在默认安装中，您可以通过运行以下指令进行拷贝：
 
 ```text
 cd
@@ -10,9 +10,9 @@ cp ~/.avalanchego/staking/staker.crt .
 cp ~/.avalanchego/staking/staker.key .
 ```
 
-Then download `staker.crt` and `staker.key` files and keep them somewhere safe and private. If anything happens to your node or the machine node runs on, these files can be used to fully recreate your node.
+然后下载 `staker.crt` 和 `staker.key` 文件，把它们保存在安全隐秘的地方。如果节点或运行节点的机器发生任何问题，可以使用这些文件重新创建出所有的节点。
 
-If you use your node for development purposes and have keystore users on your node, you should back up those too.
+如果您使用这些节点进行开发，并且在节点上有密钥库用户，则这些客户也需要备份。
 
 ## Node installed using the installer script
 
@@ -178,3 +178,6 @@ You can run your node with:
 ./build/avalanchego
 ```
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMzYwNzY2MDg2XX0=
+-->

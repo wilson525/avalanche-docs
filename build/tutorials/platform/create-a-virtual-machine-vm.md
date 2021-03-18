@@ -222,9 +222,9 @@ type Block interface {
 
 ### 区块
 
-First, let’s look at our block implementation.
+首先，我们来看看我们的区块实现。
 
-The type declaration is:
+类型声明：
 
 ```cpp
 // Block is a block on the chain.
@@ -238,7 +238,7 @@ type Block struct {
 }
 ```
 
-The `serialize:"true"` tag indicates when a block is persisted in the database or sent to other nodes. The field with the tag is included in the serialized representation.
+当一个区块被持久化到数据库中或发送到其他节点时，显示 `serialize:"true"` 标记。带有标记的字段包含在串行化表示中。
 
 #### **Verify**
 
@@ -717,5 +717,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5Nzk3Nzg5OV19
+eyJoaXN0b3J5IjpbLTY5MzE4OTg1XX0=
 -->

@@ -98,27 +98,27 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 生成的文件夹`avalanchego-<VERSION>-linux`中包含了这些二进制文件。
 
 对于配置RaspberryPi4或类似Arm64处理器的计算机中的Linux系统：
-Download: `avalanchego-linux-arm64-<VERSION>.tar.gz`  
-Unzip: `tar -xvf avalanchego-linux-arm64-<VERSION>.tar.gz`  
-The resulting folder, `avalanchego-<VERSION>-linux`, contains the binaries.
+下载： `avalanchego-linux-arm64-<VERSION>.tar.gz`  
+解压：`tar -xvf avalanchego-linux-arm64-<VERSION>.tar.gz`  
+生成的文件夹`avalanchego-<VERSION>-linux`中包含了这些二进制文件。
 
-You are now ready to run the new version of the node.
+现在，可以运行节点的新版本了。
 
-### Running the node from terminal
+### 从终端运行节点
 
-If you are using the pre-built binaries on MacOS:
+如果是在MacOS系统中使用预先构建好的二进制程序运行节点：
 
 ```cpp
 ./avalanchego-<VERSION>/build/avalanchego
 ```
 
-If you are using the pre-built binaries on Linux:
+如果是在Linux系统中使用预先构建好的二进制程序运行节点：
 
 ```cpp
 ./avalanchego-<VERSION>-linux/avalanchego
 ```
 
-Add `nohup` at the start of the command if you want to run the node in the background.
+如果您想在后台运行节点，在指令开头加上 `nohup` 
 
 ### Running the node as a service
 
@@ -181,5 +181,5 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4Nzg2ODkwLC02MTE5MjQwXX0=
+eyJoaXN0b3J5IjpbMjgyOTYyMzI1LC02MTE5MjQwXX0=
 -->

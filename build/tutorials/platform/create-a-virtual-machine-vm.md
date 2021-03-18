@@ -637,10 +637,10 @@ timestamp.getBlock({id: string}) ->
     }
 ```
 
-* `id` is the ID of the block being retrieved. If omitted from arguments, gets the latest block
-* `data` is the base 58 \(with checksum\) representation of the block’s 32 byte payload
-* `timestamp` is the Unix timestamp when this block was created
-* `parentID` is the block’s parent
+* `id`是要检索的区块的ID。如果在参数中被漏掉，则获取最新的区块。
+* `data` 是区块32字节有效负载的Base58 \(借助校验\) 表示形式。
+* `timestamp` 是这个区块创建时的Unix时间戳。
+* `parentID` 是这个区块的上一个区块。
 
 **Example Call**
 
@@ -672,7 +672,7 @@ curl -X POST --data '{
 
 **timestamp.proposeBlock**
 
-Propose the creation of a new block.
+创建一个新区块。
 
 **Signature**
 
@@ -680,8 +680,7 @@ Propose the creation of a new block.
 timestamp.proposeBlock({data: string}) -> {success: bool}
 ```
 
-* `data` is the base 58 \(with checksum\) representation of the proposed block’s 32 byte payload.
-
+* `data` 是该区块32字节有效负载的Base58 \(with checksum\) 表示形式。
 **Example Call**
 
 ```cpp
@@ -718,5 +717,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjY4MTY5MjhdfQ==
+eyJoaXN0b3J5IjpbLTE3MzU1NDUzOTRdfQ==
 -->

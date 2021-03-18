@@ -50,42 +50,41 @@ Avalanche应用程序安装完成后，便可以通过Ledger与 [Avalanche 钱�
 
 ![Access wallet button](https://miro.medium.com/max/2364/1*SC1uM5xFybz3lfPiKwOHUw.png)
 
-On the subsequent “How do you want to access your wallet?”, click the “Ledger” button.
+在接下来的“您想通过什么方式登陆您的钱包”提问中，点击“Ledger”按钮。
 
 ![Ledger Access](../../../.gitbook/assets/ledger-access.png)
 
-You’ll now be prompted to confirm on your Ledger device. Click right button through the prompts on the device and on the last screen confirm by pressing both buttons.
+然后系统将提示您在您的Ledger设备上进行确认。通过设备上的提示单击右键，并在最后一个界面上按下两个按钮进行确认。
 
 ![](https://miro.medium.com/max/3828/1*xpNt2ajcTdEivDr4xEedQQ.png)
 
-If successful you will be signed into the wallet and any previous balances will be displayed.
+如果成功，您将登录到钱包，并看到之前的所有余额。
 
 ![Web Wallet Portfolio Tab](../../../.gitbook/assets/web-wallet-portfolio-tab.png)
 
-To transfer funds, go to the “Send” tab and paste an X-Address into the “To Address” field. Set an amount and optionally set a memo. Press "Confirm" and then the “Send Transaction” button.
+要转账，进入“发送”选项卡，并将X地址粘贴到“发送到”字段中。设定一个金额，并可选择性地添加转账说明。按“确认”然后按“发送交易”按钮。
 
 ![Send Transaction](../../../.gitbook/assets/send-transaction.png)
 
-You’ll be prompted to confirm the action on your Ledger. Check that the hash which is displayed in the web wallet matches what is displayed on your Ledger. If everything matches then confirm by pressing both buttons on the last screen to send the transaction.
+系统会提示您在Ledger确认此操作。检查网络钱包中显示的哈希值与您Ledger上显示的是否相符。如果核对无误，按下最后一个界面上的两个按钮确认发送交易。
 
 ![](https://miro.medium.com/max/2932/1*XI8fzBRpDr0PXcuVQPHLvQ.png)
 
-You can click the icon to refresh your balance and you should see it decrease per the amount which you just sent and the transaction fee.
-
+您可以点击图标刷新你的余额，可以看到它扣掉了您刚刚发送的金额和交易费用。
 ![Refresh wallet balance](../../../.gitbook/assets/refresh-wallet-balance.png)
 
-In the right-hand column, you will see your latest transaction. Clicking the magnifying glass icon will open the transaction in our explorer.
+在右边一栏，您可以看到您最近一次交易。点击放大镜图标会在我们的浏览器中打开该交易。
 
 ![Magnifying Glass](../../../.gitbook/assets/magnifying-glass.png)
 
-Finally, you should be able to see the transaction details in our explorer. This lists everything about the transaction, including transaction ID, status, when the transaction occurred, and all of the information regarding inputs and outputs.
+最后，您应该能够在我们的浏览器中看到交易细节。其中列出了交易的所有信息，包括交易ID、状态、交易发生的时间，以及关于输入和输出的所有信息。
 
 ![Transaction details](../../../.gitbook/assets/transaction-details.png)
 
-## More Tools to Come <a id="135b"></a>
+## 未来将推出更多工具<a id="135b"></a>
 
-Ava Labs is building the Internet of Finance. We’re developing solutions to create a frictionless world by redefining the way people build and use finance applications. A critical part of this infrastructure is a hardware wallet so users can be totally confident that their private keys and coins are completely isolated from any potentially malicious actors. Our newly released Ledger app does just this by following industry best practices to keep users and coins safe and secure.
+Ava实验室正在建设金融互联网。我们正在开发解决方案，通过重新定义人们构建和使用金融应用程序的方式，来创建一个无摩擦的世界。这个基础设施的一个关键部分是硬件钱包，凭借硬件钱包用户可以完全相信他们的私人密钥和货币可以完全不受任何潜在的恶意行为侵犯。我们最新发布的Ledger应用程序正是通过遵循行业最佳实践来保证用户和货币的安全。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjU3ODUxM119
+eyJoaXN0b3J5IjpbLTE0NzQ0MTE5NzRdfQ==
 -->

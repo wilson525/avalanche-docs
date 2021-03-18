@@ -4,13 +4,14 @@ _下面的代码稍微有点过时。一些方法、接口和实现与本教程�
 
 ## 简介
 
-One of the core features of Avalanche is the creation of new, custom blockchains, which are defined by [Virtual Machines \(VMs\)](../../../learn/platform-overview/#virtual-machines)
+Avalanche的核心特征之一是创建新的自定义区块链，这些区块链由[虚拟机 \(VMs\)](../../../learn/platform-overview/#virtual-machines)
 
-In this tutorial, we’ll create a very simple VM. The blockchain defined by the VM is a timestamp server. Each block in the blockchain contains the timestamp when it was created along with a 32-byte piece of data \(payload\). Each block’s timestamp is after its parent’s timestamp.
 
-Such a server is useful because it can be used to prove a piece of data existed at the time the block was created. Suppose you have a book manuscript, and you want to be able to prove in the future that the manuscript exists today. You add a block to the blockchain where the block’s payload is a hash of your manuscript. In the future, you can prove that the manuscript existed today by showing that the block has the hash of your manuscript in its payload \(this follows from the fact that finding the pre-image of a hash is impossible\).
+在本教程中，我们将创建一个非常简单的虚拟机。虚拟机定义的区块链是一个时间戳服务器。区块链中的每个区块都包含创建时的时间戳和一个32字节的数据段\(关键信息\)。每个区块的时间戳都在其上一个区块的时间戳之后。
 
-Before we get to the implementation of the VM, we’ll look at the interface that a VM must implement to be compatible with the platform’s Avalanche consensus engine. We’ll show and explain all the code in snippets. If you want to see the code in one place, rather than in snippets, you can see it in our [GitHub repository.](https://github.com/ava-labs/avalanchego/tree/master/vms/timestampvm)
+这样的服务器非常有用，因为它可以用来证明一份数据在创建区块链时就已经存在。假如您有一本书的手稿，并且您希望将来能够证明这份手稿在今天就已经存在。您可以在区块链中添加一个区块，区块的关键信息是您手稿的哈希值。将来，您就可以通过展示区块的关键信息中有您手稿的哈希值来证明这份手稿在今天就已经存在\(这是因为要找到哈希值的原像是不可能的\）。
+
+在讨论虚拟机的实现之前，我们先来看一下虚拟机为与平台的Avalanche共识引擎兼容而必须实现的接口。我们将展示并解释代码片段中的所有代码。如果您想查看完整代码，而非代码片段，可参阅我们的 [GitHub repository.](https://github.com/ava-labs/avalanchego/tree/master/vms/timestampvm)
 
 ## The `snowman.VM` Interface
 
@@ -717,5 +718,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY4NjMxMDFdfQ==
+eyJoaXN0b3J5IjpbLTE3MTU4OTM0NTZdfQ==
 -->

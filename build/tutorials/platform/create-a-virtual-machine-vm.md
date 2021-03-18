@@ -11,9 +11,9 @@ Avalanche的核心特征之一是创建新的自定义区块链，这些区块�
 
 这样的服务器非常有用，因为它可以用来证明一份数据在创建区块链时就已经存在。假如您有一本书的手稿，并且您希望将来能够证明这份手稿在今天就已经存在。您可以在区块链中添加一个区块，区块的关键信息是您手稿的哈希值。将来，您就可以通过展示区块的关键信息中有您手稿的哈希值来证明这份手稿在今天就已经存在\(这是因为要找到哈希值的原像是不可能的\）。
 
-在讨论虚拟机的实现之前，我们先来看一下虚拟机为与平台的Avalanche共识引擎兼容而必须实现的接口。我们将展示并解释代码片段中的所有代码。如果您想查看完整代码，而非代码片段，可参阅我们的 [GitHub repository.](https://github.com/ava-labs/avalanchego/tree/master/vms/timestampvm)
+在讨论虚拟机的实现之前，我们先来看一下虚拟机为与平台的Avalanche共识引擎兼容而必须实现的接口。我们将展示并解释代码片段中的所有代码。如果您想查看完整代码，而非代码片段，可参阅我们的 [GitHub 库](https://github.com/ava-labs/avalanchego/tree/master/vms/timestampvm)
 
-## The `snowman.VM` Interface
+##  `snowman.VM` 接口
 
 To reach consensus on linear blockchains \(as opposed to DAG blockchains\), Avalanche uses the Snowman consensus protocol. In order to be compatible with Snowman, the VM that defines the blockchain must implement the `snowman.VM` interface, which we include below from its declaration in[`github.com/ava-labs/avalanchego/blob/master/snow/engine/snowman/block/vm.go`](https://github.com/ava-labs/avalanchego/blob/master/snow/engine/snowman/block/vm.go).
 
@@ -718,5 +718,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU4OTM0NTZdfQ==
+eyJoaXN0b3J5IjpbMTE5NjQzNDY3NV19
 -->

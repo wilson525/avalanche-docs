@@ -451,7 +451,7 @@ func (vm *VM) NewBlock(parentID ids.ID, data [dataLen]byte, timestamp time.Time)
 
 #### **BuildBlock**
 
-当应用程序层指示共识层已准备好要构建新区块之后\(即调用 `vm.NotifyConsensus()` is called\).
+当应用程序层指示共识层已准备好要构建新区块之后\(即调用 `vm.NotifyConsensus()`\)之后，共识层就会调用这个方法。
 
 ```cpp
 // BuildBlock returns a block that this VM wants to add to consensus
@@ -717,5 +717,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDA2NDAyMl19
+eyJoaXN0b3J5IjpbODU1MjYwNzJdfQ==
 -->

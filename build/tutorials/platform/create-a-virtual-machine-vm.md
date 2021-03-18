@@ -282,13 +282,13 @@ func (b *Block) Verify() error {
 }
 ```
 
-That’s all the code for our block implementation! All of the other methods of `snowman.Block`, which our `Block` must implement, are inherited from `*core.Block`.
+这就是我们区块实现所需的所有代码！我们的 `Block`必须实现的所有其他`snowman.Block`方法，都是从`*core.Block`继承来的。
 
-### Virtual Machine
+### 虚拟机
 
-Now, let’s look at the implementation of VM, which implements the `snowman.VM` interface.
+现在，让我们来看看虚拟机的实现，它实现了 `snowman.VM` 接口。
 
-The declaration is:
+声明：
 
 ```cpp
 // This Virtual Machine defines a blockchain that acts as a timestamp server
@@ -717,5 +717,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzE4OTg1XX0=
+eyJoaXN0b3J5IjpbLTU2Njc0NjQ4MV19
 -->

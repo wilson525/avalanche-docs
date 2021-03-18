@@ -65,14 +65,14 @@ Done!
 
 ### 后台运行的节点
 
-如果您的节点是在后台运行 \(例如通过运行`nohup`\) 的 ，那么通过运行`ps aux | grep avalanche`. This will produce output like:
+如果您的节点是在后台运行 \(例如通过运行`nohup`\) 的 ，那么通过运行`ps aux | grep avalanche`来查找运行该节点的进程。将产生如下输出：
 
 ```text
 ubuntu  6834  0.0  0.0   2828   676 pts/1    S+   19:54   0:00 grep avalanche
 ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/build/avalanchego
 ```
 
-In this example, second line shows information about your node. Note the process id, in this case, `2630`. Stop the node by running `kill -2 2630`.
+在本实例中，第二行显示了节点的信息。注意进程id，在本实例中为`2630`. Stop the node by running `kill -2 2630`.
 
 Now we are ready to download the new version of the node. You can either download the source code and then build the binary program, or you can download the pre-built binary. You don’t need to do both.
 
@@ -180,5 +180,5 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjU0ODU0Nl19
+eyJoaXN0b3J5IjpbMTIwNTEwNzg2MF19
 -->

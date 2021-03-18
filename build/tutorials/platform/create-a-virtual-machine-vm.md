@@ -176,24 +176,23 @@ type Block interface {
 
 #### **Methods**
 
-This type implements the following methods, which are part of the `snowman.ChainVM` interface:
+这个类型实现了以下方法，这些方法是`snowman.ChainVM` 接口的一部分：
 
 * `SetPreference`
 * `Shutdown`
 * `LastAccepted`
 
-If your VM implementation embeds a `core.SnowmanVM`, you do not need to implement any of these methods because they are already implemented by `core.SnowmanVM`. You may, if you want, override these inherited methods.
+如果您的虚拟机实现嵌入了一个`core.SnowmanVM`, ，那么您就不再需要实现这些方法，因为它们已经通过`core.SnowmanVM`实现了。如果愿意，您可以重写这些继承的方法。
 
 #### **Fields**
 
-This type contains several fields that you’ll want to include in your VM implementation. Among them:
-
-* `DB`: the blockchain’s database
-* `Ctx`: the blockchain’s runtime context
-* `preferred`: ID of the preferred block, which new blocks will be built on
-* `lastAccepted`: ID of the most recently accepted block
-* `toEngine`: the channel where messages are sent to the consensus protocol powering the blockchain
-* `State`: used to persist data such as blocks \(can be used to put/get any bytes\)
+这个类型包含您需要包含在虚拟机实现中的几个字段。其中：
+* `DB`: 区块链的数据库
+* `Ctx`: 区块链的运行时上下文
+* `preferred`: 构建新区块的偏好区块的ID
+* `lastAccepted`: 最近被接受的区块的ID
+* `toEngine`: 向驱动区块链共识协议发送信息的通道
+* `State`: 用于持久化数据，如区块 \(can be used to put/get any bytes\)
 
 ### core.Block
 
@@ -718,5 +717,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDI1MDk5XX0=
+eyJoaXN0b3J5IjpbODczMzg4MzQzXX0=
 -->

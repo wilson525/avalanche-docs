@@ -15,7 +15,7 @@ Avalanche的核心特征之一是创建新的自定义区块链，这些区块�
 
 ##  `snowman.VM` 接口
 
-为了就线性区块链 \(相对于DAG区块链而言\), 达成共识，Avalanche采用Snowman共识协议。为了与Snowman兼容，定义区块链的虚拟机必须实现`snowman.VM` interface, which we include below from its declaration in[`github.com/ava-labs/avalanchego/blob/master/snow/engine/snowman/block/vm.go`](https://github.com/ava-labs/avalanchego/blob/master/snow/engine/snowman/block/vm.go).
+为了就线性区块链 \(相对于DAG区块链而言\), 达成共识，Avalanche采用Snowman共识协议。为了与Snowman兼容，定义区块链的虚拟机必须实现`snowman.VM` 接口，我们在[`github.com/ava-labs/avalanchego/blob/master/snow/engine/snowman/block/vm.go`](https://github.com/ava-labs/avalanchego/blob/master/snow/engine/snowman/block/vm.go)的声明中包含了这个接口。
 
 接口很多，但是不用担心，我们将对每种方法进行解释并观看一个实现示例。您没必要了解每一个细节。
 
@@ -100,7 +100,7 @@ type ChainVM interface {
 }
 ```
 
-## The snowman.Block Interface
+## The snowman.Block 接口
 
 You may have noticed the `snowman.Block` type referenced in the `snowman.VM` interface. It describes the methods that a block must implement to be a block in a linear \(Snowman\) chain.
 
@@ -718,5 +718,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODcxNjUwNl19
+eyJoaXN0b3J5IjpbODQ3MDg5MDUyXX0=
 -->

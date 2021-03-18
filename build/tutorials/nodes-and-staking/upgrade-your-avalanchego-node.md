@@ -85,17 +85,17 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 
 如果你想下载一个预先构建好的二进制程序，而不是自己构建，请访问我们的[发布页面](https://github.com/ava-labs/avalanchego/releases)，并选择你想要的版本\(可能是最新版本\)
 
-在 `Assets`, select the appropriate file.
+在 `Assets`下，选择适当的文件。
 
-For MacOS:  
-Download: `avalanchego-macos-<VERSION>.zip`  
-Unzip: `unzip avalanchego-macos-<VERSION>.zip`  
-The resulting folder, `avalanchego-<VERSION>`, contains the binaries.
+对于MacOS系统：
+下载：`avalanchego-macos-<VERSION>.zip`  
+解压：`unzip avalanchego-macos-<VERSION>.zip`  
+生成的文件夹`avalanchego-<VERSION>`中包含了这些二进制文件。
 
-For Linux on PCs or cloud providers:  
-Download: `avalanchego-linux-amd64-<VERSION>.tar.gz`  
-Unzip: `tar -xvf avalanchego-linux-amd64-<VERSION>.tar.gz`  
-The resulting folder, `avalanchego-<VERSION>-linux`, contains the binaries.
+对于个人电脑或云端的Linux系统：
+下载： `avalanchego-linux-amd64-<VERSION>.tar.gz`  
+解压：`tar -xvf avalanchego-linux-amd64-<VERSION>.tar.gz`  
+生成的文件夹`avalanchego-<VERSION>-linux`, contains the binaries.
 
 For Linux on RaspberryPi4 or similar Arm64-based computers:  
 Download: `avalanchego-linux-arm64-<VERSION>.tar.gz`  
@@ -181,5 +181,5 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzU1NzMzMl19
+eyJoaXN0b3J5IjpbLTEwNDE2MzI1MDZdfQ==
 -->

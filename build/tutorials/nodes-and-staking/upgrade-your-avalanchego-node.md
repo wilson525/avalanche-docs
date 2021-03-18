@@ -42,13 +42,14 @@ avalanche/1.1.1 [network=mainnet, database=v1.0.0, commit=f76f1fd5f99736cf468413
 Done!
 ```
 
-And that is it, your node is upgraded to the latest version.
 
-If you installed your node manually, proceed with the rest of the tutorial.
+这样，您的节点就已升级至最新版本。
 
-## **Stop the old node version**
+如果您的节点是手动安装的，请继续阅读本教程剩余部分。
 
-After the backup is secured, you may start upgrading your node. Begin by stopping the currently running version.
+## **停止运行旧版节点**
+
+备份完成后，您就可以开始升级节点。首先停止运行当前版本。
 
 ### Node running from terminal
 
@@ -179,5 +180,5 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5MzI0MzAyXX0=
+eyJoaXN0b3J5IjpbNjEzMTcyMzE0XX0=
 -->

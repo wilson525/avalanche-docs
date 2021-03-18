@@ -14,23 +14,23 @@
 
 ![Settings button on ledger live](https://miro.medium.com/max/3052/1*lMnVGJneUAqgRvZBIDv_rA.png)
 
-Once in settings then go to the “Experimental features” tab.
+进入设置，然后进入“实验功能”选项卡。
 
 ![](https://miro.medium.com/max/4072/1*HrSweaL-kelTl47QRt38iA.png)
 
-Scroll down to the “Developer mode” toggle switch, and enable it.
+下滑至“开发人员模式”切换开关，并启用它。
 
 ![Toggle on developer mode](https://miro.medium.com/max/2908/1*qdte7MSvSZdfqfCIUMNp2Q.png)
 
-Now with “Developer mode” enabled, you can go to the “Manager” tab and search for “Avalanche”. Confirm that the Avalanche app is v0.2.1, and click the “Install” button.
+启用“开发人员模式”后，您可以进入“管理员”选项卡，搜索“Avalanche”。确认此Avalanche应用程序为0.2.1版本，然后单击“安装”按钮。
 
 ![Avalanche Ledger app install button](https://miro.medium.com/max/4040/1*rGFrSBEfxRlIkc-k7hS2Vg.png)
 
-You can confirm the installation was successful by going to the “Apps installed” tab where you should see Avalanche v0.2.1.
+您可以进入“已安装应用程序”选项卡确认安装是否成功，您应该可以看到其中有Avalanche v0.2.1。
 
 ![](https://miro.medium.com/max/3020/1*qBSuxqY52-wxWfM-w1YR_w.png)
 
-## Use the Avalanche Wallet with Ledger <a id="48a3"></a>
+## 通过Ledger使用Avalanche钱包 <a id="48a3"></a>
 
 Once you have the Avalanche app installed then you’re able to interact with the [Avalanche Wallet](https://wallet.avax.network/) via the Ledger. This includes sending AVAX, tokens, NFTs, cross-chain swaps between the X-Chain&lt;-&gt;P-Chain as well as staking tokens.
 
@@ -87,5 +87,5 @@ Finally, you should be able to see the transaction details in our explorer. This
 Ava Labs is building the Internet of Finance. We’re developing solutions to create a frictionless world by redefining the way people build and use finance applications. A critical part of this infrastructure is a hardware wallet so users can be totally confident that their private keys and coins are completely isolated from any potentially malicious actors. Our newly released Ledger app does just this by following industry best practices to keep users and coins safe and secure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTc2OTU5MzFdfQ==
+eyJoaXN0b3J5IjpbLTk4Mzc1MDI4Nl19
 -->

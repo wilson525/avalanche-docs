@@ -104,7 +104,7 @@ type ChainVM interface {
 
 您可能已经注意到了 `snowman.Block` 接口中引用的 `snowman.VM` 类型。它描述了一个区块要成为线性\(Snowman\) 链中的一个区块而必须实现的方法。
 
-让我们来看一下我们从 [`github.com/ava-labs/avalanchego/snow/consensus/snowman/block.go`.](https://github.com/ava-labs/avalanchego/blob/master/snow/consensus/snowman/block.go)
+让我们来看一下我们从 [`github.com/ava-labs/avalanchego/snow/consensus/snowman/block.go`.](https://github.com/ava-labs/avalanchego/blob/master/snow/consensus/snowman/block.go)复制的一个接口及其方法。
 
 ```cpp
 // Block is a block in a blockchain.
@@ -718,5 +718,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDM3NTcwNTVdfQ==
+eyJoaXN0b3J5IjpbMTEwNzQ1NDMyXX0=
 -->

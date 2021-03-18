@@ -97,7 +97,7 @@ ubuntu  2630 26.1  9.4 2459236 753316 ?      Sl   Dec02 1220:52 /home/ubuntu/bui
 解压：`tar -xvf avalanchego-linux-amd64-<VERSION>.tar.gz`  
 生成的文件夹`avalanchego-<VERSION>-linux`中包含了这些二进制文件。
 
-For Linux on RaspberryPi4 or similar Arm64-based computers:  
+对于配置RaspberryPi4或类似Arm64处理器的计算机中的Linux系统：
 Download: `avalanchego-linux-arm64-<VERSION>.tar.gz`  
 Unzip: `tar -xvf avalanchego-linux-arm64-<VERSION>.tar.gz`  
 The resulting folder, `avalanchego-<VERSION>-linux`, contains the binaries.
@@ -181,5 +181,5 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTkyNDBdfQ==
+eyJoaXN0b3J5IjpbNjk4Nzg2ODkwLC02MTE5MjQwXX0=
 -->

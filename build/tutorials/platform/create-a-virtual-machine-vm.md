@@ -638,7 +638,7 @@ timestamp.getBlock({id: string}) ->
 ```
 
 * `id`是要检索的区块的ID。如果在参数中被漏掉，则获取最新的区块。
-* `data` 是区块32字节有效负载的Base58 \(借助校验\) 表示形式。
+* `data` 是区块32字节有效负载的Base58 \(借助校验和\) 表示形式。
 * `timestamp` 是这个区块创建时的Unix时间戳。
 * `parentID` 是这个区块的上一个区块。
 
@@ -680,7 +680,8 @@ curl -X POST --data '{
 timestamp.proposeBlock({data: string}) -> {success: bool}
 ```
 
-* `data` 是该区块32字节有效负载的Base58 \(with checksum\) 表示形式。
+* `data` 是该区块32字节有效负载的Base58 \(借助校验和\) 表示形式。
+
 **Example Call**
 
 ```cpp
@@ -706,16 +707,15 @@ curl -X POST --data '{
 }
 ```
 
-### Wrapping Up
+### 总结
 
-That’s it! That’s the entire implementation of a VM which defines a blockchain-based timestamp server.
+就这样！这就是虚拟机的整个实现，虚拟机是一个以区块链为基础的时间戳服务器。
 
-In this tutorial, we learned:
+在本教程中，我们学习了：
 
-* The `snowman.ChainVM` interface, which all VMs that define a linear chain must implement
-* The `snowman.Block` interface, which all blocks that are part of a linear chain must implement
-* The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
-
+* `snowman.ChainVM` 接口，所有定义线性链的虚拟机都必须实现这个接口
+*  `snowman.Block` 接口，所有线性链中的区块必须实现这个接口
+*  `core.SnowmanVM` 和 `core.Block` 库型，它们提升了虚拟机的定义速度
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU1NDUzOTRdfQ==
+eyJoaXN0b3J5IjpbLTQwMTk2NzQ3OV19
 -->

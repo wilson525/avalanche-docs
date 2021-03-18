@@ -32,21 +32,21 @@
 
 ## 通过Ledger使用Avalanche钱包 <a id="48a3"></a>
 
-Once you have the Avalanche app installed then you’re able to interact with the [Avalanche Wallet](https://wallet.avax.network/) via the Ledger. This includes sending AVAX, tokens, NFTs, cross-chain swaps between the X-Chain&lt;-&gt;P-Chain as well as staking tokens.
+Avalanche应用程序安装完成后，便可以通过Ledger与 [Avalanche 钱包](https://wallet.avax.network/) 进行交互。包括在X-链<->P-链之间发送AVAX、代币、非同质化通证、跨链交易以及质押代币。
 
-First, to access the wallet, plug in the Ledger to your computer and if needed, enter your pin.
+首先，进入钱包，把Ledger插到您的电脑上，如果需要的话，输入密码。
 
 ![PIN code screen](https://miro.medium.com/max/1852/1*A_1VgMMLeJCYzNst6tdq9A.jpeg)
 
-Next, if you see the text “Pending Ledger review” then click both buttons on the top of the device to skip that screen.
+接下来，如果您看到文本“待验证Ledger”，点击设备顶部的两个按钮跳过该界面。
 
 ![](https://miro.medium.com/max/1820/1*OxLbAWq5hzjC6P1SmiCqmg.jpeg)
 
-Lastly, you should land on the “Avalanche” app screen where you can confirm that the app is version 0.2.1.
+最后，您将进入“Avalanche”应用程序界面上，在那里您可以确认该应用程序是0.2.1版本。
 
 ![](https://miro.medium.com/max/1802/1*Qevjy6nhw5UM0ufvxIL_qg.jpeg)
 
-After you confirm that the Avalanche app is running then on the wallet homepage click the “Access Wallet” button.
+确认Avalanche应用程序运行后，点击钱包主页上的“进入钱包”按钮。
 
 ![Access wallet button](https://miro.medium.com/max/2364/1*SC1uM5xFybz3lfPiKwOHUw.png)
 
@@ -87,5 +87,5 @@ Finally, you should be able to see the transaction details in our explorer. This
 Ava Labs is building the Internet of Finance. We’re developing solutions to create a frictionless world by redefining the way people build and use finance applications. A critical part of this infrastructure is a hardware wallet so users can be totally confident that their private keys and coins are completely isolated from any potentially malicious actors. Our newly released Ledger app does just this by following industry best practices to keep users and coins safe and secure.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Mzc1MDI4Nl19
+eyJoaXN0b3J5IjpbLTgzNjU3ODUxM119
 -->

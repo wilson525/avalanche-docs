@@ -1,6 +1,6 @@
-# Set up Your Ledger Nano S with Avalanche
+# 通过Avalanche创建您的Ledger Nano S
 
-The industry standard for safely securing cryptocurrencies is hardware wallets, specialized devices that provide full isolation between your computer and your private keys.
+安全保护加密数字货币的行业标准是硬件钱包，这是一种专用的设备，可以将您的电脑和私人密钥完全隔离。
 
 If you want to use the Avalanche address you created earlier, you need to use the [restore from recovery phrase](https://support.ledger.com/hc/en-us/articles/360005434914) procedure using mnemonic phrase you got from the Avalanche wallet. If you're setting up a fresh address, just follow regular [set up as new device](https://support.ledger.com/hc/en-us/articles/360000613793-Set-up-as-new-device) procedure.
 
@@ -86,3 +86,6 @@ Finally, you should be able to see the transaction details in our explorer. This
 
 Ava Labs is building the Internet of Finance. We’re developing solutions to create a frictionless world by redefining the way people build and use finance applications. A critical part of this infrastructure is a hardware wallet so users can be totally confident that their private keys and coins are completely isolated from any potentially malicious actors. Our newly released Ledger app does just this by following industry best practices to keep users and coins safe and secure.
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE5MjAwMzc2NzBdfQ==
+-->

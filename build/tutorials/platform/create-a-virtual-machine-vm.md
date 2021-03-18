@@ -192,15 +192,15 @@ type Block interface {
 * `preferred`: 构建新区块的偏好区块的ID
 * `lastAccepted`: 最近被接受的区块的ID
 * `toEngine`: 向驱动区块链共识协议发送信息的通道
-* `State`: 用于持久化数据，如区块 \(can be used to put/get any bytes\)
+* `State`: 用于持久化数据，如区块 \(可以用来放置/获取任何字节\)
 
 ### core.Block
 
-This type, a struct, contains methods and fields common to all implementations of the `snowman.Block` interface.
+这个类型是一个结构体，包含所有`snowman.Block` 接口实现所共有的方法和字段。
 
 #### **Methods**
 
-This type implements the following methods, which are part of the `snowman.Block` interface:
+这个类型实现了以下方法，这些方法是 `snowman.Block` 接口的一部分：
 
 * `ID`
 * `Parent`
@@ -208,11 +208,11 @@ This type implements the following methods, which are part of the `snowman.Block
 * `Reject`
 * `Status`
 
-Your VM implementation will probably override `Accept` and `Reject` so that these methods cause application-specific state changes.
+您的虚拟机实现可能会重写`Accept` 和 `Reject` ，这样，这些方法就会导致面向应用的状态更改。
 
-#### **Fields**
+#### **字段**
 
-`core.Block` has a field VM, which is a reference to a `core.SnowmanVM`. This means that a `core.Block` has access to all of the fields and methods of that type.
+`core.Block` 有一个字段虚拟机，它是`core.SnowmanVM`. This means that a `core.Block` has access to all of the fields and methods of that type.
 
 ## Timestamp Server Implementation
 
@@ -717,5 +717,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczMzg4MzQzXX0=
+eyJoaXN0b3J5IjpbLTIwNzM1NjA0Ml19
 -->

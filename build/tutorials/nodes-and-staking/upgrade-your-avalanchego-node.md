@@ -142,44 +142,44 @@ git clone https://github.com/ava-labs/avalanchego.git
 cd avalanchego
 ```
 
-Pull the latest code:
+调出最新代码：
 
 ```text
 git pull
 ```
 
-Check that your local code is up to date. Do:
+检查您的本地代码是否是最新的。执行：
 
 ```text
 git rev-parse HEAD
 ```
 
-and check that the first 7 characters printed match the Latest commit field on our [Github.](https://github.com/ava-labs/avalanchego)
+并检查打印出来的前7个字符是否与我们 [Github.](https://github.com/ava-labs/avalanchego)上的最新提交字段相匹配。
 
-Now build the binary:
+现在，构建二进制程序：
 
 ```text
 ./scripts/build.sh
 ```
 
-This should print:
+应打印：
 
 ```text
 Build Successful
 ```
 
-You can check what version you’re running by doing:
+您可以通过以下方式查看正在运行的版本：
 
 ```text
 ./build/avalanchego --version
 ```
 
-You can run your node with:
+您可以通过以下方式运行您的节点：
 
 ```text
 ./build/avalanchego
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDkxMTM5LC02MTE5MjQwXX0=
+eyJoaXN0b3J5IjpbMjQ3NjYzODE4LC02MTE5MjQwXX0=
 -->

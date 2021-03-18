@@ -14,15 +14,15 @@ cp ~/.avalanchego/staking/staker.key .
 
 如果您使用这些节点进行开发，并且在节点上有密钥库用户，则这些客户也需要备份。
 
-## Node installed using the installer script
+## 使用安装程序脚本安装的节点
 
-If you installed your node using the [installer script](set-up-node-with-installer.md), to upgrade your node, just run the installer script again.
+如果您的节点是通过 [安装程序脚本](set-up-node-with-installer.md)安装的，只需再次运行安装程序脚本，即可升级节点。
 
 ```text
 ./avalanchego-installer.sh
 ```
 
-It will detect that you already have AvalancheGo installed:
+它会检测到您已经安装了AvalancheGo：
 
 ```text
 AvalancheGo installer
@@ -33,7 +33,7 @@ Found AvalancheGo systemd service already installed, switching to upgrade mode.
 Stopping service...
 ```
 
-It will then upgrade your node to the latest version, and after it's done, start the node back up, and print out the information about the latest version:
+然后它会将您的节点升级到最新版本，完成后，重新启动节点，并打印出最新版本的信息：
 
 ```text
 Node upgraded, starting service...
@@ -179,5 +179,5 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwNzY2MDg2XX0=
+eyJoaXN0b3J5IjpbMzg5MzI0MzAyXX0=
 -->

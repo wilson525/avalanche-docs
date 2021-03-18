@@ -1,8 +1,8 @@
-# Create a Virtual Machine \(VM\)
+# 创建虚拟机 \(VM\)
 
-_The code below is slightly out of date. Some methods, interfaces, and implementations are slightly different than in this tutorial. We’re going to leave this up because the current code is very similar, and this tutorial is still useful in demonstrating how Avalanche’s VM model works._
+_下面的代码稍微有点过时。一些方法、接口和实现与本教程稍有不同。但由于当前代码非常相似，并且本教程在演示Avalanche的虚拟机模型如何工作方面依然有效，因此我们将不再赘述。_
 
-## Introduction
+## 简介
 
 One of the core features of Avalanche is the creation of new, custom blockchains, which are defined by [Virtual Machines \(VMs\)](../../../learn/platform-overview/#virtual-machines)
 
@@ -716,3 +716,6 @@ In this tutorial, we learned:
 * The `snowman.Block` interface, which all blocks that are part of a linear chain must implement
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE0NTY4NjMxMDFdfQ==
+-->

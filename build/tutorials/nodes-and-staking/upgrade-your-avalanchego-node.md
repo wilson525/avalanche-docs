@@ -65,7 +65,7 @@ Done!
 
 ### 后台运行的节点
 
-If your node is running in the background \(by running with `nohup`, for example\) then find the process running the node by running `ps aux | grep avalanche`. This will produce output like:
+如果您的节点是在后台运行 \(例如通过运行`nohup`\) 的 ，那么通过运行`ps aux | grep avalanche`. This will produce output like:
 
 ```text
 ubuntu  6834  0.0  0.0   2828   676 pts/1    S+   19:54   0:00 grep avalanche
@@ -180,5 +180,5 @@ You can run your node with:
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDE2ODc2Nl19
+eyJoaXN0b3J5IjpbMTQ4NjU0ODU0Nl19
 -->

@@ -212,15 +212,15 @@ type Block interface {
 
 #### **字段**
 
-`core.Block` 有一个字段虚拟机，它是`core.SnowmanVM`. This means that a `core.Block` has access to all of the fields and methods of that type.
+`core.Block` 有一个字段虚拟机，它是`core.SnowmanVM`的一个引用。这意味着`core.Block` 可以访问该类型的所有字段和方法。
 
-## Timestamp Server Implementation
+## 时间戳服务器实现
 
-Now, we know the interface our VM must implement and the libraries we can use to build a VM.
+现在，我们已经知道了虚拟机必须实现的接口和可用于构建虚拟机的库。
 
-Let’s write our VM, which implements `snowman.VM` and whose blocks implement `snowman.Block`.
+接下来我们来编写我们的虚拟机，该虚拟机实现 `snowman.VM` ，其区块实现`snowman.Block`.
 
-### Block
+### 区块
 
 First, let’s look at our block implementation.
 
@@ -717,5 +717,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzM1NjA0Ml19
+eyJoaXN0b3J5IjpbMTE5Nzk3Nzg5OV19
 -->

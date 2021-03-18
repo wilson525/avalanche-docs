@@ -386,7 +386,7 @@ func (vm *VM) Initialize(
 
 #### **proposeBlock**
 
-This method adds a piece of data to the mempool and notifies the consensus layer of the blockchain that a new block is ready to be built and voted on. We’ll see where this is called later.
+这种方法会将一段数据添加到内存池，并通知区块链的共识层一个新的区块已经准备好建立和投票。它的调用我们将在后面讲到。
 
 ```cpp
 // proposeBlock appends [data] to [p.mempool].
@@ -451,7 +451,7 @@ func (vm *VM) NewBlock(parentID ids.ID, data [dataLen]byte, timestamp time.Time)
 
 #### **BuildBlock**
 
-This method is called by the consensus layer after the application layer tells it that a new block is ready to be built \(i.e., when `vm.NotifyConsensus()` is called\).
+当应用程序层指示共识层已准备好要构建新区块之后\(即调用 `vm.NotifyConsensus()` is called\).
 
 ```cpp
 // BuildBlock returns a block that this VM wants to add to consensus
@@ -717,5 +717,5 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2Njc0NjQ4MV19
+eyJoaXN0b3J5IjpbMTUxNDA2NDAyMl19
 -->
